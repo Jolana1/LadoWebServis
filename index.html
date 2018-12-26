@@ -33,12 +33,12 @@
 	}
 
 	.w3-sidebar {
-		width: 85px;
+		width: 95px;
 		background: #222;
 	}
 
 	#main {
-		margin-left: 85px
+		margin-left: 95px
 	}
 
 	@media only screen and (max-width: 600px) {
@@ -46,13 +46,12 @@
 			margin-left: 0
 		}
 	}
-
 </style>
 
 <body class="w3-black">
 
-	<!-- Icon Bar (Sidebar - hidden on small screens) -->
-	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small">
+	<!-- Icon Bar (Sidebar - hidden on xsmall screens) -->
+	<nav class="w3-sidebar w3-bar-block w3-xsmall w3-hide-xsmall">
 
 		<!-- Avatar image in top left corner -->
 		<!--img src="./Image/" alt="" height="640" width="480"-->
@@ -90,7 +89,7 @@
 		</a></nav>
 
 	<!-- Navbar on small screens (Hidden on medium and large screens) -->
-	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+	<div class="w3-wrapper w3-hide-large w3-hide-medium" id="myNavbar">
 		<div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small ">
 			<a href="#Domov" class="w3-bar-item w3-button" style="width:25% !important">Domov</a>
 			<a href="#Onás" class="w3-bar-item w3-button" style="width:25% !important">O nás</a>
@@ -107,11 +106,12 @@
 	<!-- Page Content -->
 	<div class="w3-padding-large" id="main">
 		<!-- Header/Home -->
-		<header class="w3-padding-4 w3-margin-16 w3-content w3-center w3-text-white" id="Domov">
+		<header class="w3-padding-26 w3-margin-16 w3-content w3-center w3-text-white" id="Domov">
 
-			<h1><span class="w3-center w3-content w3-hide-xxxlarge"><b>Vitajte na stránke WebServis©</b></span></h1>
-			<h5><span class="w3-center w3-hover-light-blue"><b>My robíme webové poradenstvo s láskou!</b></span></h5>
-			<img class="w3-img-responsive" style="width:100%" width="1200" height="227" img src="./Image/IMG_3080.JPG" alt="develop">
+			<h1><span class="w3-row w3-center  w3-hover-light-blue "><b>Vitajte na stránke WebServis©</b></span></h1>
+			<h5><span class="w3-center w3-hide-xsmall"><b>Príjemné prežitie Vianočných sviatkov a šťastný Nový rok pf 2019</b></span></h5>
+			<img class="w3-img-responsive" style="width:20%" width="285" height="320" img src="./Image/xmastree.gif" alt="xmastree">
+			 <img class="w3-img-responsive w3-" style="width:20%" width="285" height="320" img src="./Image/pf2019.png" alt="pf">
 		</header>
 
 		<!-- About Section -->
@@ -219,9 +219,9 @@
 							</div>
 						</b>
 
-						<button class="w3-button w3-hover-blue  w3-margin w3-section">
-							<i class="fa fa-envelope"></i> Napíšte nám nižšie na kontakt v prípade otázok
-					</button>
+						<button class="w3-button w3-hover-blue  w3-section">
+							<i class="fa fa-envelope"></i> Napíšte nám nižšie na kontakt
+						</button>
 
 
 						<!--br>
@@ -253,7 +253,7 @@
 
 									<img src="./Image/x17-detail-050.jpg" alt="" style="width:100%">
 									<img src="./Image/x17-015.jpg" alt="" style="width:100%">
-									<iframe src="https://youtube.com/embed/6UfrR7CBbF8?autoplay=0" style="border:none;" width="100%" height="300" frameborder="0" align="" scrolling="no" name="Best of 80's Mix (Master Chic Edition)">
+									<iframe src="https://youtube.com/embed/o9VH5bKtkUI?autoplay=0" style="border:none;" width="100%" height="300" frameborder="0" align="" scrolling="no" name="Summer Funky House Mix 2018">
 									</iframe>
 									<iframe width="100%" height="500" src="https://www.youtube.com/embed/WxF3NfRsO8A?autoplay=0" frameborder="0" align="" scrolling="no" name="Stay Happy Chill House Mix">
 									</iframe>
@@ -274,9 +274,9 @@
 						</div>
 
 
-				<!--b class="w3-hover-text-light-blue">Napíšte mi otázku na vyššie uvedený email</b-->
+						<!--b class="w3-hover-text-light-blue">Napíšte mi otázku na vyššie uvedený email</b-->
 
-				<!--form action="/action_page.php">
+						<!--form action="/action_page.php">
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
@@ -288,42 +288,46 @@
 				</p>
 </form></div></div>
 							<!-- Contact Section -->
-				<div class="w3-padding-4 w3-justify w3-section w3-content  w3-text-blue-grey" id="Kontakt">
-					<h2 class="w3-text-light-blue">Napíšte nám alebo zavolajte!</h2>
-					<hr style="width:px" class="w3-opacity">
-					<div class=" w3-section w3-content w3-padding-4  w3-justify w3-text-grey">
+						<div class="w3-padding-4 w3-justify w3-section w3-content  w3-text-blue-grey" id="Kontakt">
+							<h2 class="w3-text-light-blue">Napíšte nám alebo zavolajte!</h2>
+							<hr style="width:px" class="w3-opacity">
+							<div class=" w3-section w3-content w3-padding-4  w3-justify w3-text-grey">
 
-						<b><i class="fa fa-map-marker w3-text-grey w3-xxlarge w3-margin-right"></i>Adresa: Košice, Slovakia</b>
-						<b><i class="fa fa-phone  w3-text-grey w3-xxlarge w3-margin-right"></i> Telefón: +421907 151 293</b>
-						<a href="mailto:ksenicv@gmail.com"><b><i class="fa fa-envelope  w3-text-grey w3-xxlarge w3-margin-right w3-hover-text-yellow"></i>Email: ksenicv@gmail.com</b></a></div>
-				</div>
+								<b><i class="fa fa-map-marker w3-text-grey w3-xxlarge w3-margin-right"></i>Adresa:Postupimska 755, Košice, 04022, Slovakia</b>
+								<b><i class="fa fa-phone  w3-text-grey w3-xxlarge w3-margin-right"></i>Telefón: +421907 151 293</b>
+								<a href="mailto:ksenicv@gmail.com"><b><i class="fa fa-envelope  w3-text-grey w3-xxlarge w3-margin-right w3-hover-text-yellow"></i>Email: ksenicv@gmail.com</b></a></div>
+						</div>
 
-		<!-- End Contact Section -->
+						<!-- End Contact Section -->
 
-		<!-- Footer -->
-		<footer class="w3-center w3-padding-4 w3-margin  w3-text-grey ">
-			<a href="https://www.facebook.com/vladimir.ksenic" target="_blank"><i class="fa fa-facebook-official w3-hover-text-blue w3-xlarge"></i>&nbsp;&nbsp;</a>
-			<!--a href="https://https://twitter.com/ladow11" target="_blank">
+						<!-- Footer -->
+						<footer class="w3-center w3-padding-4 w3-margin  w3-text-grey ">
+							<a href="https://www.facebook.com/vladimir.ksenic" target="_blank"><i class="fa fa-facebook-official w3-hover-text-blue w3-xlarge"></i>&nbsp;&nbsp;</a>
+							<!--a href="https://https://twitter.com/ladow11" target="_blank">
 						<i class="fa fa-twitter w3-hover-text-blue w3-xlarge"></i></a-->
-			<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
-				<i class="fa fa-linkedin w3-hover-text-blue w3-xlarge"></i>&nbsp;&nbsp;</a>
-			<a href="https://github.com/settings/profile" target="_blank">
-				<i class="fa fa-github w3-hover-text-white w3-xlarge"></i>&nbsp;&nbsp;</a>
-			<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
-				<i class="fa fa-youtube w3-hover-text-red w3-xlarge"></i>&nbsp;&nbsp;</a>
-			<a href="https://plus.google.com/u/0/111026483964178072025?tab=wX" target="_blank">
-				<i class="fa fa-google w3-hover-text-green w3-xlarge"></i>&nbsp;&nbsp;</a>
-			<b class="w3-center w3-margin w3-padding-4 w3-hover-text-light-blue">Powered by WebServis© 2018&nbsp;&nbsp;Nakopneme Váš web k lepším výsledkom! </b>
-			<!-- Return to Top -->
-			<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-yellow" id="domov" style="display: inline-block">
-				<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
-				<i class="fa fa-arrow-up w3-text-light-blue w3-hover-yellow w3-xlarge w3-margin-center"></i>
+							<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+								<i class="fa fa-linkedin w3-hover-text-blue w3-xlarge"></i>&nbsp;&nbsp;</a>
+							<a href="https://github.com/settings/profile" target="_blank">
+								<i class="fa fa-github w3-hover-text-white w3-xlarge"></i>&nbsp;&nbsp;</a>
+							<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
+								<i class="fa fa-youtube w3-hover-text-red w3-xlarge"></i>&nbsp;&nbsp;</a>
+							<a href="https://www.instagram.com/vladimirksenic/" target="_blank">
+								<i class="fa fa-instagram w3-hover-text-green w3-xlarge"></i>&nbsp;&nbsp;</a>
+							<b class="w3-center w3-margin w3-padding-4 w3-hover-text-light-blue">Powered by WebServis© 2018&nbsp;&nbsp;Nakopneme Váš web k lepším výsledkom! </b>
+							<!-- Return to Top -->
+							<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-yellow" id="domov" style="display: inline-block">
+								<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
+								<i class="fa fa-arrow-up w3-text-light-blue w3-hover-yellow w3-xlarge w3-margin-center"></i>
 
-		<script src="js/main.js"></script>
-			</a>
-	</footer>
-<!-- End footer -->
-				</div></b></div></div></body></html>
+								<script src="js/main.js"></script>
+							</a>
+						</footer>
+						<!-- End footer -->
+				</div>
+			</b>
+		</div>
+	</div>
+</body></html>
 
 
 <!-- END PAGE CONTENT -->
