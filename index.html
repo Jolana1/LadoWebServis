@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <title>©WebServis</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +12,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+</head>
 <style>
 	/*@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic-ext,latin-ext');
 
@@ -95,27 +96,25 @@ font-family: 'Roboto Condensed', sans-serif;*/
 }
 </style>
 <!-- Icon Bar (navbar - hidden on small screens) -->
+
 <body>
-	<body class="w3-black">
-<nav>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="Domov">
 
 
-
-
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#Domov">©WebServis
-						<i class="fa fa-home w3-xlarge"></i></a>
-					<div class="collapse navbar-collapse" id="Domov">
-						<ul class="nav navbar-nav">
-							<li class="active">
-								<!--nav>
+		<body class="w3-black">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                            <span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">©WebServis
+							<i class="fa fa-home w3-xlarge"></i></a></div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<!--nav>
 		<nav class="w3-navbar w3-hide-small">
 			<button id="menu-open">MENU
 				<i class="fa fa-reorder"></i>
@@ -128,42 +127,43 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 
 
-								<!--a href="#Domov" class="w3-bar-item w3-button w3-padding-xsmall w3-text-light-blue w3-hover-yellow">
+									<!--a href="#Domov" class="w3-bar-item w3-button w3-padding-xsmall w3-text-light-blue w3-hover-yellow">
 								<i class="fa fa-home w3-xlarge"> Domov</i></a></li-->
-							<li class="active"><a href="#Onás" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
-									<i class="fa fa-user w3-xlarge"> O nás</i></a></li>
-							<li class="active"><a href="#Skills" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
-									<i class="fa fa-globe w3-xlarge">Zručnosti</i></a></li>
-							<li class="active"><a href="#Cenník" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
-									<i class="fa fa-money w3-xlarge">Cenník</i></a></li>
-							<li class="active"><a href="#Project" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
-									<i class="fa fa-briefcase w3-xlarge"> Projekty</i></a></li>
+								<li class="active"><a href="#Onás" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+										<i class="fa fa-user w3-xlarge"> O nás</i></a></li>
+								<li class="active"><a href="#Skills" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+										<i class="fa fa-globe w3-xlarge">Zručnosti</i></a></li>
+								<li class="active"><a href="#Cenník" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+										<i class="fa fa-money w3-xlarge">Cenník</i></a></li>
+								<li class="active"><a href="#Project" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+										<i class="fa fa-briefcase w3-xlarge"> Projekty</i></a></li>
 
-							<li class="active"><a href="#Hudba" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
-									<i class="fa fa-music w3-xlarge"> Hudba</i></a></li>
-							<!--li class="active"><a href="#Mapa" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+								<li class="active"><a href="#Hudba" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+										<i class="fa fa-music w3-xlarge"> Hudba</i></a></li>
+								<!--li class="active"><a href="#Mapa" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
 									<i class="fa fa-map-marker w3-xlarge"> Mapa</i></a></li>
 							<li class="active"><a href="#Project" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
 									<i class="fa fa-briefcase w3-xlarge"> Projects</i></a></li-->
-							<li class="active"><a href="#Kontakt" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
-									<i class="fa fa-envelope w3-xlarge"> Kontakt</i></a></li>
+								<li class="active"><a href="#Kontakt" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+									<i class="fa fa-envelope w3-xlarge"> Kontakt</i></a></li></ul>
 
-							<!--form class="nav navbar-form navbar-right" action="/action_page.php">
+								<!--form class="nav navbar-form navbar-right" action="/action_page.php">
 								<div class="form-group">
 									<input type="text" class="form-control" placeholder="Search">
 								</div-->
 								<ul class="nav navbar-nav navbar-right">
-							<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 
-							</ul></ul>
+								</ul>
+
+						</div>
 					</div>
-				</div>
+			</nav>
 
 
-
-		<div class="container-fluid text-center">
-			<div class="row content">
-				<!--div class="col-sm-4 sidenav">
+			<div class="container-fluid text-center">
+				<div class="row content">
+					<!--div class="col-sm-4 sidenav">
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
@@ -174,13 +174,13 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 
 
-				<!-- Avatar image in top left corner -->
-				<!--img src="./Image/" alt="" height="640" width="480"-->
-				<!--a href="#Domov" class="w3-bar-item w3-button w3-padding-small w3-text-light-blue w3-hover-yellow">
+					<!-- Avatar image in top left corner -->
+					<!--img src="./Image/" alt="" height="640" width="480"-->
+					<!--a href="#Domov" class="w3-bar-item w3-button w3-padding-small w3-text-light-blue w3-hover-yellow">
 			<i class="fa fa-home w3-xxlarge"></i>
 			<p>Domov</p>
 		</a-->
-				<!--a href="#Onás" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+					<!--a href="#Onás" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
 			<i class="fa fa-user w3-xxlarge"></i>
 			<p>O nás</p>
 		</a>
@@ -210,7 +210,7 @@ font-family: 'Roboto Condensed', sans-serif;*/
 					</a-->
 
 
-				<!-- Navbar on small screens (Hidden on medium and large screens) >
+					<!-- Navbar on small screens (Hidden on medium and large screens) >
 				<div class="w3-hide-medium w3-hide-large" id="myNavbar">
 					<div class="w3- w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
 						<a href="#Domov" class="w3-bar-item w3-button" style="width:25% !important">Domov</a>
@@ -228,112 +228,114 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 
 					<!-- Header/Home -->
-				<header>
-					<header class="w3-container-fluid w3-padding- w3-margin w3-text-dark-grey " id="Domov">
+					<header>
+						<header class="w3-container-fluid w3-padding- w3-margin w3-text-dark-grey " id="myNavbar">
 
-						<!--h2><span class="w3-wide w3-justify"><b>Welcome on my site ©WebServis!</b></span></h2>
+							<!--h2><span class="w3-wide w3-justify"><b>Welcome on my site ©WebServis!</b></span></h2>
 						<!--h5><span class="w3-row w3-wide w3-text-yellow"><b>Želáme Vám úspešný a šťastný Nový rok!</b></span></h5-->
-						<img class="w3-img-responsive" style="width:100%" height="367" img src="./Image/photo-1461722936851-13a79b294a5d%20(3).jpeg" alt="photo">
+							<img class="w3-img-responsive" style="width:100%" height="367" img src="./Image/photo-1461722936851-13a79b294a5d%20(3).jpeg" alt="photo">
 
 
-					</header>
+						</header>
 
-					<!-- About Section -->
-					<div class=" w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Onás">
-						<h2 class="w3-text-light-blue">O nás</h2>
-						<hr style="width:px" class="w3-opacity">
-						<b>Ahojte priatelia!</b><br><br>
-						<b>©WebServis sídli v Košiciach.Toto je prezenčná skúšobná stránka spoločnosti ©WebServis, ponúkam Vám webové služby v oblasti kybernetickej bezpečnosti, webdizajnu, opravy až po vytvorenie plne funkčnej webovej stránky. Vaše požiadavky a otázky mi napíšte na email(pp. volajte), kde sa na ne budem snažiť čím skôr odpovedať.<br>Vopred ďakujem za strpenie počas úprav tejto stránky. Prajem Vám priatelia príjemné počúvanie(tancovanie) na skvelý mix hudby, prajem pekný deň:)<br><br>
-							<b>Hello Everyone!</b><br><br>
-							©WebServis is based in Košice.This is the Web site of our company, we offer you web services in the field of cybersecurity, webdesign, repairs and creation of a fully functional website. Request your questions and questions by email, where I will try to answer them as soon as possible.
-							Thanks in advance for your understanding while editing this page. I wish your friends a pleasant listening (or even dancing) for a great mix of music, have a nice day :)
-						</b>
-					</div>
-					<div class=" w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Skills">
-						<h2 class="w3-text-light-blue">Zručnosti</h2>
-						<hr style="width:px" class="w3-opacity">
-
-						<p class="w3-wide">MS Windows, Fotografovanie, Dizajn webu</p>
-						<div class="w3-white">
-							<div class="w3-grey" style="height:28px;width:99%"></div>
+						<!-- About Section -->
+						<div class=" w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Onás">
+							<h2 class="w3-text-light-blue">O nás</h2>
+							<hr style="width:px" class="w3-opacity">
+							<b>Ahojte priatelia!</b><br><br>
+							<b>©WebServis sídli v Košiciach.Toto je prezenčná skúšobná stránka spoločnosti ©WebServis, ponúkam Vám webové služby v oblasti kybernetickej bezpečnosti, webdizajnu, opravy až po vytvorenie plne funkčnej webovej stránky. Vaše požiadavky a otázky mi napíšte na email(pp. volajte), kde sa na ne budem snažiť čím skôr odpovedať.<br>Vopred ďakujem za strpenie počas úprav tejto stránky. Prajem Vám priatelia príjemné počúvanie(tancovanie) na skvelý mix hudby, prajem pekný deň:)<br><br>
+								<b>Hello Everyone!</b><br><br>
+								©WebServis is based in Košice.This is the Web site of our company, we offer you web services in the field of cybersecurity, webdesign, repairs and creation of a fully functional website. Request your questions and questions by email, where I will try to answer them as soon as possible.
+								Thanks in advance for your understanding while editing this page. I wish your friends a pleasant listening (or even dancing) for a great mix of music, have a nice day :)
+							</b>
 						</div>
-						<p class="w3-wide">MS Office, Html, Html5</p>
-						<div class="w3-white">
-							<div class="w3-grey" style="height:28px;width:95%"></div>
-						</div>
-						<p class="w3-wide">Bootstrap</p>
-						<div class="w3-white">
-							<div class="w3-grey" style="height:28px;width:90%"></div>
-						</div>
+						<div class=" w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Skills">
+							<h2 class="w3-text-light-blue">Zručnosti</h2>
+							<hr style="width:px" class="w3-opacity">
 
-						<p class="w3-wide">Css, Css3</p>
-						<div class="w3-white">
-							<div class="w3-grey" style="height:28px;width:85%"></div>
-						</div>
-						<p class="w3-wide">Javascript, Jquery, React</p>
-						<div class="w3-white">
-							<div class="w3-grey" style="height:28px;width:75%"></div>
-						</div>
-					</div>
-
-
-
-					<div class="w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Cenník">
-						<h2 class=" w3-text-light-blue">Cenník</h2>
-						<hr style="width:px" class="w3-opacity">
-						<div class="w3-row-padding-24" style="margin:0 -16px">
-						<div class="w3-half w3-padding">
-								<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-									<!-- Grid for pricing tables -->
-									<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-									<li class="w3-padding-16">Web dizajn a návrh</li>
-									<li class="w3-padding-16">Mail podpora</li>
-									<li class="w3-padding-16">5GB úložisko</li>
-									<li class="w3-padding-16">Bezpečný hosting</li>
-									<li class="w3-padding-16">Registrácia domény</li>
-									<li class="w3-padding-16">
-										<h2>10€</h2>
-										<span class="w3-opacity">na mesiac</span>
-									</li>
-									<li class="w3-light-grey w3-padding-24">
-										<button class="w3-button w3-white w3-padding-large w3-hover-blue">Napíš mi</button>
-									</li>
-								</ul>
+							<p class="w3-wide">MS Windows, Fotografovanie, Dizajn webu</p>
+							<div class="w3-white">
+								<div class="w3-grey" style="height:28px;width:99%"></div>
 							</div>
-						</div>
-						<div class="w3-row-padding-24  " style="margin:0 -16px">
-							<div class="w3-half w3-padding">
-								<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-									<li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-									<li class="w3-padding-16">Web dizajn a tvorba</li>
-									<li class="w3-padding-16">Fotky a Mail podpora</li>
-									<li class="w3-padding-16">Tvorba eshopov</li>
-									<li class="w3-padding-16">30GB úložisko</li>
-									<li class="w3-padding-16">Registrácia domény</li>
-									<li class="w3-padding-16">
-										<h2>25€</h2>
-										<span class="w3-opacity">na mesiac</span>
-									</li>
-									<li class="w3-light-grey w3-padding-24">
-										<button class="w3-button w3-white w3-padding-large w3-hover-blue">Napíš mi</button></li>
-									<!-- End Grid/Pricing tables -->
-								</ul>
+							<p class="w3-wide">MS Office, Html, Html5</p>
+							<div class="w3-white">
+								<div class="w3-grey" style="height:28px;width:95%"></div>
+							</div>
+							<p class="w3-wide">Bootstrap</p>
+							<div class="w3-white">
+								<div class="w3-grey" style="height:28px;width:90%"></div>
+							</div>
+
+							<p class="w3-wide">Css, Css3</p>
+							<div class="w3-white">
+								<div class="w3-grey" style="height:28px;width:85%"></div>
+							</div>
+							<p class="w3-wide">Javascript, Jquery, React</p>
+							<div class="w3-white">
+								<div class="w3-grey" style="height:28px;width:75%"></div>
 							</div>
 						</div>
 
 
 
+						<div class="w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Cenník">
+							<h2 class=" w3-text-light-blue">Cenník</h2>
+							<hr style="width:px" class="w3-opacity">
+							<div class="w3-row-padding-24" style="margin:0 -16px">
+								<div class="w3-half w3-padding">
+									<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+										<!-- Grid for pricing tables -->
+										<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+										<li class="w3-padding-16">Web dizajn a návrh</li>
+										<li class="w3-padding-16">Mail podpora</li>
+										<li class="w3-padding-16">5GB úložisko</li>
+										<li class="w3-padding-16">Bezpečný hosting</li>
+										<li class="w3-padding-16">Registrácia domény</li>
+										<li class="w3-padding-16">
+											<h2>10€</h2>
+											<span class="w3-opacity">na mesiac</span>
+										</li>
+										<li class="w3-light-grey w3-padding-24">
+											<button class="w3-button w3-white w3-padding-large w3-hover-blue">Napíš mi</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="w3-row-padding-24  " style="margin:0 -16px">
+								<div class="w3-half w3-padding">
+									<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+										<li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+										<li class="w3-padding-16">Web dizajn a tvorba</li>
+										<li class="w3-padding-16">Fotky a Mail podpora</li>
+										<li class="w3-padding-16">Tvorba eshopov</li>
+										<li class="w3-padding-16">30GB úložisko</li>
+										<li class="w3-padding-16">Registrácia domény</li>
+										<li class="w3-padding-16">
+											<h2>25€</h2>
+											<span class="w3-opacity">na mesiac</span>
+										</li>
+										<li class="w3-light-grey w3-padding-24">
+											<button class="w3-button w3-white w3-padding-large w3-hover-blue">Napíš mi</button></li>
+										<!-- End Grid/Pricing tables -->
+									</ul>
+								</div>
+							</div>
 
-					<!--Project Section --><div>
-						<div class="w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Project">
-						<h2 class="w3-text-light-blue">Projekty</h2>
-						<hr style="width:" class="w3-opacity">
-					<img src="./Image/john_doe.jpg" alt="Ch. Fox" class="w3-center w3-circle w3-margin w3-text-grey" style="width:5%">
 
 
-						<!--hr style="width:px" class="w3-opacity"-->
-						<p><b><span class=" w3-text-grey w3-wide">Spoločnosť - ASP Corporation.</span></b>
-							<p class="w3-text-grey">"©WebServis sa stará o naše stránky už dlhé roky. Dbajú o ich bezpečnosť, robia naše stránky dizajnovo atraktívnejšie, zaujímavé obsahom, rýchle a aby fungovali bezchybne.Túto spoločnosť vrele odporúčam. Ďakujeme"<br>"©WebServis takes care of our site for years. They make their site more secure, make our site more attractive, interesting, quick and easy to operate. We highly recommend this company. Thank you."</p><b></b></div>
+
+							<!--Project Section -->
+							<div>
+								<div class="w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Project">
+									<h2 class="w3-text-light-blue">Projekty</h2>
+									<hr style="width:" class="w3-opacity">
+									<img src="./Image/john_doe.jpg" alt="Ch. Fox" class="w3-center w3-circle w3-margin w3-text-grey" style="width:5%">
+
+
+									<!--hr style="width:px" class="w3-opacity"-->
+									<p><b><span class=" w3-text-grey w3-wide">Spoločnosť - ASP Corporation.</span></b>
+										<p class="w3-text-grey">"©WebServis sa stará o naše stránky už dlhé roky. Dbajú o ich bezpečnosť, robia naše stránky dizajnovo atraktívnejšie, zaujímavé obsahom, rýchle a aby fungovali bezchybne.Túto spoločnosť vrele odporúčam. Ďakujeme"<br>"©WebServis takes care of our site for years. They make their site more secure, make our site more attractive, interesting, quick and easy to operate. We highly recommend this company. Thank you."</p><b></b>
+								</div>
 								<div class="w3-center w3-content w3-light-grey">
 									<div class="w3-quarter w3-section w3-content">
 										<span class="w3-xlarge">110+</span><br>
@@ -353,74 +355,74 @@ font-family: 'Roboto Condensed', sans-serif;*/
 									</div>
 								</div>
 
-					<div>
+								<div>
 
-					<!--button class="w3-button w3-hover-blue w3-row w3-center w3-section w3-padding-4">
+									<!--button class="w3-button w3-hover-blue w3-row w3-center w3-section w3-padding-4">
 								<i class="fa fa-envelope"></i> Napíšte nám nižšie na kontakt
 							</button-->
 
 
-					<!--br>
+									<!--br>
 				<img src="./Image/profile-pic.jpg" alt="J.Veselá" class="w3-center w3-circle w3-text-grey w3-margin-right" style="width:100px">
 				<p><span class=" w3-margin-right">Jane Doe.<br></span> Podnikateľka.</p-->
-					<!--i>”Našu firmu a jej výrobky sme potrebovali lepšie prezentovať na webe.Pán V.K. nám spravil perfetnú stránku.Teraz iba v dobrom,skoro nestíhame zásobovať trh našími výrobkami.Ďakujeme ešte raz“</i-->
-					<!-- End About Section -->
-					<!-- Portfolio Music Section -->
-					<div class="w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Hudba">
-						<h2 class="w3-text-light-blue"></h2>
-						<hr style="width:px" class="w3-opacity">
-						<div class="w3-row-padding" style="margin:0 -16px">
+									<!--i>”Našu firmu a jej výrobky sme potrebovali lepšie prezentovať na webe.Pán V.K. nám spravil perfetnú stránku.Teraz iba v dobrom,skoro nestíhame zásobovať trh našími výrobkami.Ďakujeme ešte raz“</i-->
+									<!-- End About Section -->
+									<!-- Portfolio Music Section -->
+									<div class="w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Hudba">
+										<h2 class="w3-text-light-blue"></h2>
+										<hr style="width:px" class="w3-opacity">
+										<div class="w3-row-padding" style="margin:0 -16px">
 
-							<div class="w3-half">
+											<div class="w3-half">
 
-								<!--img src="./Image/nature-3151869_1920.jpg" alt="" style="width:100%" height="527"-->
-								<iframe src="https://youtube.com/embed/maSfYpLBeYg? autoplay=0" style="border:none;" width="100%" height="527" frameborder="0" align="" scrolling="no" name="Smooth Soulful R&B Mix">
-								</iframe>
-								<!--img src="./Image/photo-1461722936851-13a79b294a5d.jpeg" alt="" style="width:100%"-->
-								<iframe src="https://youtube.com/embed/gCjvEdf8ocU?autoplay=0" style="border:none;" width="100%" height="400" frameborder="0" align="" scrolling="no" name="80's Vibe City | HipHop & Funky Groove">
-								</iframe>
-								<iframe width="100%" height="190" src="https://youtube.com/embed/ICTXGEACsPU?autoplay=0" frameborder="0" align="" scrolling="no" name="Funky Soulful Grooves Mix">
-								</iframe>
+												<!--img src="./Image/nature-3151869_1920.jpg" alt="" style="width:100%" height="527"-->
+												<iframe src="https://youtube.com/embed/maSfYpLBeYg? autoplay=0" style="border:none;" width="100%" height="527" frameborder="0" align="" scrolling="no" name="Smooth Soulful R&B Mix">
+												</iframe>
+												<!--img src="./Image/photo-1461722936851-13a79b294a5d.jpeg" alt="" style="width:100%"-->
+												<iframe src="https://youtube.com/embed/gCjvEdf8ocU?autoplay=0" style="border:none;" width="100%" height="400" frameborder="0" align="" scrolling="no" name="80's Vibe City | HipHop & Funky Groove">
+												</iframe>
+												<iframe width="100%" height="190" src="https://youtube.com/embed/ICTXGEACsPU?autoplay=0" frameborder="0" align="" scrolling="no" name="Funky Soulful Grooves Mix">
+												</iframe>
 
 
-								<!--img src="./Image/IMG_3080.JPG" alt="intro" class="" style="width:  100%" height="120"-->
-							</div>
+												<!--img src="./Image/IMG_3080.JPG" alt="intro" class="" style="width:  100%" height="120"-->
+											</div>
 
-							<div class="w3-half">
-								<!--iframe src="https://youtube.com/embed/XsG978adJVA?autoplay=0" width="100%" height="" frameborder="0" align="" scrolling="no" name="Funky Disco House Mix 2017 - Hed Kandi Style">
+											<div class="w3-half">
+												<!--iframe src="https://youtube.com/embed/XsG978adJVA?autoplay=0" width="100%" height="" frameborder="0" align="" scrolling="no" name="Funky Disco House Mix 2017 - Hed Kandi Style">
 								</iframe-->
 
-								<iframe src="https://www.youtube.com/embed/7vaIugWa5v4?autoplay=0" width="100%" height="360" frameborder="0" align="" scrolling="no" name="Soul Heater Chill Winter Mix">
-								</iframe>
-								<!--img src="./Image/x17-detail-050.jpg" alt="" style="width:100%"-->
-								<!--img src="./Image/x17-015.jpg" alt="" style="width:100%"-->
-								<iframe src="https://youtube.com/embed/o9VH5bKtkUI?autoplay=0" style="border:none;" width="100%" height="310" frameborder="0" align="" scrolling="no" name="Summer Funky House Mix 2018">
-								</iframe>
-								<iframe width="100%" height="240" src="https://www.youtube.com/embed/WxF3NfRsO8A?autoplay=0" frameborder="0" align="" scrolling="no" name="Stay Happy Chill House Mix">
-								</iframe>
-								<iframe width="100%" height="190" src="https://www.youtube.com/embed/_eThAg5OrHQ?autoplay=0" frameborder="0" align="" scrolling="no" name="Feeling Awesome ' Chill House Mix">
-								</iframe>
+												<iframe src="https://www.youtube.com/embed/7vaIugWa5v4?autoplay=0" width="100%" height="360" frameborder="0" align="" scrolling="no" name="Soul Heater Chill Winter Mix">
+												</iframe>
+												<!--img src="./Image/x17-detail-050.jpg" alt="" style="width:100%"-->
+												<!--img src="./Image/x17-015.jpg" alt="" style="width:100%"-->
+												<iframe src="https://youtube.com/embed/o9VH5bKtkUI?autoplay=0" style="border:none;" width="100%" height="310" frameborder="0" align="" scrolling="no" name="Summer Funky House Mix 2018">
+												</iframe>
+												<iframe width="100%" height="240" src="https://www.youtube.com/embed/WxF3NfRsO8A?autoplay=0" frameborder="0" align="" scrolling="no" name="Stay Happy Chill House Mix">
+												</iframe>
+												<iframe width="100%" height="190" src="https://www.youtube.com/embed/_eThAg5OrHQ?autoplay=0" frameborder="0" align="" scrolling="no" name="Feeling Awesome ' Chill House Mix">
+												</iframe>
 
-								<!--A HREF="http://crackdb.com" target="_blank"><img src="http://crackdb.com/img/bt3.gif" border="0" width="10%" height="31"></A>
+												<!--A HREF="http://crackdb.com" target="_blank"><img src="http://crackdb.com/img/bt3.gif" border="0" width="10%" height="31"></A>
 								<!--img src="./Image/x17-int-002.jpg" alt="" style="width:100%"-->
 
-							</div>
-						</div>
+											</div>
+										</div>
 
-						<!-- End Portfolio Section -->
+										<!-- End Portfolio Section -->
 
 
-						<!-- Google maps Section -->
-						<!--div class="w3-padding w3-margin w3-section w3-justify w3-text-grey" id="Mapa">
+										<!-- Google maps Section -->
+										<!--div class="w3-padding w3-margin w3-section w3-justify w3-text-grey" id="Mapa">
 							<h2 class="w3-text-light-blue">Mapa </h2>
 							<hr style="width:px" class="w3-opacity">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe-->
-						</div>
+									</div>
 
 
-						<!--b class="w3-hover-text-light-blue">Napíšte mi otázku na uvedený email</b-->
+									<!--b class="w3-hover-text-light-blue">Napíšte mi otázku na uvedený email</b-->
 
-						<!--form action="/action_page.php">
+									<!--form action="/action_page.php">
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
@@ -432,25 +434,25 @@ font-family: 'Roboto Condensed', sans-serif;*/
 				</p>
 </form></div></div>
 <!-- Contact Section -->
-						<div class="w3-padding w3-section w3-justify w3-text-grey" id="Kontakt">
-							<h2 class=" w3-text-light-blue ">Kontakt</h2>
-							<hr style="width:" class="w3-opacity">
-							<!--footer id="footer" class="wow bounceInUp"-->
-							<div class="form-group">
-								<!--div class="container">
+									<div class="w3-padding w3-section w3-justify w3-text-grey" id="Kontakt">
+										<h2 class=" w3-text-light-blue ">Kontakt</h2>
+										<hr style="width:" class="w3-opacity">
+										<!--footer id="footer" class="wow bounceInUp"-->
+										<div class="form-group">
+											<!--div class="container">
 								<div class="clearfix row">
 									<div class="widget col-xs-12 col-sm-4 col-md-4 col-lg-4">
 										<!--h2 title="Contact me" class="widget-title">Vyplňte formulár</h2-->
-								<form action="/action_page.php">
-									<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
-									<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-									<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-									<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-									<p>
-										<button class="w3-button w3-hover-yellow w3-padding-large w3-section w3-text-light-blue" type="submit">Submit</button>
-								</form>
+											<form action="/action_page.php">
+												<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
+												<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+												<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+												<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+												<p>
+													<button class="w3-button w3-hover-yellow w3-padding-large w3-section w3-text-light-blue" type="submit">Submit</button>
+											</form>
 
-								<!--div class="form-group">
+											<!--div class="form-group">
 					    <input type="email" class="form-control" id="email" placeholder="E-mail">
 					  </div>
 					  <div class="form-group">
@@ -460,13 +462,13 @@ font-family: 'Roboto Condensed', sans-serif;*/
 					</form>
 				</div-->
 
-								<b><i class="fa fa-map-marker fa-fw w3-hover-text-red w3-large w3-margin-left w3-padding"></i> Košice, Slovakia
-									<br><i class="fa fa-phone fa-fw w3-hover-text-orange w3-large w3-margin-left w3-padding"></i> +421 907 151 293
-									<a href="mailto:ksenicv@gmail.com"><br><i class="fa fa-envelope fa-fw w3-hover-text-green w3-large w3-margin-left w3-padding"></i>&nbsp;ksenicv@gmail.com
-									</a></b>
-							</div>
+											<b><i class="fa fa-map-marker fa-fw w3-hover-text-red w3-large w3-margin-left w3-padding"></i> Košice, Slovakia
+												<br><i class="fa fa-phone fa-fw w3-hover-text-orange w3-large w3-margin-left w3-padding"></i> +421 907 151 293
+												<a href="mailto:ksenicv@gmail.com"><br><i class="fa fa-envelope fa-fw w3-hover-text-green w3-large w3-margin-left w3-padding"></i>&nbsp;ksenicv@gmail.com
+												</a></b>
+										</div>
 
-							<!-- Origi Contact Section >
+										<!-- Origi Contact Section >
 							<div class="w3-padding w3-justify w3-section w3-text-grey" id="Kontakt">
 								<h2 class="w3-text-light-blue">Napíšte nám alebo zavolajte!</h2>
 								<hr style="width:px" class="w3-opacity">
@@ -480,29 +482,32 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 
 							<!-- Footer section -->
-							<footer class="w3-section w3-justify  w3-padding-14  w3-text-grey w3-center">
-								<a href="https://www.facebook.com/vladimir.ksenic" target="_blank"><i class="fa fa-facebook-official w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-								<a href="https://twitter.com/ladow11" target="_blank">
-									<i class="fa fa-twitter w3-hover-text-white w3-large"></i></a>
-								<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
-									<i class="fa fa-linkedin w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-								<!--a href="https://github.com/settings/profile" target="_blank">
+										<footer class="w3-section w3-justify  w3-padding-14  w3-text-grey w3-center">
+											<a href="https://www.facebook.com/vladimir.ksenic" target="_blank"><i class="fa fa-facebook-official w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+											<a href="https://twitter.com/ladow11" target="_blank">
+												<i class="fa fa-twitter w3-hover-text-white w3-large"></i></a>
+											<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+												<i class="fa fa-linkedin w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+											<!--a href="https://github.com/settings/profile" target="_blank">
 									<i class="fa fa-github w3-hover-text-white w3-xlarge"></i>&nbsp;&nbsp;</a-->
-								<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
-									<i class="fa fa-youtube w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-								<a href="https://www.mixcloud.com/vladimír-ksenič/favorites/" target="_blank">
-									<i class="fa fa-mixcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-								<b class="w3-center w3-margin w3-padding-34 w3-hover-text-white">Powered by©WebServis 2019&nbsp;&nbsp;All rights reserved.&nbsp;We will close your website!&nbsp;&nbsp;</b>
-								<!-- Return to Top -->
-								<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-yellow" id="Domov" style="display: inline-block">
-									<i class="fa fa-arrow-up  w3-margin-center  w3-text-light-blue w3-hover-yellow w3-xlarge "></i>
+											<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
+												<i class="fa fa-youtube w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+											<a href="https://www.mixcloud.com/vladimír-ksenič/favorites/" target="_blank">
+												<i class="fa fa-mixcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+											<b class="w3-center w3-margin w3-padding-34 w3-hover-text-white">Powered by©WebServis 2019&nbsp;&nbsp;All rights reserved.&nbsp;We will close your website!&nbsp;&nbsp;</b>
+											<!-- Return to Top -->
+											<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-yellow" id="Domov" style="display: inline-block">
+												<i class="fa fa-arrow-up  w3-margin-center  w3-text-light-blue w3-hover-yellow w3-xlarge "></i>
 
-								</a>
-								<!-- End footer -->
-							</footer>
-							<!--script src="js/main.js"></script-->
+											</a>
+											<!-- End footer -->
+										</footer>
+										<!--script src="js/main.js"></script-->
+									</div>
+									</div>
+								</div>
+							</div>
+					</header></div></div></body></nav></body></html>
 
-					</div>
-						</div></div></div></header></div></div></div></nav></nav></body></body></html>
 
-<!-- END PAGE CONTENT I am a Full-stack Developer based in Kosice, Slovakia with more than 2years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.Thanks4visit:) -->
+			<!-- END PAGE CONTENT I am a Full-stack Developer based in Kosice, Slovakia with more than 2years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.Thanks4visit:) -->
