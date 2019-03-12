@@ -1,6 +1,6 @@
 var img, animace;
 
-img = document.querySelector("intro");
+img = document.querySelector("animace");
 
 //console.log(img.src);
 //console.log(img.getAttribute("src"));
