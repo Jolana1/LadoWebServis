@@ -16,7 +16,7 @@ img.src = "./Image/photo-1461722936851-13a79b294a5d.jpeg";
 //document.querySelector("h1").className = "mystyle";
 //document.querySelector("h1").classList.add = ("mystyle");
 
-animace = document.querySelector("#animace");
+animace = document.querySelector("animace");
 
 animace.onclick = function() {
 animace.style.backgroundPosition = "0 0";

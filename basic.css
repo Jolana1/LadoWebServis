@@ -17,11 +17,11 @@ html.js.hide {
 	display: none;
 }
 #animace {
-	/*background-image: url(../mypics/obr1.jpg);
+	background-image: url(./Image/photo-1461722936851-13a79b294a5d.jpeg);
 	background-position: -400px 0;
 	background-repeat: no-repeat;
 	border: solid 1px black;
-	height: 350px;*/
+	height: 350px;
 	transition: background-position 3s;
 	width: 400px;
 }
