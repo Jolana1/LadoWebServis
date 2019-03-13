@@ -2,7 +2,7 @@
 	font: 120%/ Arial, sans-serif;
 	margin:0 auto;
 	max-width: 980px;
-	width: 90%
+	width: 90%*/
 }
 
 .mystyle {
@@ -11,19 +11,19 @@
 }
 
 .otherstyle {
-	border: solid 1px red;*/
+	border: solid 1px red;
 }
 html.js.hide {
 	display: none;
 }
 #animace {
-	background-image: url(./Image/photo-1461722936851-13a79b294a5d.jpeg);
-	background-position: -400px 0;
-	background-repeat: no-repeat;
+	background-image: url(./Image/good%20life.jpg);
+	background-position: -565px 0;
+	background-repeat: repeat;
 	border: solid 1px black;
-	height: 350px;
-	transition: background-position 3s;
-	width: 400px;
+	height: 190px;
+	transition: background-position 4s;
+	width: 100%;
 }
 
 
