@@ -22,7 +22,7 @@ html.js.hide {
 	background-repeat: repeat;
 	border: solid 1px black;
 	height: 190px;
-	transition: background-position 4s;
+	transition: background-position 6s;
 	width: 100%;
 }
 
