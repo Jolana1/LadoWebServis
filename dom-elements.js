@@ -1,11 +1,11 @@
 var img, animace;
 
-img = document.querySelector("#obr");
+img = document.querySelector("#bg");
 
 //console.log(img.src);
 //console.log(img.getAttribute("src"));
 
-img.src = "./Image/good%20life.jpg";
+img.src = "../WebServis/Image/bg3.jpg";
 
 //console.log(typeof img);
 //console.log(img);
