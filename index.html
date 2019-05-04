@@ -117,6 +117,25 @@ font-family: 'Roboto Condensed', sans-serif;
 			width: 100%;
 			z-index: -1;
 		}
+	}
+
+		#myVideo{
+			position: absolute;
+			z-index: 4;
+			right: 0;
+			bottom: 0;
+			top:0;
+			right:0;
+			width: 100%;
+			height: 100%;
+			background-size: 100% 100%;
+	 		background-color: black; /* in case the video doesn't fit the whole page*/
+	  		background-image: /* our video */;
+	  		background-position: center center;
+	  		background-size: contain;
+	   		object-fit: cover; /*cover video background */
+		}
+
 /*}
 
 
@@ -162,35 +181,35 @@ font-family: 'Roboto Condensed', sans-serif;
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button><a class="fa fa-globe w3-large navbar-brand w3-bar-item w3-padding-xsmall  w3-text-light-blue w3-hover-yellow img-rounded" href="#myCarousel" title="•Vitajte na stránke spoločnosti ©WebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky.Budujeme lepšie a krajšie responzivné weby,internetové obchody a pod.Máme dlhoročné skúsenosti o čom svedčia naši partnery a ich skvelé produkty(v sekcii Partners).Pozrite si prosím túto webstránku, v prípade záujmu nás kontaktujte.
+			</button><a class="fa fa-globe w3-large navbar-brand w3-bar-item w3-padding-xsmall  w3-text-light-blue w3-hover-yellow img-rounded" href="#myCarousel" title="•Vitajte na stránke spoločnosti ©WebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky.Budujeme lepšie a krajšie responzivné weby,internetové obchody a pod.Máme dlhoročné skúsenosti o čom svedčia naši partnery a ich skvelé produkty(v sekcii Partners).Pozrite si prosím túto webstránku, v prípade záujmu nás kontaktujte.
 				"> WebServis</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Menu" title="Menu"><span class="glyphicon glyphicon-home"></span> Menu<span class="caret"></span></a>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Menu" title="Menu"><span class="glyphicon glyphicon-home"></span> Menu<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href="#Onás" class="w3-bar-item w3-button w3-padding-xsmall   w3-hover-yellow w3-text-light-blue">
-									<i class="fa fa-home w3-large"> Výlet/ Trip</i></a></li>
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall   w3-hover-yellow w3-text-light-blue" href="#Onás">
+									<i class="fa fa-plane w3-large"> Výlet/ Trip</i></a></li>
 							<li class="dropdown">
-								<!--li class="active"><a href="#Skills" class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue ">
+								<!--li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue " href="#Skills" >
 									<i class="fa fa-briefcase w3-large"> Zručnosti</i></a></li-->
 							<li class="dropdown">
-							<li class="active"><a href="#Cenník" class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue ">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue " href="#Cenník">
 									<i class="fa fa-money w3-large"> WebServis Cenník/ Price List</i></a></li>
 							<li class="dropdown">
-							<li class="active"><a href="#Test" class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue" href="#Test" >
 									<i class="fa fa-eye w3-large"> Ohlasy/ Testimonials</i></a></li>
 							<li class="dropdown">
 
-							<li class="active"><a href="#hudba" class="w3-bar-item w3-button w3-padding-xsmall   w3-hover-yellow w3-text-light-blue " title=" Viete prečo treba mať kompas a nie hodinky? • Pozrite si webinár ako si správne rozložiť svoj čas podla metody GTD • Vypočujte si Awesome Music z YouTube">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall   w3-hover-yellow w3-text-light-blue " href="#hudba" title=" Viete prečo treba mať kompas a nie hodinky? • Pozrite si webinár ako si správne rozložiť svoj čas podla metody GTD • Vypočujte si Awesome Music z YouTube">
 									<i class="fa fa-youtube w3-large"> Webinár/ Awesome Music!</i></a></li>
 							<li class="dropdown">
 							<li class="active">
-								<!--a href="#formular" class="w3-bar-item w3-button w3-padding-xsmall w3-hover-yellow w3-text-light-blue ">
+								<!--a class="w3-bar-item w3-button w3-padding-xsmall w3-hover-yellow w3-text-light-blue " href="#formular" >
 									<i class="fa fa-download w3-large"> Formulár/ Form</i></a></li-->
 							<li class="dropdown">
-							<li class="active"><a href="#footer" class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue ">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue " href="#footer">
 									<i class="fa fa-heart w3-large"> Contact Webservis/ Footer</i></a>
 						</ul>
 					</li>
@@ -199,14 +218,14 @@ font-family: 'Roboto Condensed', sans-serif;
 						<ul class="dropdown-menu">
 
 							<li>
-							<li class="active"> <a href="https://www.ashampoo.com/en-us/shop" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " title="Ashampoo Software Deals • Poradíme správny postup &  doporučíme softvér  vo  vašej oblasti • © WebServis - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software Deals</a></li>
+							<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://www.ashampoo.com/en-us/shop" target="_blank" title="Ashampoo Software Deals • Poradíme správny postup &  doporučíme softvér  vo  vašej oblasti • © WebServis - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software Deals</a></li>
 							<li>
-							<li class="active"> <a href="https://www.pikatec.cz/" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"><img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"> Pikatec</a></li>
+							<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"><img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"> Pikatec</a></li>
 							<li>
-							<li class="active"><a href="https://www.krizovkarskyslovnik.sk/" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " title="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
+							<li class="active"><a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://www.krizovkarskyslovnik.sk/" target="_blank" title="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
 									<img src="https://www.krizovkarskyslovnik.sk/gfx/ikona.png" style="width:58px;height:15px" alt="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár"> Slovník krížovkára </a></li>
 							<li>
-							<li class="active"><a href="https://developer.mozilla.org/cs/" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " title="Firefox Mozilla • Fights for family privacy • Quantum: Developer Edition • Technology •">
+							<li class="active"><a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://developer.mozilla.org/cs/" target="_blank"  title="Firefox Mozilla • Fights for family privacy • Quantum: Developer Edition • Technology •">
 									<img src="./Image/Layer%200.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Firefox Mozilla</a></li>
 							<li>
 							<li>
@@ -217,8 +236,8 @@ font-family: 'Roboto Condensed', sans-serif;
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#Tanzanite"  title="Tanzanite Gems Cultural Tourism invited you all to visit mining of Tanzanite at Mirerani,during the tour you will get a historical background of Tanzanite in wide from expert guide don't miss it.Have a nice day :)">
-							<!--span class="glyphicon glyphicon-plane"> </span--><img src="./Image/tanzania/IMG_4116.JPG" style="width:31px; float:left; height:  2.0em;" alt="" class="w3-circle"> Tanzanite-Gems-CT<span class="caret"></span></a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#Tanzanite" target="_blank" title="Tanzanite Gems Cultural Tourism invited you all to visit mining of Tanzanite at Mirerani,during the tour you will get a historical background of Tanzanite in wide from expert guide don't miss it.Have a nice day :)">
+							<!--span class="glyphicon glyphicon-plane"> </span--><img src="./Image/tanzania/IMG_4116.JPG" style="width:25px; float:center; height: 2.0em;" alt="" class="w3-circle"> Tanzanite-Gems-CT<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<!--li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall w3-hover-yellow w3-text-light-blue"   title="Tanzanite Gems Cultural Tourism invited you all to visit mining of Tanzanite at Mirerani,during the tour you will get a historical background of Tanzanite in wide from expert guide don't miss it.Contact me on email:tanzanitegemsculturaltourism@gmail.com
  Have a nice day :)
@@ -227,13 +246,13 @@ font-family: 'Roboto Condensed', sans-serif;
 									</a></li-->
 							<li class="dropdown">
 							<li class="active">
-								<a class="w3-bar-item w3-padding-xsmall w3-hover-yellow w3-text-light-blue" href="mailto:tanzanitegemsculturaltourism@gmail.com"  target="_blank"  title="Contact us on email:tanzanitegemsculturaltourism@gmail.com"><i class="fa fa-envelope fa-fw  w3-large"></i>Contact Tanzanite </a></li>
+								<a class="w3-bar-item w3-padding-xsmall w3-hover-yellow w3-text-light-blue" href="mailto:tanzanitegemsculturaltourism@gmail.com"  target="_blank"  title="Contact us on email:tanzanitegemsculturaltourism@gmail.com"><i class="fa fa-envelope fa-fw  w3-large"> Contact Tanzanite</i> </a></li>
 
 										<!--a href="#"><span class="glyphicon glyphicon-user"-->
 							<li class="dropdown">
-							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue"title="Contact me on phone"><i class="fa fa-phone w3-large"></i>+25575800500 </a></li>
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue"title="Contact me on phone"><i class="fa fa-phone w3-large"> +25575800500 </i></a></li>
 							<li class="dropdown">
-							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue"title="Contact whatsapp phone"><i class="fa fa-whatsapp w3-large"></i> +255788420720 </a></li>
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue"title="Contact whatsapp phone"><i class="fa fa-whatsapp w3-large">  +255788420720</i></a></li>
 						</ul>
 
 
@@ -504,7 +523,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 			<div class="container-fluid w3-justify w3-padding-60" id="Onás">
 			<h3 class="w3-text-light-blue w3-hover-white w3-center">Priatelia! Ste dobrodružné typy, boli ste už niekedy v Tanzánii, Safari alebo by ste chceli vidieť horu Kilimandžáro?</h3><hr style="width:px" class="w3-opacity">
-				<a href="https://instagram.com/tanzanitegemsculturaltourism?utm_source=ig_profile_share&igshid=15edjqkym7l9h" target="_blank" title="More pics of Instagram Tanzanite-Gems-CT Your all welcome to make a dreams!"><img src="./Image/tanzania/IMG_4116.JPG" style="width:150px; float:left; padding: .3em;" alt="" class="w3-circle"></a>
+				<a href="https://instagram.com/tanzanitegemsculturaltourism?utm_source=ig_profile_share&igshid=15edjqkym7l9h" target="_blank" title="More pics of Instagram Tanzanite-Gems-CT Your all welcome to make a dreams!"><img src="./Image/tanzania/IMG_4116.JPG" style="width:140px; float:left; padding: .3em;" alt="" class="w3-circle"></a>
 				<img style="border:none;" cellpadding="0" cellspacing="0" src="./Image/sk.png" height="20"><br>
 				Pozývame Vás v spolupráci so spoločnosťou Tanzanite-Gems-CT na výlet do krajiny Tanzánia, kde na Vás čaká veľa krásnych zážitkov v Národnom parku Kilimanjaro, dobrodružstiev v Safari,výstup na najvyšiu horu v Afrike Kilimandžáro.Kultúrny turizmus Tanzanite Gems vás všetkých pozýva, aby ste spoznali a navštívili bane v Mirerani, počas prehliadky dostanete historické informácie v širokom rozsahu od odborného sprievodcu<a class="fa fa-facebook-official w3-text-blue w3-hover-white" href="https://www.facebook.com/bakari.matambi"data-toggle="tooltip" title="Contact me on facebook" target="_blank"> Mr. Bakari Japhari Matambi.</a>
 					<br>Vaše požiadavky ohľadne tohto výletu,vážny záujem či otázky mu napíšte na kontaktný email alebo zavolajte na telefonne čísla hore pod sekciou Tanzanite-Gems-CT.Prajeme Vám priatelia príjemný pobyt v Tanzánii:)
