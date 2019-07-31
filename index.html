@@ -863,12 +863,12 @@ div {
 
 <div class="w3-text-grey w3-padding-60">
 <h2 class="w3-text-light-blue w3-hover-white">Form</h2>
-<hr style="width:px" class="w3-opacity">
+<hr style="width:px">
 <!--div class="w3-row-padding" style="margin:0 -16px"-->
 <!--form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   <form method="get" action="/test_form.php"-->
 
-	<form action="/action.php" method="post">
+	<form action="/action.php" method="get">
 	<br>
     <label for="name">Name</label>
 
@@ -892,7 +892,7 @@ div {
     </select>
 
 
-	<input type="submit" required="required">
+	<input type="submit" required="text">
 	<input type="reset">
 
 
