@@ -1,5 +1,51 @@
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+element {
+}
+.btn:hover {
+    color:
+    #fff;
+}
+.btn.btn-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color:
+#fff;
+box-shadow: 0 0 10px
+    rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+    color: #000;
+}
+.btn {
+    display: inline-block;
+    color: #7db9ff;
+    border: 2px solid;
+    padding: .5em 1.7em;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.btn {
+    display: inline-block;
+    color: #4aacf4;
+    border: 2px solid;
+    padding: .5em 1.7em;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
