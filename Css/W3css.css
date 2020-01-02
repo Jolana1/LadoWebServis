@@ -55,8 +55,8 @@ element {
 
 .btn.btn-up {
     position: fixed;
-    bottom: 150px;
-    right: 50px;
+    bottom: 50px;
+    right: 10px;
     background-color:#fff;
 -webkit-box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
