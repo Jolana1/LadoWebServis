@@ -5,11 +5,11 @@ element {
 .btn {
   display:none;
   position: fixed;
-  bottom: 70px;
+  bottom: 65px;
   background: black;
   background: rgba(0, 0, 0, 0.7);
   width: 40px;
-  height: 40px;
+  height: 22px;
   margin-top: -40px;
   text-decoration: none;
   border-radius: 3px;
@@ -55,8 +55,8 @@ element {
 
 .btn.btn-up {
     position: fixed;
-    bottom: 50px;
-    right: 10px;
+    bottom: 65px;
+    right: 65px;
     background-color:#fff;
 -webkit-box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
