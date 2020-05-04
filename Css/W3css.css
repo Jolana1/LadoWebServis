@@ -5,7 +5,7 @@ element {
 .btn {
   display:none;
   position: relative;
-  bottom: 65px;
+  bottom: 55px;
   background: black;
   background: rgba(0, 0, 0, 0.7);
   width: 40px;
@@ -39,7 +39,7 @@ element {
 }*/
 .btn:after {
 	content: "";
-	position: fixed;
+	position: relative;
 	left: -100%;
 	top: 0;
 	display:inline-block;
@@ -55,8 +55,8 @@ element {
 
 .btn.btn-up {
     position: fixed;
-    bottom: 65px;
-    right: 65px;
+    bottom: 10px;
+    left: 5px;
     background-color:#fff;
 -webkit-box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
