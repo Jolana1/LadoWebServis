@@ -4,13 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>©LadoWebServis</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="©LadoWebServis" />
+	<meta name="author" content="Vladimír Ksenič" />
+
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" type="text/css" href="./Css/W3css.css">
-
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
+	<!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.js"></script>
+    <![endif]-->
 	<!-- 1. Add latest jQuery and fancybox files -->
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -105,7 +110,7 @@ font-family: 'Roboto Condensed', sans-serif;
 		body {
 			padding: 0;
 			margin: 0;
-			background-color: #000000;
+			background-color: #fffff1;
 		}
 
 		h1,
@@ -115,7 +120,7 @@ font-family: 'Roboto Condensed', sans-serif;
 		h4,
 		h5,
 		h6 {
-			font-family: "Montserrat", sans-serif;
+			font-family: 'Nanum Gothic', sans-serif;
 			font-size: 15px;
 			font-weight: 200;
 		}
@@ -263,10 +268,10 @@ font-family: 'Roboto Condensed', sans-serif;
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Menu" title="Menu"><span class="glyphicon glyphicon-home"></span> Ponuka/ Offer<span class="caret"></span></a>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Menu" title="Menu"><span class="glyphicon glyphicon-heart"></span> Ponuka/ Offer<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="active"><a class="w3-padding-xsmall w3-text-light-blue w3-hover-yellow" href="#Onás">
-										<i class="fa fa-phone "> O nás/ About us</i></a></li>
+										<i class="fa fa-heart "> O nás/ About us</i></a></li>
 								<li class="dropdown">
 								<li class="dropdown">
 								<li class="active"><a class="w3-padding-xsmall w3-text-light-blue  w3-hover-yellow " href="#Cenník">
@@ -286,7 +291,7 @@ font-family: 'Roboto Condensed', sans-serif;
 									<i class="fa fa-download w3-large"> Formulár/ Form</i></a></li-->
 								<li class="dropdown">
 								<li class="active"><a class="w3-padding-xsmall w3-text-light-blue w3-hover-yellow " href="#footer">
-										<i class="fa fa-heart "> Kontaktuj nás/ Contact us</i></a>
+										<i class="fa fa-phone "> Kontaktuj nás/ Contact us</i></a>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -294,18 +299,18 @@ font-family: 'Roboto Condensed', sans-serif;
 							<ul class="dropdown-menu">
 
 								<li>
-								<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " target="_blank" title="Ashampoo Software Deals • Poradíme správny postup &  doporučíme softvér  vo  vašej oblasti • © WebServis - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software Deals</a></li>
+								<li>
+								<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="#Pics" target="_blank" title="Zinzino-Začnite svoju cestu za zdravím už dnes • ZinzinoProducts •"><img src="./Image/screencapture-zinzino-logo.png" style="width:58px;height:15px" alt="ZinzinoProductsDeals"> Zinzino</a></li>
+								<li>
+								<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow "href="https://" target="_blank"  title="Ashampoo Software Deals • Poradíme správny postup &  doporučíme softvér  vo  vašej oblasti • © WebServis - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software Deals</a></li>
 								<li>
 								<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"><img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"> Pikatec</a></li>
-								<li>
+								<!--li>
 								<li class="active"><a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://www.krizovkarskyslovnik.sk/" target="_blank" title="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
-										<img src="https://www.krizovkarskyslovnik.sk/gfx/ikona.png" style="width:58px;height:15px" alt="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár"> Slovník krížovkára </a></li>
+										<img src="https://www.krizovkarskyslovnik.sk/gfx/ikona.png" style="width:58px;height:15px" alt="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár"> Slovník krížovkára </a></li-->
 								<li>
 								<li class="active"><a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0" target="_blank" title="Firefox Mozilla • Fights for family privacy • Quantum: Developer Edition • Technology •">
 										<img src="./Image/Layer%200.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Firefox Mozilla</a></li>
-								<li>
-								<li class="active"> <a class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow " href="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers" target="_blank" title="Zinzino-Začnite svoju cestu za zdravím už dnes • ZinzinoProducts •"><img src="./Image/screencapture-zinzino-logo.png" style="width:58px;height:15px" alt="ZinzinoProductsDeals"> Zinzino</a></li>
-								<li>
 									<!--li>
 								<li class="active"><a href="https://jolana1.github.io/ladoweb/#Domov" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow" target="_blank" title="Ukážka môjho webu V.K • Vytvorenie funkčnej webovej stránky"><img src="./Image/jolana1.github.io-%C2%A9ladoweb.png" style="width:58px;height:15px" alt="Me"> Ukážka webu V.K.</a></li>
 
@@ -461,8 +466,8 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 
-	<!-- Page Container -->
-	<div class="w3-container-fluid" style="max-width:2400px;height:605px">
+	<!-- Page Container >
+	<div class="w3-container-fluid" style="max-width:2400px;height:605px"-->
 
 		<script>
 			$(document).ready(function() {
@@ -582,7 +587,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 				1•ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom e-mailu alebo telefónu.">
 					<div class="carousel-caption">
-						<h1 style="font-size:30px ;color:#fff;text-shadow:1px 1px 4px #000000; padding-bottom: 5.55em;text-decoration: underline;float:">Vitajte na stránke spoločnosti ©LADOWEBSERVIS</h1>
+						<h1 style="font-size:30px ;color:#000;text-shadow:1px 1px 4px #ffffff; padding-bottom: 5.55em;text-decoration: underline;float:">Vitajte na stránke spoločnosti ©LADOWEBSERVIS</h1>
 						<h2 style="color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom: 10.95em;"><q><em> <i class='fa fa-heart' style='font-size:20px'></i>Your satisfaction is our priority.</em></q></h2>
 						<!--h3>Los Angeles</h3>
 							<p>LA is always so much fun!</p-->
@@ -671,8 +676,8 @@ font-family: 'Roboto Condensed', sans-serif;
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-		</div>
 	</div>
+
 
 
 
@@ -823,27 +828,27 @@ font-family: 'Roboto Condensed', sans-serif;
 					<div class="w3-text-grey w3-padding-60 w3-center w3-content" id="Pics">
 
 						<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
-						<h1 style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">ZINZINO Top products and watch video Dr.Paul Clayton.
+						<h1 style="font-size:20px;color:#fff;text-shadow:1px 1px 4px #000;">ZINZINO Top products and watch video Dr.Paul Clayton.
 						</h1>
 						<hr style="width:2400px" class="w3-quarter w3-section">
 
 						<a data-fancybox href="https://www.youtube.com/watch?v=jWpuVapXEtQ&feature=youtu.be">Dr.Paul Clayton(video) - Skryté chronické zápaly ,ich príčiny a možné riešenia
 						</a><br><br>
-						<p style="font-size:15px;" title="In case you want to order from Zinzina products just.">V prípade ak si chcete objednať z produktov Zinzina stačí
+						<p style="font-size:15px;" title="In case you want to order from Zinzina products just click her!">Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme. Tri kroky zdravotného protokolu spoločnosti Zinzino, ktoré sa začínajú jedinečným testom, napomáhajú budovať rovnováhu, zregenerovať a posilniť organizmus, čím zvyšujú vaše šance na zdravší a šťastnejší život.V prípade ak si chcete objednať z produktov Zinzina stačí
 							<button onclick="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers = 'default.asp'">
 								<a href="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers" target="_blank">kliknúť tu!</a></button></p>
 
 
-						<a data-fancybox="gallery" href="./Image/Balance%20oil.jpg"><img class="rounded" src="./Image/Balance%20oil.jpg" height="250" width="20%" title="Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme. Tri kroky zdravotného protokolu spoločnosti Zinzino, ktoré sa začínajú jedinečným testom, napomáhajú budovať rovnováhu, zregenerovať a posilniť organizmus, čím zvyšujú vaše šance na zdravší a šťastnejší život."></a>
+						<a data-fancybox="gallery" href="./Image/Balance%20oil.jpg"><img class="rounded" src="./Image/Balance%20oil.jpg" height="250" width="20%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €.Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme."></a>
 						<a data-fancybox="gallery" href="./Image/Leanshake%20kit.jpg">
-							<img class="rounded" src="./Image/Leanshake%20kit.jpg" height="250" width="20%" title="Leanshake kit"></a>
+							<img class="rounded" src="./Image/Leanshake%20kit.jpg" height="250" width="20%" title="Leanshake kit 90€/mesiac-6 mes.predplatné "></a>
 
 
 						<!--a data-fancybox="gallery" href="./Image/bg1.jpg"><img class="rounded" src="./Image/bg1.jpg" height="150" width="15%" title="Galéria obrázkov"></a>
 						<a data-fancybox="gallery" href="./Image/bg2.jpg"><img class="rounded" src="./Image/bg2.jpg" height="150" width="15%" title="Galéria obrázkov"></a-->
-						<a data-fancybox="gallery" href="./Image/Zinobiotic.jpg"><img class="rounded" src="./Image/Zinobiotic.jpg" style="width:20%;height:250px;" title="Zinobiotic."></a>
-						<a data-fancybox="gallery" href="./Image/Xtend%20Kit.jpg"><img class="rounded" src="./Image/Xtend%20Kit.jpg" height="250" width="20%" title="Zinzino-Xtend kit"></a>
-						<a data-fancybox="gallery" href="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png"><img class="rounded" src="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png" height="250" width="40%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €."><br><br>
+						<a data-fancybox="gallery" href="./Image/Zinobiotic.jpg"><img class="rounded" src="./Image/Zinobiotic.jpg" style="width:20%;height:250px;" title="Zinobiotic 23€/mesiac-6 mes.predplatné"></a>
+						<a data-fancybox="gallery" href="./Image/Xtend%20Kit.jpg"><img class="rounded" src="./Image/Xtend%20Kit.jpg" height="250" width="20%" title="Zinzino-Xtend kit 22€/mesiac-6 mes.predplatné"></a>
+						<!--a data-fancybox="gallery" href="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png"><img class="rounded" src="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png" height="250" width="40%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €."--><br><br>
 
 							<style>
 								a:link {
@@ -880,7 +885,7 @@ font-family: 'Roboto Condensed', sans-serif;
 <!--a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="200"width="13%"></a>
 <!--a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="10%"></a-->
 
-						</a>
+
 					</div>
 
 
@@ -889,7 +894,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 						<div class="w3-text-grey w3-center w3-padding-60 w3-content" id="Cenník">
 							<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
-							<h1 style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Cenník Webových služieb/ Price List</h1>
+							<h1 style="font-size:20px;color:#fff;text-shadow:1px 1px 4px #000;">Cenník Webových služieb/ Price List</h1>
 							<hr style="width:px" class="w3-opacity">
 							<div class="w3-row-padding-24" style="margin:0px -24px">
 								<div class="w3-half w3-padding w3-content">
@@ -951,7 +956,7 @@ font-family: 'Roboto Condensed', sans-serif;
 							<h2 class=" w3-text-light-blue w3-hover-white"> </h2>
 							<hr style="width:px" class="w3-opacity">
 							<img src="./Image/john_doe.jpg" class="w3-margin w3-circle  w3-text-grey" style="width:100px;padding: .1em;" alt="jdoe">
-							<em><span style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">John D-IT Corporation.</span>
+							<em><span style="font-size:20px;color:#fff;text-shadow:1px 1px 4px #000;">John D-IT Corporation.</span>
 								<br>"©LadoWebServis takes care of our site for years. They make their site more secure, make our site more attractive, interesting, quick and easy to operate."</em>
 
 
@@ -998,7 +1003,7 @@ font-family: 'Roboto Condensed', sans-serif;
 						<div>
 							<div class="w3-text-grey w3-padding-60 w3-content" id="hudba">
 								<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
-								<h1 style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">YouTubemix Music by DJ´s</h1>
+								<h1 style="font-size:20px;color:#fff;text-shadow:1px 1px 4px #000;">YouTubemix Music by DJ´s</h1>
 								<hr style="width:1400px" class="w3-opacity">
 								<!--div class="w3-row-padding" style="margin:0 -16px"-->
 
@@ -1124,7 +1129,7 @@ div {
 										Aký produkt Vás zaujal ,napíšte nám <br>
 										<textarea NAME="nazor" ROWS="5" COLS="40" value="Sem napíšte svoj názor,Pls contact me by e-mail or phone..">
 
-	</textarea><br><INPUT TYPE="TEXT" NAME="meno" value="vaše meno">
+	</textarea><br><INPUT TYPE="TEXT" NAME="email" value="váš email">
 										<INPUT TYPE="submit" value="Potvrdiť">
 										<INPUT TYPE="reset" value="Zmaž formulár">
 
@@ -1301,6 +1306,7 @@ div {
 			</div>
 		</div>
 	</div>
+<script src="js/main.js"></script>
 </body>
 
 </html>
@@ -1314,7 +1320,6 @@ div {
 
 
 
-<script src="js/main.js"></script>
 
 
 
