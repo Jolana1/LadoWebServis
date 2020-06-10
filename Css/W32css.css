@@ -1,24 +1,16 @@
-
-
-html{-ms-text-size-adjust: 100%;
-			-webkit-text-size-adjust: 100%;-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
+html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
 element {
 }
-html {
-			height: 100%;
 
-		}
 
 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
 html, body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-
-
+    font-family: "Verdana", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -154,7 +146,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-col.s10{width:83.33333%}
 .w3-col.s11{width:91.66666%}
 .w3-col.s12,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{width:99.99999%}
-@media (min-width:601px){
+@media (min-width:701px){
 .w3-col.m1{width:8.33333%}
 .w3-col.m2{width:16.66666%}
 .w3-col.m3,.w3-quarter{width:24.99999%}
@@ -181,7 +173,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-col.l11{width:91.66666%}
 .w3-col.l12{width:99.99999%}}
 .w3-content{max-width:2000px;margin:auto}
-.w3-rest{overflow:hidden}
+
 .w3-layout-container,.w3-cell-row{display:table;width:100%}.w3-layout-row{display:table-row}.w3-layout-cell,.w3-layout-col,.w3-cell{display:table-cell}
 .w3-layout-top,.w3-cell-top{vertical-align:top}.w3-layout-middle,.w3-cell-middle{vertical-align:middle}.w3-layout-bottom,.w3-cell-bottom{vertical-align:bottom}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
@@ -293,8 +285,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-sepia-min{-webkit-filter:sepia(50%);filter:sepia(50%)}
 .w3-text-shadow{text-shadow:1px 1px 0 #444}.w3-text-shadow-white{text-shadow:1px 1px 0 #ddd}
 .w3-transparent{background-color:transparent!important}
-.w3-hover-none:hover{-webkit-box-shadow:none!important;box-shadow:none!important;background-color:transparent!important}*/
-/* Colors */
+.w3-hover-none:hover{-webkit-box-shadow:none!important;box-shadow:none!important;background-color:transparent!important}
+
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}

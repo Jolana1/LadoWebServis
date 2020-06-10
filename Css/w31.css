@@ -38,7 +38,7 @@ element {
     position: relative;
     overflow: hidden;
     z-index: 1;
-}
+}/*
  {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -46,7 +46,7 @@ element {
 html, body {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 300;*/
 }
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
