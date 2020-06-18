@@ -1,4 +1,4 @@
-/* w31.CSS */
+/* w31.css */
 html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
 element {
 }
@@ -7,9 +7,10 @@ element {
     #fff;
 }
 .btn.btn-up {
-    position: fixed;
+
+	position: inherit;
     bottom: 50px;
-    right: 190px;
+    right: 198px;
     background-color:whitesmoke;
 -webkit-box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
