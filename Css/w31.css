@@ -45,8 +45,8 @@ html {
 
 .btn-up {
     position:relative;
-    bottom: 140px;
-    right: -90px;
+    bottom: 145px;
+    right: -85px;
     background-color:#fff;
 -webkit-box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
