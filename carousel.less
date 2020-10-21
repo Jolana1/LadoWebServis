@@ -16,7 +16,7 @@
   > .item {
     position: relative;
     display: none;
-    .transition(1.9s ease-in-out left);
+    .transition(.9s ease-in-out left);
 
     // Account for jankitude on images
     > img,
@@ -27,7 +27,7 @@
 
     // WebKit CSS3 transforms for supported devices
     @media all and (transform-3d), (-webkit-transform-3d) {
-      .transition-transform(~".9s Out · Sine");
+      .transition-transform(~"2.9s Out · Sine");
       .backface-visibility(~"hidden");
       .perspective(1000px);
 

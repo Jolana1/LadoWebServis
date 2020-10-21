@@ -42,16 +42,35 @@
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 
+	<link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
 
 
-</head>
+	</head>
 
 
 
 
 <body>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166913635-1">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
+		gtag('config', 'UA-166913635-1');
+
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+
+	</script>
 
 
 
@@ -504,7 +523,7 @@
 				<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
 				<h1 style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #000;">Vitajte na našej stránke spoločnosti ©LWS,<br> ponúkame Vám webové a pc služby + potravinové produkty značky ZINZINO a iné skvelé produkty. </h1>
 				<!-- hr style="width:px" class="w3-opacity"-->
-				<p style="font-size:15px;color:#000;text-shadow:1px 1px 4px #fff;"><br>V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,<br>ponúkame vám zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov na vyladenie vašich pc zostáv.<br>V prípade ak si vyberiete z našich služieb,či sa chcete ešte poradiť stačí ísť jednoducho na formulár a tam nám napísať.<br> Srdečne ďakujeme za váš záujem.<br>Ak vás tento web zaujíma alebo sa zaujímate o naše výživové potravinové produkty, kontaktujte nás prostredníctvom formulára.<br> Vaša spokojnosť je našou prioritou.</p>
+				<p style="font-size:15px;color:#000;text-shadow:1px 1px 4px #fff;"><br>V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,<br>ponúkame vám zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov na vyladenie vašich pc zostáv.<br>V prípade ak si vyberiete z našich služieb,či sa chcete ešte poradiť stačí ísť jednoducho na formulár a tam nám napísať.<br> Srdečne ďakujeme za váš záujem.<br>Ak sa zaujímate o naše výživové potravinové produkty, kontaktujte nás prostredníctvom formulára.<br> Vaša spokojnosť je našou prioritou.</p>
 				<div class="w3-row-padding-24" style="margin:0px -24px">
 					<div class="w3-half ">
 						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
@@ -706,15 +725,19 @@
 
 					</p><br><br>
 					<tbody>
+						<div>
 
-						<a data-fancybox="gallery" href="./Image/Balance%20oil.jpg"><img class="rounded" src="./Image/Balance%20oil.jpg" height="210" width="50%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €.Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme."></a><br><br>
+							<a data-fancybox="gallery" href="./Image/Balance%20oil.jpg"><img class="rounded" src="./Image/Balance%20oil.jpg" border="10" cellpadding="0" cellspacing="0" height="210" width="600" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €.Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme."></a><br><br>
 
-						<a data-fancybox="gallery" href="./Image/Zinobiotic.jpg"><img class="rounded" src="./Image/Zinobiotic.jpg" height="210" width="50%" title="Zinobiotic 23€/mesiac-6 mes.predplatné"></a><br><br>
+							<a data-fancybox="gallery" href="./Image/Zinobiotic.jpg"><img class="rounded" src="./Image/Zinobiotic.jpg" height="210" width="600" title="Zinobiotic 23€/mesiac-6 mes.predplatné"></a><br><br>
+
+							<a data-fancybox="gallery" href="./Image/Xtend%20Kit.jpg"><img class="rounded" src="./Image/Xtend%20Kit.jpg" height="210" width="600" title="Zinzino-Xtend kit 22€/mesiac-6 mes.predplatné"></a><br><br>
+
+							<a data-fancybox="gallery" href="./Image/Healt%20protocol%20Kit.jpg">
+								<img class="rounded" src="./Image/Healt%20protocol%20Kit.jpg" height="210" width="600" title="Najlepší výber týchto 3 produktov "></a><br><br><br><br>
+						</div>
 
 
-						<a data-fancybox="gallery" href="./Image/Xtend%20Kit.jpg"><img class="rounded" src="./Image/Xtend%20Kit.jpg" height="210" width="50%" title="Zinzino-Xtend kit 22€/mesiac-6 mes.predplatné"></a><br><br>
-						<a data-fancybox="gallery" href="./Image/Healt%20protocol%20Kit.jpg">
-							<img class="rounded" src="./Image/Healt%20protocol%20Kit.jpg" height="210" width="50%" title="Najlepší výber týchto 3 produktov "></a><br><br><br><br>
 					</tbody>
 				</div>
 			</section>
@@ -809,7 +832,7 @@
 
 				<div class="container w3-center pt-3 w3-text-grey" id="hudba"><br>
 					<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
-					<h1 style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #000;">Hudba a recenzia FonySK 26/20 </h1>
+					<h1 style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #000;">Hudba a recenzia FonySK 27/20 </h1>
 					<hr style="width:px" class="w3-opacity ">
 					<!--div class="w3-row-padding" style="margin:0 -16px"-->
 
@@ -820,7 +843,7 @@
 					<a data-fancybox href="https://www.youtube.com/watch?v=AUHKNVs9stY?autoplay=0">
 						<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Jukebox</p>
 					</a><br>
-					<iframe width="100%" height="250" src="https://www.youtube.com/embed/UmSoAn6m8GM?autoplay=0" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="DIGITALKY  26/2020: Xperia 10 II, 5G, pokazené hodinky  a iné(video podcast)">
+					<iframe width="100%" height="250" src="https://www.youtube.com/embed/bCksw-TONnk?autoplay=0" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="DIGITALKY  27/2020:OnePlus 8T vs. Galaxy S20 FE a nové iPhony série 12 (video podcast)">
 					</iframe>
 
 					<!-- iframe src="https://youtube.com/embed/kqzOU66FChM?autoplay=0"/embed/Z_qBmPW-d5M?autoplay=0 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Dj ''S'' -Late Night Soulful Live">
@@ -1074,7 +1097,8 @@ div {
 									<i class="fa fa-soundcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
 								<!-- Return to Top -->
 
-								<a class="fa fa-arrow-up btn btn-up  w3-text-blue w3-hover-yellow w3-large" href="#" data-toggle="tooltip" title="Presunúť sa hore"></a></em>
+								<a class="fa fa-arrow-up btn btn-up  w3-text-blue w3-hover-yellow w3-large" href="#" data-toggle="tooltip" title="Presunúť sa hore"></a>
+							</em>
 							<!-- End footer -->
 						</div>
 					</footer>
@@ -1088,25 +1112,8 @@ div {
 	<!-- Page Container -->
 	<!-- div class="container" style="max-width:1200px" -->
 
-	<script>
-		$(document).ready(function() {
-			$('[data-toggle="tooltip"]').tooltip();
-		});
 
-	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166913635-1">
-	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166913635-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-166913635-1');
-</script>
 </body>
 
 </html>
