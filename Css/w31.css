@@ -22,7 +22,7 @@ element.style {
     text-decoration: none;
     position: fixed;
     bottom: 1rem;
-    right: 4rem;
+    right: 6rem;
     z-index: 9999;
     display: flex;
     width: 2.5rem;
