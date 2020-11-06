@@ -1,23 +1,7 @@
 /* w31.css-vksenic */
 /*En extract*/
 
-}
 html,body{font-family:"Montserrat",sans-serif; font-size:15px;line-height:1.5}html{overflow-x:hidden}
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    border-style: none;
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    font-size: 100%;
-    font-weight: normal;
-    vertical-align: baseline;
-    background: transparent;
-    background-color: transparent;
-}
-
-
-
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Segoe UI",Arial,sans-serif}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .w3-serif{font-family:"Times New Roman",Times,serif}
@@ -150,7 +134,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-col.l10{width:83.33333%}
 .w3-col.l11{width:91.66666%}
 .w3-col.l12{width:99.99999%}}
-.w3-content{max-width:1905px;margin:2px}
+.w3-content{max-width:1920px;margin:5px}
 .w3-rest{overflow:hidden}
 .w3-layout-container,.w3-cell-row{display:table;width:100%}.w3-layout-row{display:table-row}.w3-layout-cell,.w3-layout-col,.w3-cell{display:table-cell}
 .w3-layout-top,.w3-cell-top{vertical-align:top}.w3-layout-middle,.w3-cell-middle{vertical-align:middle}.w3-layout-bottom,.w3-cell-bottom{vertical-align:bottom}
@@ -349,6 +333,22 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border-style: none;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+    background-color: transparent;
+}
+
+
 element.style {
 }
 .scrollToTop.show {
@@ -371,7 +371,7 @@ element.style {
     text-decoration: none;
     position: fixed;
     bottom: 1rem;
-    right:  3.5rem;
+    right:  5rem;
     z-index: 9999;
     display: flex;
     width: 2.5rem;
@@ -455,7 +455,7 @@ body {
     text-align: left;
     background-color: #fff;
 }
-:root {
+/*:root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -502,7 +502,7 @@ html {
     color: #fff;
 }
 }
-/*.c-button {
+.c-button {
     position: fixed;
     top: 0;
     right: 0;
