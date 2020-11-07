@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="sk" dir="ltr" >
+<html lang="sk" dir="ltr">
 
 <head>
 	<title>©LWS</title>
-	<meta meta="" http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-
-
-
 	<!-- CSS -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<!--link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css"-->
 	<link rel="stylesheet" type="text/css" href="./Css/w31.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
 
 	<!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w31.css">
 	<link rel="stylesheet" id="wpwl-style" href="https://oppwa.com/v1/static/2ddbd72359ddca1967d379dcf3c7479a/css/critical.min.css"-->
@@ -37,15 +34,41 @@
 
 </head>
 
+<style>
+	body,
+	h1,p,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Montserrat", sans-serif
+	}
 
+	img {
+		border: .5px solid white;
+	}
 
-<body>
-	<style>
-		img {
-			border: .5px solid white;
+	/* Remove the navbar's default margin-bottom and rounded borders */
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+
+	/* On small screens, set height to 'auto' for sidenav and grid */
+	@media screen and (max-width: 700px) {
+		.sidenav {
+			height: auto;
+			padding: 12px;
 		}
 
-	</style>
+		.row.content {
+			height: auto;
+		}
+
+</style>
+
+<body>
 	<script>
 		$(document).ready(function() {
 			$('[data-toggle="tooltip"]').tooltip();
@@ -78,7 +101,7 @@
 
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" >
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"-->
+
 
 
 
@@ -93,7 +116,7 @@
 	<nav class="navbar navbar-default ">
 
 		<div class="bg-success container-fluid ">
-			<!-- button id="c-button--slide-right" class="c-button"><span>MENU</span> <img style="display:inline-block;" src="./Image/LWSlogo.jpg " class="img-responsive" alt="Menu"></button-->
+			<!-- button id="c-button-slide-right" class="c-button"><span>MENU</span> <img style="display:inline-block;" src="./Image/LWSlogo.jpg " class="img-responsive" alt="Menu"></button-->
 
 
 
@@ -239,7 +262,7 @@
 						</ul>
 
 
-						<!--li><a href="" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  " border="0"><img src="./Image/Tanzanite.jpg" width="58px" height="15px" class="img-rounded"  > Tanzanite-Gems-Cultural-Tourism</a></li>
+						<!-- li><a href="" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  " border="0"><img src="./Image/Tanzanite.jpg" width="58px" height="15px" class="img-rounded"  > Tanzanite-Gems-Cultural-Tourism</a></li>
 
 
 
@@ -442,14 +465,15 @@
 
 				<img src="./Image/bg3.jpg" alt="intro" style="width:1920px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis•">
 				<div class="carousel-caption">
-					<em><br>
-						<p style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #5d33fb;padding: 0.25em;">
+					<br>
+					<em>
+						<p style="font-size:25px;color:#fff;text-shadow:1px 1px 4px #5d33fb;padding: 0.55 em;">
 						<p id="demo">Vitajte na našej stránke spoločnosti ©LWS,<br> ponúkame Vám webové a pc služby + potravinové produkty značky ZINZINO a iné skvelé produkty..<br>
-							<button type="button" onclick='document.getElementById("demo").innerHTML = "Vitajte na stránke našej spoločnosti ©LWS, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky, zostavenie a opravy pc-komponentov,výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás najlepšie prostredníctvom formulára aj v prípade ak si vyberiete nejaký z produktov Zinzina a pod. Ďakujeme za váš záujem."'>Viac</button><br>Kontaktujte nás!
+							<button class="w3-button w3-white w3-padding-small w3-hover-blue" type="button" onclick='document.getElementById("demo").innerHTML = "Vitajte na stránke našej spoločnosti ©LWS, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky, zostavenie a opravy pc-komponentov,výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás najlepšie prostredníctvom formulára aj v prípade ak si vyberiete nejaký z produktov Zinzina a pod. Ďakujeme za váš záujem."'>Viac</button><br>Kontaktujte nás!
 
-						<p style="color:#ffffff;text-shadow:1px 1px 4px #000000;padding-bottom: .75em;"><i class='fa fa-phone' style='font-size:15px'>+421556711924</i>
+						<p style="color:#ffffff;text-shadow:1px 1px 4px #000000;padding-bottom: .75 em;"><i class='fa fa-phone' style='font-size:15px'>+421556711924</i>
 							<!--h3>Los Angeles</h3-->
-						<p>Kosice is always so much fun!</p>
+
 					</em>
 				</div>
 			</div>
@@ -504,9 +528,9 @@
 			<div class="item">
 				<img src="./Image/pagePiling-plugin.gif" alt="" style="width:1920px;height:539px" title="Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše služby, kontaktujte nás formulárom. Ďakujeme za váš záujem, Vaša spokojnosť je našou prioritou.">
 				<div class="carousel-caption"><i class='fa fa-heart'>
-						<i style="font-size:18px;color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom:.25em;text-decoration: underline; "></i>
-						<img src="./Image/LWSlogo.jpg" alt="logoLWS" style="width:210px;height:92px ; padding: .75em; " title="©LadoWebServis,ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom formulára alebo telefónu iba zo Slovenska. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou."><br>
-						<p>Ďakujeme za váš záujem.</p>
+						<i style="font-size:18px;color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom:.25 em;text-decoration: underline; "></i>
+						<img src="./Image/LWSlogo.jpg" alt="logoLWS" style="width:210px;height:92px ; padding: .75 em; " title="©LadoWebServis,ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom formulára alebo telefónu iba zo Slovenska. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou."><br>
+						<p> Ďakujeme za váš záujem. </p>
 						<!--p style="color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom: .55em;"><em><i class='fa fa-phone' style='font-size:13px'> +421556711924 or +421907151293 </i></em></p-->
 					</i>
 				</div>
@@ -543,7 +567,7 @@
 				<div class="w3-half ">
 					<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
 						<!-- Grid for pricing tables -->
-						<li class="w3-dark-grey w3-xlarge w3-padding-32 w3-center">Basic service</li>
+						<li class="w3-dark-grey w3-xlarge w3-padding-32 w3-center">PC Basic služby</li>
 						<li class="w3-padding-16">Web dizajn a správa stránok</li>
 						<li class="w3-padding-16">Fotografie, videá a e-mailová podpora</li>
 						<li class="w3-padding-16">Online podpora</li>
@@ -553,10 +577,10 @@
 						<li class="w3-padding-16">Preinštalovanie OS na Váš počítač</li>
 						<li class="w3-padding-16">
 							<h2>25€ </h2>
-							<span class="w3-opacity">mesačne</span>
+							<span class="w3-opacity">mesačne/jednorázovo</span>
 						</li>
 						<li class="w3-light-grey w3-padding-24">
-							<button class="w3-button w3-white w3-padding-large w3-hover-blue"><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Stlačte a odošlite.">Vypíšte formulár požiadavky!</a></button>
+							<a class="w3-button w3-white w3-padding-large w3-hover-blue" href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Contact us on form!">Vypíšte o čo v tomto balíku žiadate!</a>
 						</li>
 					</ul>
 
@@ -564,20 +588,20 @@
 				<div class="w3-row-padding-24" style="margin:0px -24px">
 					<div class="w3-half ">
 						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-							<li class="w3-dark-grey w3-xlarge w3-padding-32 ">Pro offer</li>
-							<li class="w3-padding-16">Web design and site management</li>
-							<li class="w3-padding-16">Create a website for businesses or people</li>
-							<li class="w3-padding-16">Photos, videos and mail support</li>
-							<li class="w3-padding-16">All Basic Services </li>
-							<li class="w3-padding-16">CV-Genially Online</li>
-							<li class="w3-padding-16">15GB onlinestorage</li>
-							<li class="w3-padding-16">Domain Registration</li>
+							<li class="w3-dark-grey w3-xlarge w3-padding-32 ">Pro online ponuka</li>
+							<li class="w3-padding-16">Web dizajn a vypracovanie konceptu</li>
+							<li class="w3-padding-16">Vytvorenie webu pre Vás a Váš obchod</li>
+							<li class="w3-padding-16">Fotografie, videá a e-mailová podpora</li>
+							<li class="w3-padding-16">Všetky služby v základe </li>
+							<li class="w3-padding-16">CV-Vytvorenie geniálneho online životopisu </li>
+							<li class="w3-padding-16">Odporučenie softvérov na vyladenie vašich pc zostáv</li>
+							<li class="w3-padding-16">Domain Registrácia</li>
 							<li class="w3-padding-16">
-								<h2>45€ </h2>
-								<span class="w3-opacity">per month</span>
+								<h2>35€ </h2>
+								<span class="w3-opacity">mesačne/jednorázovo</span>
 							</li>
 							<li class="w3-light-grey w3-padding-24">
-								<button class="w3-button w3-white w3-padding-large w3-hover-blue"><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Chodte na formulár a odošlite.">Contac us on form!</a></button>
+								<a class="w3-button w3-white w3-padding-large w3-hover-blue" href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Contact us on form!">Vypíšte o čo v tomto balíku žiadate!</a>
 								<!-- End Grid/Pricing tables -->
 							</li>
 						</ul>
@@ -594,15 +618,15 @@
 
 	<section id="Test">
 
-		<div class="container pt-3 w3-center w3-text-grey" id="Test">
+		<div class="container pt-3 w3-center w3-text-grey">
 			<h2 class=" w3-text-light-blue w3-hover-white"> </h2>
 			<hr style="width:0px" class="w3-opacity">
 			<img src="./Image/LWSlogo.jpg" class="w3-margin   w3-text-grey" style="width:10px;padding: .25em;" alt="jdoe">
 			<span style="font-size:18px;color:#000;text-shadow:1px 1px 4px #5d33fb;">LWS-IT Corporation.<br>
 				Táto spoločnosť sa stará o naše stránky už roky. Zvyšuje ich bezpečnosť, atraktivitu, funkcionalitu, rýchlosť a jednoduchú obsluhu."<br></span>
 			<button class="w3-button w3-white w3-padding-large w3-hover-blue"><a href="https://ladow1.github.io/www/#Domov" target="_blank">1.Ukážka jednoduchej stránky LWS</a>
-				<br><button class="w3-button w3-white w3-padding-large w3-hover-blue">
-					<a href="https://jolana1.github.io/ladoweb/" target="_blank">2.Ukážka jednoduchej stránky LWS</a></button></button>
+				<br>
+				<a href="https://jolana1.github.io/ladoweb/" target="_blank">2.Ukážka jednoduchej stránky LWS</a><button class="w3-button w3-white w3-padding-large w3-hover-blue"></button></button>
 
 
 
@@ -672,7 +696,7 @@
 <Obrazky>
 
 
-		<!--h4 class="w3-text-light-blue w3-center w3-wide">Gallery of Pics </h4>
+		<!-- h4 class="w3-text-light-blue w3-center w3-wide">Gallery of Pics </h4>
 <a data-fancybox="gallery" href="./Image/tanzania/IMG_4056.JPG"><img class="rounded" src="./Image/tanzania/IMG_4056.JPG"height="100"></a>
 <a data-fancybox="gallery" href="./Image/tanzania/IMG_4016.JPG"><img class="rounded" src="./Image/tanzania/IMG_4016.JPG"height="100"></a>
 <a data-fancybox="gallery" href="./Image/tanzania/IMG_4017.JPG"><img class="rounded"src="./Image/tanzania/IMG_4017.JPG"height="100"></a>
@@ -764,10 +788,12 @@
 				<p class="w3-wide">Javascript,Jquery,React</p>
 				<div class="w3-white">
 					<div class="w3-light-blue" style="height:28px;width:75%"></div>
-							<!-- Portfolio Section -->
-	<br><br><br><br><em>
+
+<!-- Portfolio Section -->
+	<em>
+		<br><br><br><br>
 		<section id="Pics">
-			<div class="bg-success container pt-3 w3-center w3-text-grey" id="Pics">
+			<div class="bg-success container pt-3 w3-center w3-text-grey">
 
 
 				<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
@@ -779,20 +805,21 @@
 				<!--a data-fancybox href="blob:https://videos.sproutvideo.com/225a7405-575f-4344-86c0-a39a579b8900"><br-->
 
 				<br>
-				Ukážka použitia samotestu,skopíruj odkaz a vlož do prehliadača.
+
 				<p style="font-size:15px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">
-					https://videos.sproutvideo.com/embed/709ddfb21919ebcbf8/e643e95ec474656c?lightbox=true#</p><br>
+					<a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://videos.sproutvideo.com/embed/709ddfb21919ebcbf8/e643e95ec474656c?lightbox=true#" target="_blank">Ukážka použitia samotestu.</a>
+				</p><br>
 				Štúdie profilu mastných kyselín v krvi preukázali, že tento profil úzko súvisí so zdravotným stavom.
 				Samotestovanie pomocou suchej kvapky krvi.
 				Určuje hladinu 11 mastných kyselín v krvi.
 				Informuje vás o rovnováhe medzi omega-6 a omega-3 kyselinami.
 				<br><br>
-				<p style="font-size:10px;color:#000;text-shadow:1px 1px 4px #fff;">
+				<p style="font-size:8px;color:#000;text-shadow:1px 1px 4px #fff;">
 					*Vitas je zmluvné laboratórium s certifikátom GMP vykonávajúce chemické analýzy, ktoré má 20 rokov praxe s poskytovaním vysokokvalitnej chromatografickej analýzy založenej na špičkových vedomostiach a technológiách.
 					**Ide o týchto 11 mastných kyselín: kyselina palmitová (PA), kyselina stearová (SA), kyselina olejová (OA), kyselina linolová (LA), kyselina alfa-linolénová (ALA), kyselina gama-linolénová (GLA), kyselina dihomo-gama linolénová (DHGLA), kyselina arachidónová (AA), kyselina eikozapentaénová (EPA), kyselina dokozapentaénová (DPA), kyselina dokozahexaénová (DHA).</p>
 
-				<br>Pozrite si ešte aj web,kde sa dozviete,že deti s vyššou hladinou Omega3 majú menšie genetické poškodenie.<br>
-				<p style="font-size:15px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">http://www.szu.cz/tema/bezpecnost-potravin/deti-s-vyssimi-hladinami-omega-3-mastnych-kyselin-epa-a-dha</p>
+				<br><br>
+				<p style="font-size:8px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;"><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="http://www.szu.cz/tema/bezpecnost-potravin/deti-s-vyssimi-hladinami-omega-3-mastnych-kyselin-epa-a-dha" target="_blank">Tu sa dozviete,že deti s vyššou hladinou Omega3 majú menšie genetické poškodenie.</a></p>
 
 
 				<br><br>
@@ -825,9 +852,9 @@
 
 			</div>
 		</section>
-		<!--div>
+		<!-- div>
 				<div class="w3-text-grey w3-center" id="formular">
-					<!--h2 class="w3-text-light-blue w3-hover-white w3-wide">
+					<!-- h2 class="w3-text-light-blue w3-hover-white w3-wide">
 					<h1 style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #000000;">FORMULÁR-Tu si objednávajte s okamžitou dopravou max. 4dní</h1>
 					<hr style="width:px">
 
@@ -835,12 +862,12 @@
 					<script async defer src="https://formfacade.com/include/111026483964178072025/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g/bootstrap.js?div=ff-compose"></script>
 
 
-					<!--a data-fancybox="gallery" href="./Image/bg1.jpg"><img class="rounded" src="./Image/bg1.jpg" height="150" width="15%" title="Galéria obrázkov"></a>
+					<!-- a data-fancybox="gallery" href="./Image/bg1.jpg"><img class="rounded" src="./Image/bg1.jpg" height="150" width="15%" title="Galéria obrázkov"></a>
 						<a data-fancybox="gallery" href="./Image/bg2.jpg"><img class="rounded" src="./Image/bg2.jpg" height="150" width="15%" title="Galéria obrázkov"></a-->
-		<!--a data-fancybox="gallery" href="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png"><img class="rounded" src="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png" height="250" width="40%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €."-->
+		<!-- a data-fancybox="gallery" href="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png"><img class="rounded" src="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png" height="250" width="40%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €."-->
 
 
-		<!--a href="https://www.zinzino.com/2007167194/SK/sk-SK" data-fancybox="images" data-caption="My caption">
+		<!-- a href="https://www.zinzino.com/2007167194/SK/sk-SK" data-fancybox="images" data-caption="My caption">
 							<img src="thumbnail.jpg" alt="" />
 
 						V prípade ak si vyberiete nejaký z produktov Zinzina stači kliknúť tu</a>
@@ -875,49 +902,51 @@
 
 			<div class="container w3-center pt-3 w3-text-grey" id="hudba"><br>
 				<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
-				<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Hudba a Digitalky 28/20 </h1>
-				<hr style="width:px" class="w3-opacity ">
+				<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Hudba </h1>
+				<!-- hr style="width:px" class="w3-opacity "-->
 				<!--div class="w3-row-padding" style="margin:0 -16px"-->
 
 
 				<!--img src="./Image/nature-3151869_1920.jpg" alt="" style="width:100%" height="527"-->
-				<iframe src="https://youtube.com/embed/kyrpqMERXHs?autoplay=0" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="#ReturnToTheClassics #Funk #SoulDj ''S'' - 60 Minutes Of Funk">
-				</iframe>
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/HH38PyPDi3o?autoplay=0" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="DIGITALKY 28/2020: Mate 40 Pro, Galaxy S20 FE, OnePlus 8T a iné (video podcast)">
-				</iframe>
-
-				<!-- iframe src="https://youtube.com/embed/kqzOU66FChM?autoplay=0"/embed/Z_qBmPW-d5M?autoplay=0 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Dj ''S'' -Late Night Soulful Live">
-									</iframe-->
 
 
+				<!-- iframe width="100%" height="250" src="https://youtube.com/embed/kyrpqMERXHs?autoplay=0" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="#ReturnToTheClassics #Funk #SoulDj ''S'' - 60 Minutes Of Funk">
+				</iframe-->
+				<a data-fancybox href="https://youtube.com/embed/ElDPIJjAWfY?autoplay=0">
+					<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Bangin Soulful House Mix</p>
+					<iframe src="https://youtube.com/embed/kqzOU66FChM?autoplay=0" /embed/Z_qBmPW-d5M?autoplay=0 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Dj ''S'' -Late Night Soulful Live">
+					</iframe>
+					<a data-fancybox href="https://youtube.com/embed/kyrpqMERXHs?autoplay=0">
+						<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">#ReturnToTheClassics #Funk #SoulDj ''S'' - 60 Minutes Of Funk</p>
+					</a><br>
+
+
+				</a>
+			</div>
 
 
 
-				<!--iframe width="100%" height="190" src="https://youtube.com/embed/ICTXGEACsPU?autoplay=0" frameborder="0" align="" scrolling="no" name="Funky Soulful Grooves Mix">
+
+			<!--iframe width="100%" height="190" src="https://youtube.com/embed/ICTXGEACsPU?autoplay=0" frameborder="0" align="" scrolling="no" name="Funky Soulful Grooves Mix">
 								</iframe-->
 
 
-				<!--img src="./Image/IMG_3080.JPG" alt="intro" class="" style="width:  100%" height="120"-->
+			<!--img src="./Image/IMG_3080.JPG" alt="intro" class="" style="width:  100%" height="120"-->
 
 
 
 
 
-				<!--iframe src="https://www.youtube.com/embed/9-bcnTGy9S8?autoplay=0"  data-toggle="tooltip" title="Webinár" width="100%" height="190" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Prečo treba mať kompas a nie hodinky?">
+			<!--iframe src="https://www.youtube.com/embed/9-bcnTGy9S8?autoplay=0"  data-toggle="tooltip" title="Webinár" width="100%" height="190" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Prečo treba mať kompas a nie hodinky?">
 										</iframe>
 										<img src="./Image/x17-detail-050.jpg" alt="" style="width:100%">
 										<img src="./Image/x17-015.jpg" alt="" style="width:100%"-->
-				<a data-fancybox href="https://youtube.com/embed/ElDPIJjAWfY?autoplay=0">
-					<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Bangin Soulful House Mix</p>
-				</a><br>
 
 
 
 
-				<!--A HREF="http://crackdb.com" target="_blank"><img src="http://crackdb.com/img/bt3.gif" border="0" width="10%" height="31"></A>
+			<!--A HREF="http://crackdb.com" target="_blank"><img src="http://crackdb.com/img/bt3.gif" border="0" width="10%" height="31"></A>
 												<!--img src="./Image/x17-int-002.jpg" alt="" style="width:100%"-->
-
-			</div>
 
 
 			<!-- End Portfolio Section -->
