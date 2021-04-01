@@ -33,7 +33,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 	<style>
-
 		nav,
 		em,
 		li,
@@ -75,6 +74,7 @@
 		* {
 			box-sizing: border-box;
 		}
+
 		.card {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 			max-width: 600px;
@@ -105,91 +105,96 @@
 		}
 
 		.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
+			display: -ms-flexbox;
+			/* IE10 */
+			display: flex;
+			-ms-flex-wrap: wrap;
+			/* IE10 */
+			flex-wrap: wrap;
+			margin: 0 -16px;
+		}
 
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-}
+		.col-25 {
+			-ms-flex: 25%;
+			/* IE10 */
+			flex: 25%;
+		}
 
-.col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-}
+		.col-50 {
+			-ms-flex: 50%;
+			/* IE10 */
+			flex: 50%;
+		}
 
-.col-75 {
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
-}
+		.col-75 {
+			-ms-flex: 75%;
+			/* IE10 */
+			flex: 75%;
+		}
 
-.col-25,
-.col-50,
-.col-75 {
-  padding: 0 16px;
-}
+		.col-25,
+		.col-50,
+		.col-75 {
+			padding: 0 16px;
+		}
 
-.container {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-}
+		.container {
+			background-color: #f2f2f2;
+			padding: 5px 20px 15px 20px;
+			border: 1px solid lightgrey;
+			border-radius: 3px;
+		}
 
-input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
+		input[type=text] {
+			width: 100%;
+			margin-bottom: 20px;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+		}
 
-label {
-  margin-bottom: 10px;
-  display: block;
-}
+		label {
+			margin-bottom: 10px;
+			display: block;
+		}
 
-.icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
+		.icon-container {
+			margin-bottom: 20px;
+			padding: 7px 0;
+			font-size: 24px;
+		}
 
-.btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
+		.btn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px;
+			margin: 10px 0;
+			border: none;
+			width: 100%;
+			border-radius: 3px;
+			cursor: pointer;
+			font-size: 17px;
+		}
 
-.btn:hover {
-  background-color: #45a049;
-}
+		.btn:hover {
+			background-color: #45a049;
+		}
 
-span.price {
-  float: right;
-  color: grey;
-}
+		span.price {
+			float: right;
+			color: grey;
+		}
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
+		/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+		@media (max-width: 800px) {
+			.row {
+				flex-direction: column-reverse;
+			}
 
+			.col-25 {
+				margin-bottom: 20px;
+			}
+		}
 
 	</style>
 
@@ -296,7 +301,7 @@ span.price {
 							<li class="active"><a class="fa fa-asterisk  w3-hover-white" href="#Products"> Produkty/ Products</a></li>
 
 
-							<li class="active"><a class="fa fa-youtube w3-hover-white" href="#hudba" title=""> Hudba/ Music</a></li>
+							<li class="active"><a class="fa fa-youtube w3-hover-white" href="#hudba" title=""> AppUmbrella(webinar)/ Music</a></li>
 							<!--li class="dropdown">
 							</li-->
 							<!--li class="active">
@@ -668,9 +673,9 @@ span.price {
 						<li class="w3-padding-16">Opravy počítačov</li>
 						<li class="w3-padding-16">Softvérové odporúčania</li>
 						<li class="w3-padding-16">Vyladenie zostáv vášho počítača</li>
-						<li class="w3-padding-16">Preinštalovanie OS na Váš počítač</li>
+						<li class="w3-padding-16">Záloha OS Vášho Pc</li>
 						<li class="w3-padding-16">
-							<h2>25€ </h2>
+							<h2>20€ </h2>
 							<span class="w3-opacity">mesačne/jednorázovo</span>
 						</li>
 						<li class="w3-light-grey w3-padding-24">
@@ -691,7 +696,7 @@ span.price {
 							<li class="w3-padding-16">Odporučenie softvérov na vyladenie vašich pc zostáv</li>
 							<li class="w3-padding-16">Domain Registrácia</li>
 							<li class="w3-padding-16">
-								<h2>35€ </h2>
+								<h2>30€+dohoda </h2>
 								<span class="w3-opacity">mesačne/jednorázovo</span>
 							</li>
 							<li class="w3-light-grey w3-padding-24">
@@ -917,7 +922,7 @@ span.price {
 
 		<div class="container w3-center pt-4 w3-text-grey">
 
-			<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">PONUKA PRODUKTOV</h1><br><br>
+			<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Odporúčame tieto produkty</h1><br><br>
 			<div class="card">
 				<p><a href="#fa fa-shopping-cart"><button>Add to Cart 1.BalanceOil</button></a></p>
 				<!-- img src="jeans3.jpg" alt="Denim Jeans" style="width:100%"-->
@@ -1110,7 +1115,10 @@ span.price {
 
 		<div class="container w3-center pt-4 w3-text-grey" id="hudba"><br><br>
 			<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
-			<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Hudba </h1>
+
+			<a data-fancybox data-width="100%" data-height="100%" href="/Video/AppUmbrella%20webinar.mp4">
+			<h1 style="font-size:22px;color:#000;text-shadow:1px 1px 4px #fff;">#Spoločnosť AppUmbrella(webinar) prináša produkt s využitím kryptomien,profitujte aj vy- pozri video tu!</h1>
+			</a><br><br>
 			<!-- hr style="width:px" class="w3-opacity "-->
 			<!--div class="w3-row-padding" style="margin:0 -16px"-->
 
@@ -1120,13 +1128,14 @@ span.price {
 
 			<!-- iframe width="100%" height="250" src="https://youtube.com/embed/kyrpqMERXHs?autoplay=0" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="#ReturnToTheClassics #Funk #SoulDj ''S'' - 60 Minutes Of Funk">
 				</iframe-->
+			<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Hudba </h1>
 			<a data-fancybox href="https://youtube.com/embed/ElDPIJjAWfY?autoplay=0">
-				<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Bangin Soulful House Mix</p>
-				<iframe src="https://youtube.com/embed/kqzOU66FChM?autoplay=0" /embed/Z_qBmPW-d5M?autoplay=0 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Dj ''S'' -Late Night Soulful Live">
+				<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">#Bangin Soulful House Mix#</p>
+				<iframe src="https://youtube.com/embed/kqzOU66FChM?autoplay=0" /embed/Z_qBmPW-d5M?autoplay=0 width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Dj ''S'' -Late Night Soulful Live">
 				</iframe>
-				<a data-fancybox href="https://youtube.com/embed/kyrpqMERXHs?autoplay=0">
+				<!--a data-fancybox href="https://youtube.com/embed/kyrpqMERXHs?autoplay=0">
 					<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">#ReturnToTheClassics #Funk #SoulDj ''S'' - 60 Minutes Of Funk</p>
-				</a><br>
+				</a--><br>
 
 
 			</a>
@@ -1313,7 +1322,7 @@ div {
 
 
 			<!--h2 title="Contact me" class="widget-title">Vyplňte formulár</h2-->
-			<!--form action="/action_page.php">
+		<!--form action="/action_page.php">
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
@@ -1341,17 +1350,17 @@ div {
 
 
 
-			<!-- Footer section -->
+		<!-- Footer section -->
 
-			<div class="w3-center container-fluid bg-success" id="footer">
+		<div class="w3-center container-fluid bg-success" id="footer">
 
-				<footer><br>
-					<em>
-						<img src="./Image/sk.png" style="width:50px;height:40px; padding: .1em;">
-						<p style="font-size:12px;color:#fff;text-shadow:1px 1px 4px #5d33fb;">Košice,&nbsp;SVK<br>
-							<!-- a class="fa fa-phone fa-fw w3-hover-text-white w3-large w3-margin-left" data-toggle="tooltip" title="Vypíšte formulár a odošlite"--><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Chodte na formulár.">Contact us on form!</a><br>
-							<i class='fa fa-heart' style='font-size:12px'></i>Your satisfaction is our priority.
-							<!-- a class="fa fa-envelope fa-fw w3-hover-text-white w3-large w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Tu mi môžeš poslať email"></a>
+			<footer><br>
+				<em>
+					<img src="./Image/sk.png" style="width:50px;height:40px; padding: .1em;">
+					<p style="font-size:12px;color:#fff;text-shadow:1px 1px 4px #5d33fb;">Košice,&nbsp;SVK<br>
+						<!-- a class="fa fa-phone fa-fw w3-hover-text-white w3-large w3-margin-left" data-toggle="tooltip" title="Vypíšte formulár a odošlite"--><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Chodte na formulár.">Contact us on form!</a><br>
+						<i class='fa fa-heart' style='font-size:12px'></i>Your satisfaction is our priority.
+						<!-- a class="fa fa-envelope fa-fw w3-hover-text-white w3-large w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Tu mi môžeš poslať email"></a>
 						<form class="form-signin form-signin-wide" role="form" method="post">
 	<h2 class="form-signin-heading">Prihlásiť</h2>
 	<p>Prihláste sa pomocou Facebooku alebo vypísaním formulára. Ak nemáte ešte účet, <a href="registrovat.php">zaregistrujte sa</a>. Ak ste zabudli svoje heslo, môžete si ho <a href="obnovit-heslo.php">obnoviť</a>.</p>
@@ -1402,29 +1411,29 @@ div {
         Push notifikácie o krížovkách môžete povoliť/zakázať <a href="./push.php">tu</a>.</p>
 </form-->
 
-							<br>
-						<p style="font-size:12px;color:#fff;text-shadow:1px 1px 4px #5d33fb;">Powered by ©<img src="./Image/LWSlogo.jpg" style="width:100px;height:40px; padding: .1em;">2018.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©All rights reserved.
-							<br>
+						<br>
+					<p style="font-size:12px;color:#fff;text-shadow:1px 1px 4px #5d33fb;">Powered by ©<img src="./Image/LWSlogo.jpg" style="width:100px;height:40px; padding: .1em;">2018.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©All rights reserved.
+						<br>
 
-							<a class="fa fa-facebook-official w3-hover-text-white w3-large" href="https://www.facebook.com/vladimir.ksenic" target="_blank">&nbsp;&nbsp;</a>
-							<a href="https://twitter.com/ladow11" target="_blank">
-								<i class="fa fa-twitter w3-hover-text-white w3-large"></i></a>
-							<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
-								<i class="fa fa-linkedin w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-							<a href="https://github.com/settings/profile" target="_blank">
-								<i class="fa fa-github w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-							<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
-								<i class="fa fa-youtube w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-							<a href="https://soundcloud.com/lado-8" target="_blank">
-								<i class="fa fa-soundcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
-					</em>
-					<!-- Return to Top >
+						<a class="fa fa-facebook-official w3-hover-text-white w3-large" href="https://www.facebook.com/vladimir.ksenic" target="_blank">&nbsp;&nbsp;</a>
+						<a href="https://twitter.com/ladow11" target="_blank">
+							<i class="fa fa-twitter w3-hover-text-white w3-large"></i></a>
+						<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+							<i class="fa fa-linkedin w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+						<a href="https://github.com/settings/profile" target="_blank">
+							<i class="fa fa-github w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+						<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
+							<i class="fa fa-youtube w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+						<a href="https://soundcloud.com/lado-8" target="_blank">
+							<i class="fa fa-soundcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+				</em>
+				<!-- Return to Top >
 
 								<a class="fa fa-arrow-up btn btn-up  w3-text-blue w3-hover-yellow w3-large" href="#" data-toggle="tooltip" title="Presunúť sa hore"></a-->
 
-					<!-- End footer -->
-					<!--back to top-->
-					<a href="#" class="scrollToTop show"><i class="fa fa-arrow-up" data-toggle="tooltip" title="Presunúť sa hore"></i></a>
+				<!-- End footer -->
+				<!--back to top-->
+				<a href="#" class="scrollToTop show"><i class="fa fa-arrow-up" data-toggle="tooltip" title="Presunúť sa hore"></i></a>
 
 
 
@@ -1435,13 +1444,13 @@ div {
 
 
 
-					<!--back to top end-->
-				</footer>
+				<!--back to top end-->
+			</footer>
 
 
 
 
-			</div>
+		</div>
 
 	</div>
 
