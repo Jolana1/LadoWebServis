@@ -12,9 +12,9 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.*/
 
-
+"SameSite=None";
 "use strict";
 
 {
@@ -60,7 +60,7 @@
 
   // Chrome (<= 66) and Opera (<= 54) don't accept passing a callback for
   // browserAction.setBadgeText and browserAction.setBadgeBackgroundColor
-  const maybeAsyncAPIs = [*/
+  const maybeAsyncAPIs = [
     ["browserAction.setBadgeText", {text: ""}],
     ["browserAction.setBadgeBackgroundColor", {color: [0, 0, 0, 0]}]
   ];
