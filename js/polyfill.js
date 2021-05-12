@@ -302,3 +302,5 @@ if (typeof OffscreenCanvas == "undefined")
 
 // Some Node.js modules rely on the global reference.
 self.global = self;
+
+
