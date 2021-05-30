@@ -9,6 +9,7 @@ const baseRequest = {
   apiVersion: 2,
   apiVersionMinor: 0
 };
+
 /*
 const container = document.getElementById('container');
 const button = googlePayClient.createButton({
