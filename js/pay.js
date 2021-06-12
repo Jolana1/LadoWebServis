@@ -4,22 +4,10 @@
  *
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#PaymentDataRequest|apiVersion in PaymentDataRequest}
  */
-
 const baseRequest ={
   apiVersion: 2,
   apiVersionMinor: 0
 };
-
-
-/*const container = document.getElementById('container');
-const button = googlePayClient.createButton({
-  buttonColor: 'default',
-  buttonType: 'buy',
-  buttonLocale: 'sk',
-  onClick: () => {},
-});
-
-container.appendChild(button);*/
 
 /**
  * Card networks supported by your site and your gateway
