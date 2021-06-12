@@ -5,13 +5,13 @@
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#PaymentDataRequest|apiVersion in PaymentDataRequest}
  */
 
-const baseRequest = {
+const baseRequest ={
   apiVersion: 2,
   apiVersionMinor: 0
 };
 
-/*
-const container = document.getElementById('container');
+
+/*const container = document.getElementById('container');
 const button = googlePayClient.createButton({
   buttonColor: 'default',
   buttonType: 'buy',
@@ -224,7 +224,7 @@ function getGoogleTransactionInfo() {
         {
           label: "Subtotal",
           type: "SUBTOTAL",
-          price: "23.00",
+          price: "33.00",
         },
       {
           label: "Tax",
@@ -235,7 +235,7 @@ function getGoogleTransactionInfo() {
     countryCode: 'US',
     currencyCode: "USD",
     totalPriceStatus: "FINAL",
-    totalPrice: "24.50",
+    totalPrice: "34.50",
     totalPriceLabel: "Total"
   };
 }
