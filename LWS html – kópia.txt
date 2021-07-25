@@ -1,0 +1,1278 @@
+<html lang="en" class="sr"><head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-SJGZMYWZ1V&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-166913635-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-166913635-1');
+
+	</script>
+	<title>©LWS</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w31.css">
+	<link rel="stylesheet" id="wpwl-style" href="https://oppwa.com/v1/static/2ddbd72359ddca1967d379dcf3c7479a/css/critical.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="icon" href="https://lh3.googleusercontent.com/a-/AOh14GhU3YnT6BWyzFkB_lpJTYadC4KnMPS1VUMr3wmPmw=s96-c" type="image/x-icon">
+	<link rel="stylesheet" href="/dosis/assets/dist/css/plugins.css">
+	<link rel="stylesheet" href="/theme/dosis/style.css?font=%22Roboto%22%2C%20sans-serif&amp;heading=%22Poppins%22%2C%20sans-serif&amp;primary=%235d33fb&amp;primaryActive=%23492bbb&amp;secondary=%23b161fc">
+	<!-- CSS -->
+	<!-- link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css"-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" type="text/css" href="./Css/w31.css">
+
+
+
+
+	<!-- 1. Add latest jQuery and fancybox files -->
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+
+	</script>
+	<style>
+		img {
+			border: .5px solid white;
+		}
+
+	</style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.981.0">
+	<header>
+		<!--link href="https://formfacade.com/mstore-header2/css/vendor/material-icons.min.css" rel="stylesheet" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://formfacade.com/mstore-header2/css/vendor/socicon.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="/jstree/themes/default/style.min.css">
+
+	<script src="/js/ejs.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+	<!--script>
+		var firebaseConfig = {
+			apiKey: "AIzaSyCcbdBCI-Kgcz3tE1N4paeF9a-vdi3Uzz8",
+			authDomain: "formfacade.com",
+			databaseURL: "https://formfacade.firebaseio.com",
+			projectId: "formfacade",
+			storageBucket: "",
+			messagingSenderId: "743872305260",
+			appId: "1:743872305260:web:c5f7c23ccfa724447be049"
+		};
+		firebase.initializeApp(firebaseConfig);
+
+	</script>
+	<script>
+		FacadeSignin = {
+			params: {
+				"action": "public",
+				"userId": "111026483964178072025",
+				"page": "all",
+				"publishId": "1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g"
+			},
+			query: {},
+			info: {},
+			user: {
+				"aslocale": "sk",
+				"aszone": "Europe/Paris",
+				"customize": {
+					"at": 1593517382738
+				},
+				"displayName": "Vladimír Ksenič",
+				"email": "ksenicv@gmail.com",
+				"formfacade": {
+					"at": 1603013897981
+				},
+				"installAt": 1590852681428,
+				"photoURL": "https://lh3.googleusercontent.com/a-/AOh14GhU3YnT6BWyzFkB_lpJTYadC4KnMPS1VUMr3wmPmw=s96-c",
+				"profile": {
+					"at_hash": "mWRvxYqM9euSpZwwYazAYg",
+					"aud": "743872305260-20jsm39ds77n6lijo2o4cpq7jpnhmgoi.apps.googleusercontent.com",
+					"email": "ksenicv@gmail.com",
+					"email_verified": true,
+					"exp": 1603017496,
+					"family_name": "Ksenič",
+					"given_name": "Vladimír",
+					"iat": 1603013896,
+					"iss": "https://accounts.google.com",
+					"locale": "sk",
+					"name": "Vladimír Ksenič",
+					"picture": "https://lh3.googleusercontent.com/a-/AOh14GhU3YnT6BWyzFkB_lpJTYadC4KnMPS1VUMr3wmPmw=s96-c",
+					"sub": "111026483964178072025"
+				},
+				"providerId": "google.com",
+				"source": "formfacade",
+				"trialAt": 1591206007444,
+				"uid": "111026483964178072025"
+			},
+			init: function() {
+				var curr = this;
+				firebase.auth().onAuthStateChanged(function(auth) {
+					curr.loggedIn = auth ? auth.providerData[0] : null;
+					if (curr.loggedIn && curr.loggedIn.uid == curr.params.userId) {
+						console.log('Logged in as ' + curr.loggedIn.uid);
+					} else if (curr.params.action == 'edit' || curr.params.action == 'task') {
+						var repath = '/restrict' + window.location.pathname;
+						location.href = repath;
+						/*
+						if(curr.loggedIn && curr.loggedIn.uid!=curr.params.userId)
+						{
+						  var eml = curr.user.addon?curr.user.addon.email:curr.user.email;
+						  alert('Logged in as '+curr.loggedIn.email+' instead of '+eml);
+						  firebase.auth().signOut().then(function(outrslt){ curr.init(); });
+						}
+						else
+						{
+						  $('#LoginAlert').modal({});
+						}
+						*/
+					}
+				});
+			},
+			signIn: function() {
+				var curr = this;
+				var provider = new firebase.auth.GoogleAuthProvider();
+				firebase.auth().signInWithPopup(provider).then(function(result) {
+					curr.init();
+				}).catch(function(err) {
+					console.error('fail', err);
+					curr.init();
+				});
+			}
+		}
+		FacadeSignin.init();
+
+	</script-->
+
+		<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script-->
+		<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"-->
+
+
+
+
+
+
+
+
+
+
+		<!--nav class="navbar navbar-inverse navbar navbar-inverse navbar-fixed-top "-->
+		<nav class="navbar navbar-default ">
+			<div class="container-fluid">
+				<!-- button id="c-button--slide-right" class="c-button"><span>MENU</span> <img style="display:inline-block;" src="./Image/LWSlogo.jpg " class="img-responsive" alt="Menu"></button-->
+
+
+
+
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle w3-wide collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">Menu
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#Menu"></a>
+					<img src="./Image/LWSlogo.jpg " style="width:210px;height:68px ;padding: 0.00em;  " alt="logo" title="1•Ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy PC techniky,odporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom formulára alebo chodte rovno na eshops.2•V prípade ak si vyberiete nejaký z produktov Zinzina stači kliknúť na odkaz nižšie a následne si z webu vybrať a zaplatiť váš požadovaný tovar za akciovu cenu,nakolko sme partnerom spol. Zinzino.
+					•Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou.">
+				</div>
+
+
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav ">
+						<li class="dropdown">
+							<!-- a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul  -->
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Ponúkame Vám webové a pc služby a potravinové produkty značky ZINZINO a iné"><span class="glyphicon glyphicon-heart"></span> Menu/ Offer<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<!--li class="active">
+								<!--a class="w3-padding-xsmall w3-hover-yellow w3-text-white" href="#Onás">
+									<i class="fa fa-heart  "> O nás/ About us</i></a></li>
+							<li class="dropdown"-->
+
+								<li>
+								</li><li class="active"><a class=" w3-text-white  w3-hover-yellow " href="#Pics">
+										<i class="fa fa-briefcase "> Zinzino/ Products</i></a></li>
+
+								<li>
+								</li><li class="active">
+									<a class=" w3-text-white  w3-hover-yellow " href="#Onás">
+										<i class="fa fa-money  "> Cenník Webových služieb/ About us</i></a>
+								</li>
+
+
+								<li>
+								</li><li class="active"><a class=" w3-text-white w3-hover-yellow" href="#Test">
+										<i class="fa fa-eye "> Ohlasy/ Testimonials</i></a></li>
+
+
+								<li class="active"><a class=" w3-text-white  w3-hover-yellow " href="#hudba" title="">
+										<i class="fa fa-youtube  "> Music/ Fonysk</i></a></li>
+								<li class="dropdown">
+								</li><li class="active">
+									<!--a class="w3-padding-xsmall w3-text-white  w3-hover-yellow" href="#formular">
+									<i class="fa fa-download "> Formulár/ Form</i></a></li>
+							<li class="dropdown">
+							<li class="active"><a class="w3-padding-xsmall w3-text-white w3-hover-yellow " href="#footer">
+									<i class="fa fa-phone"> Kontaktuj nás/ Contact us</i></a-->
+
+							</li></ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#Partners" title="Naši partnery"><span class="glyphicon glyphicon-briefcase"> </span> Partners<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+
+								<li>
+									<!--li>
+									<li class="active"> <a class="w3-padding-xsmall  w3-text-white w3-hover-yellow " href="#Pics" title="Zinzino-Začnite svoju cestu za zdravím už dnes • ZinzinoProducts •"><img src="./Image/screencapture-zinzino-logo.png" style="width:58px;height:15px" alt="ZinzinoProductsDeals"> Zinzino</a></li>
+									<li>
+									<li class="active"> <a class="w3-padding-xsmall w3-text-white w3-hover-yellow " href="https://www.ashampoo.com/de/eur/pin/0849/sicherheitssoftware/Ashampoo-Anti-Virus" target="_blank" title="Ashampoo antivirus and software Deals • Poradíme správny postup &  doporučíme softvér  vo  vašej oblasti • ©LWS - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software Deals</a></li-->
+								</li><li>
+								</li><li class="active"><a class=" w3-text-white w3-hover-yellow " href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0" target="_blank" title="Firefox Mozilla • Fights for family privacy • Quantum: Developer Edition • Technology •">
+										<img src="./Image/Layer%200.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Firefox Mozilla</a></li>
+
+								<li class="active"><a class="w3-text-white w3-hover-yellow " href="https://www.krizovkarskyslovnik.sk/" target="_blank" title="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
+										<img src="https://www.krizovkarskyslovnik.sk/gfx/ikona.png" style="width:58px;height:15px" alt="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár"> Slovník krížovkára</a></li>
+								<li>
+
+									<!-- li>
+								<li class="active"><a href="https://jolana1.github.io/ladoweb/#Domov" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow" target="_blank" title="Ukážka môjho webu V.K • Vytvorenie funkčnej webovej stránky"><img src="./Image/jolana1.github.io-%C2%A9ladoweb.png" style="width:58px;height:15px" alt="Me"> Ukážka webu V.K.</a></li>
+
+							<li class="active"><a href="" target="_blank" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  ">
+									<img src="../WebServis/Image/tanzania/IMG_4116.JPG" style="width:58px;height:15px" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow img-rounded" alt=""> Tanzanite-Gems-CT</a></li -->
+							</li></ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#e-shops" title="Tu priamo nakupujte od spol. Oriflame, Ashampoo &amp; Zinzino"><span class="glyphicon glyphicon-user"> </span> €-shops<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+								</li><li>
+								</li><li class="active"> <a class=" w3-text-white w3-hover-yellow " href="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers" target="_blank" title="Zinzino-Začnite svoju cestu za zdravím už dnes • ZinzinoProducts •"><img src="./Image/screencapture-zinzino-logo.png" style="width:58px;height:15px" alt="ZinzinoProductsDeals"> Zinzino</a></li>
+								<li>
+								</li><li>
+								</li><li>
+								</li><li class="active"> <a class=" w3-text-white w3-hover-yellow " href="https://www.ashampoo.com/de/eur/pin/0849/sicherheitssoftware/Ashampoo-Anti-Virus" target="_blank" title="Ashampoo antivirus and best safety software Deals • Poradíme správny postup &amp;  doporučíme softvér  vo  vašej oblasti • ©LWS - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software Deals</a></li>
+								<li>
+								</li><li class="active"> <a class=" w3-text-white  w3-hover-yellow " href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
+										<img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia"> Pikatec</a></li>
+								<li class="active"><a class=" w3-text-white w3-hover-yellow " href="https://www.letakomat.sk/oriflame/oriflame-katalog-152020-od-utorka-13-10-2020/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Me"> Oriflame aktuálny katalóg 2020 </a></li>
+								<!--li class="active"><a class=" w3-text-white w3-hover-yellow " href="https://mobil.bazos.sk/inzerat/113680396/apple-se-64-gb.php" target="_blank" title="• Inzerát na predaj telefon"><img src="./Image/LWSlogo.jpg" style="width:58px;height:15px" alt="Me"> Apple SE 64 GB </a></li-->
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Chodte na formulár a odošlite.V prípade ak si vyberiete naše služby alebo z našich produktov,pp sa chcete ešte poradiť stačí ísť na formulár a tam nám napísať. Srdečne ďakujeme za váš záujem."><span class="glyphicon glyphicon-download"></span> Formulár</a></li>
+						<li><a href="#footer" data-toggle="tooltip" title="Volajte +421556711924 alebo 0907151293 only Slovakia"><span class="glyphicon glyphicon-phone"></span> Kontakt</a></li>
+
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+
+
+
+
+
+
+
+
+		<!-- a class="dropdown-toggle" data-toggle="dropdown" href="#Onas" target="_blank" title="Tanzanite Gems Cultural Tourism invited you all to visit mining of Tanzanite at Mirerani,during the tour you will get a historical background of Tanzanite in wide from expert guide don't miss it.Have a nice day :)">
+							<span class="glyphicon glyphicon-plane"> </span><img src="./Image/tanzania/IMG_4116.JPG" style="width:25px; float:center; height: 2.0em;" alt="" class="w3-circle"> Tanzanite-Gems-CT<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall w3-hover-yellow w3-text-light-blue"   title="Tanzanite Gems Cultural Tourism invited you all to visit mining of Tanzanite at Mirerani,during the tour you will get a historical background of Tanzanite in wide from expert guide don't miss it.Contact me on email:tanzanitegemsculturaltourism@gmail.com
+ Have a nice day :)
+ Mountain Guide
+ Bakari Japhari Matambi"><i class="fa fa-user w3-large"> Bakari Japhari Matambi</i>
+									</a></li>
+							<li class="dropdown">
+							<li class="active">
+								<a class="w3-bar-item w3-padding-xsmall w3-hover-yellow w3-text-light-blue" href="mailto:tanzanitegemsculturaltourism@gmail.com"  target="_blank"  title="Contact us on email:tanzanitegemsculturaltourism@gmail.com"><i class="fa fa-envelope fa-fw  w3-large"> Contact Tanzanite</i> </a></li>
+
+										<a href="#"><span class="glyphicon glyphicon-user">
+							<li class="dropdown">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue"title="Contact Mr. Bakari on phone"><i class="fa fa-phone w3-large"> Mr. Bakari phone +25575800500 </i></a></li>
+							<li class="dropdown">
+							<li class="active"><a class="w3-bar-item w3-button w3-padding-xsmall  w3-hover-yellow w3-text-light-blue"title="Contact Mr. Bakari on whatsapp phone"><i class="fa fa-whatsapp w3-large"> Whatsapp phone +255788420720</i></a></li>
+						</ul>
+
+
+						<!--li><a href="" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  " border="0"><img src="./Image/Tanzanite.jpg" width="58px" height="15px" class="img-rounded"  > Tanzanite-Gems-Cultural-Tourism</a></li>
+
+
+
+
+
+
+
+
+
+
+
+	<form class="form-inline">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required="">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+		</div>
+
+
+
+	<a href="#" id="" class="btn back-to-top btn-light btn-fixed-bottom"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+
+<div class="row">
+  <div class="col-md-12 banner-1 banner">
+     <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								< ks-top-responsive >
+								<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5928752355418340" data-ad-slot="9289156897" data-ad-format="auto"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+								  </div>
+
+
+<form class="form-signin form-signin-wide" role="form" method="post">
+	<h2 class="form-signin-heading">Prihlásiť</h2>
+	<p>Prihláste sa pomocou Facebooku alebo vypísaním formulára. Ak nemáte ešte účet, <a href="registrovat.php">zaregistrujte sa</a>. Ak ste zabudli svoje heslo, môžete si ho <a href="obnovit-heslo.php">obnoviť</a>.</p>
+	<div class="panel-group" id="accordion">
+	  <div class="panel panel-info">
+	    <div class="panel-heading">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+	          Prihlásiť sa pomocou Facebooku
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseOne" class="panel-collapse collapse in">
+	      <div class="panel-body">
+			<p>Pokiaľ máte účet na Facebooku, prihláste sa stlačením nasledujúceho tlačidla:</p>
+            <div class="container">
+                <a class="btn btn-sm btn-social btn-facebook" href="https://www.facebook.com/v3.1/dialog/oauth?client_id=2132192193725884&amp;redirect_uri=https%3A%2F%2Fwww.krizovkarskyslovnik.sk%2Fprihlasit-fb.php&amp;state=5c6472b423e69&amp;scope=email">
+                    <i class="fa fa-facebook fa-fw"></i> Prihlásiť cez Facebook
+                </a>
+            </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-warning">
+	    <div class="panel-heading">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	          Prihlásiť sa vypísaním formulára
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseTwo" class="panel-collapse collapse ">
+			<div class="panel-body">
+			<div class="form-group">
+				<label for="login">Login</label>
+				<input type="text" name="login" id="login" class="form-control" placeholder="Login" required="required" autofocus="autofocus">
+			</div>
+			<div class="form-group">
+				<label for="password">Heslo</label>
+				<input type="password" name="password" id="password" class="form-control" placeholder="Heslo" required="required">
+			</div>
+			<p><button class="btn btn-sm btn-primary" type="submit">Prihlásiť sa</button></p>
+			</div>
+		</div>
+	</div>
+</div>
+    <p>O zmazanie Vášho účtu alebo výpis uložených informácii o Vašom účte môžete požiadať na <a href="mailto:info@krizovkarskyslovnik.sk">info@krizovkarskyslovnik.sk</a>.
+        Push notifikácie o krížovkách môžete povoliť/zakázať <a href="./push.php">tu</a>.</p>
+</form-->
+
+
+
+		<!-- Page Container >
+	<div class="container-fluid" style="max-width:2000px;height:px" -->
+
+
+
+
+
+
+
+
+		<!-- li class="active"><a href="#Mapa" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+									<i class="fa fa-map-marker w3-xlarge"> Mapa</i></a></li>
+							<li class="active"><a href="#Project" class="w3-bar-item w3-button w3-padding-xsmall  w3-text-light-blue w3-hover-yellow">
+									<i class="fa fa-briefcase w3-xlarge"> Projects</i></a></li-->
+
+		<!-- form class="nav navbar-form navbar-right" action="/action_page.php">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div-->
+
+
+
+
+
+
+		<!-- Avatar image in top left corner -->
+		<!-- img src="./Image/" alt="" height="640" width="480"-->
+		<!-- a href="#Domov" class="w3-bar-item w3-button w3-padding-small w3-text-light-blue w3-hover-yellow">
+			<i class="fa fa-home w3-xxlarge"></i>
+			<p>Domov</p>
+		</a -->
+		<!--a href="#Onás" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+			<i class="fa fa-user w3-xxlarge"></i>
+			<p>O nás</p>
+		</a>
+		<a href="#Skills" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+			<i class="fa fa-globe w3-xxlarge"></i>
+			<p>Zručnosti</p>
+		</a>
+		<a href="#Cenník" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+			<i class="fa fa-money w3-xxlarge"></i>
+			<p>Cenník</p>
+		</a>
+		<a href="#Ohlasy" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+			<i class="fa fa-star w3-xxlarge"></i>
+			<p>Ohlasy</p>
+		</a>
+					<a href="#Hudba" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+						<i class="fa fa-music w3-xxlarge"></i>
+						<p>Hudba</p>
+					</a>
+					<a href="#Mapa" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+						<i class="fa fa-map-marker w3-xxlarge"></i>
+						<p>Mapa</p>
+					</a>
+					<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-small  w3-text-light-blue w3-hover-yellow">
+						<i class="fa fa-envelope w3-xxlarge"></i>
+						<p>Kontakt</p>
+					</a-->
+
+
+		<!-- Navbar on small screens (Hidden on medium and large screens) >
+				<div class="w3-hide-medium w3-hide-large" id="myNavbar">
+					<div class="w3- w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
+						<a href="#Domov" class="w3-bar-item w3-button" style="width:25% !important">Domov</a>
+						<a href="#Onás" class="w3-bar-item w3-button" style="width:25%  !important">O nás</a>
+						<a href="#Skills" class="w3-bar-item w3-button" style="width:25% !important">Zručnosti</a>
+						<a href="#Cenník" class="w3-bar-item w3-button" style="width:25% !important">Cenník</a>
+						<a href="#Ohlasy" class="w3-bar-item w3-button" style="width:25% !important">Ohlasy</a>
+						<a href="#Hudba" class="w3-bar-item w3-button" style="width:25% !important">Hudba</a>
+						<a href="#Mapa" class="w3-bar-item w3-button" style="width:25% !important">Mapa</a>
+						<a href="#Kontakt" class="w3-bar-item w3-button" style="width:25% !important">Kontakt</a>
+					</div>
+				</div>
+
+
+	< Header/Home >
+		<header class="w3-small w3-justify-  w3-padding-14  w3-text-grey w3-center w3-text-light-blue w3-hover-white" id="main"-->
+
+
+		<!--div class="w3-center w3-text-light-blue w3-hover-white w3-jumbo">
+				<h2><span class="w3-container- w3-"><b>You Welcome on ©WebServis!</b></span></h2>
+				<h5><span class="w3-row w3-wide w3-text-yellow"><b>Želáme Vám úspešný a šťastný Nový rok!</b></span></h5>
+				<a href="https://jolana1.github.io/ladoweb/#main" target=""-->
+
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+
+				<li data-target="#myCarousel" data-slide-to="0" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="4" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="5" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="6" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="7" class=""></li>
+
+
+
+
+
+			</ol>
+
+			<!-- Wrapper for slides -->
+
+
+			<div class="carousel-inner">
+				<div class="item">
+
+					<img src="./Image/bg3.jpg" alt="intro" style="width:1920px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis•">
+					<div class="carousel-caption">
+						<em><br>
+							<b style="font-size:42px;color:#fff;text-shadow:1px 1px 4px #000;padding: 2.25em;"></b>
+							<p id="demo">Vitajte na našej stránke spoločnosti ©LWS,<br> ponúkame Vám webové a pc služby + potravinové produkty značky ZINZINO a iné skvelé produkty..<br>
+								<button type="button" onclick="document.getElementById(&quot;demo&quot;).innerHTML = &quot;Vitajte na stránke našej spoločnosti ©LWS, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky, zostavenie a opravy pc-komponentov,výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás najlepšie prostredníctvom formulára aj v prípade ak si vyberiete nejaký z produktov Zinzina a pod. Ďakujeme za váš záujem.&quot;">Viac</button><br>Kontaktujte nás!
+
+							</p><p style="color:#ffffff;text-shadow:1px 1px 4px #000000;padding-bottom: .75em;"><i class="fa fa-phone" style="font-size:15px">+421556711924</i>
+								<!--h3>Los Angeles</h3-->
+							</p><p>Kosice is always so much fun!</p>
+						</em>
+					</div>
+				</div>
+
+				<div class="item">
+
+					<img src="./Image/puzzle-3223941_1920.jpg" alt="" style="width:1920px;height:539px" title="V prípade ak si vyberiete nejaký z produktov Zinzina stači kliknúť na odkay nižšie a následne si z webu vybrať a zaplatiť váš požadovaný tovar za akciovu cenu,nakolko sme partnerom spol. Zinzino.
+
+				•Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou. ">
+					<div class="carousel-caption">
+
+						<!--h3>Los Angeles</h3>
+							<p>LA is always so much fun!</p-->
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="./Image/thong-vo-2482-unsplash.jpg" alt="png" style="width:1920px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše služby, kontaktujte nás formulárom alebo prostredníctvom e-mailu či telefónu. Ďakujeme za váš záujem, Vaša spokojnosť je našou prioritou">
+					<div class="carousel-caption">
+
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="./Image/nature-4176575_1920.jpg" alt="" style="width:1920px;height:539px" title="intro">
+					<div class="carousel-caption">
+
+					</div>
+				</div>
+				<div class="item">
+					<img src="./Image/bg1.jpg" alt="" style="width:1920px;height:539px" title="webtechnologie">
+					<div class="carousel-caption">
+
+					</div>
+				</div>
+				<div class="item active">
+					<img src="./Image/pagePiling-plugin.png" alt="" style="width:1920px;height:539px" title="Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom e-mailu alebo telefónu.V prípade ak si vyberiete nejaký z produktov Zinzina stači kliknúť na odkaz nižšie a následne si z webu vybrať a zaplatiť váš požadovaný tovar za akciovu cenu,nakolko sme partnerom spol. Zinzino. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou.">
+					<div class="carousel-caption">
+
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="./Image/lead.jpg" alt="max" style="width:1920px;height:539px" title="Vypočujte si perfektný mix Dj´ov v časti Menu/Music">
+					<div class="carousel-caption">
+						<!-- h1 style="font-size:30px;color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom: 5.55em;text-decoration: underline;">©LADOWEBSERVIS</h1>
+					<h2 style="color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom: 10.95em;"><q><em> <i class='fa fa-heart' style='font-size:20px'></i>Vypočujte si perfektný mix Dj´S.</em></q></h2>
+					<h3>Los Angeles</h3>
+							<p>LA is always so much fun!</p -->
+					</div>
+				</div>
+				<div class="item">
+					<img src="./Image/pagePiling-plugin.gif" alt="" style="width:1920px;height:539px" title="Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše služby, kontaktujte nás formulárom. Ďakujeme za váš záujem, Vaša spokojnosť je našou prioritou.">
+					<div class="carousel-caption"><i class="fa fa-heart">
+							<i style="font-size:18px;color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom:.25em;text-decoration: underline; "></i>
+							<img src="./Image/LWSlogo.jpg" alt="logoLWS" style="width:210px;height:92px ; padding: .75em; " title="©LadoWebServis,ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom formulára alebo telefónu iba zo Slovenska. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou."><br>
+							<p>Ďakujeme za váš záujem.</p>
+							<!--p style="color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom: .55em;"><em><i class='fa fa-phone' style='font-size:13px'> +421556711924 or +421907151293 </i></em></p-->
+						</i>
+					</div>
+				</div>
+
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- About Section -->
+
+
+		<div class="carousel-slide">
+			<!--div class="container-fluid w3-center w3-text-grey" id="Onás"-->
+			<div class="container pt-3 w3-center w3-text-grey" id="Onás">
+
+				<br><br>
+
+
+
+				<!--h1 class="w3-text-light-blue w3-hover-white w3-wide">
+				<h1 style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #000;">Vitajte na našej stránke spoločnosti ©LWS,<br> ponúkame Vám webové a pc služby + potravinové produkty značky ZINZINO a iné skvelé produkty. </h1-->
+				<!-- hr style="width:px" class="w3-opacity"-->
+				<p style="font-size:18px;color:#000;text-shadow:1px 1px 4px #5d33fb;"><br>V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,<br>ponúkame vám zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov na vyladenie vašich pc zostáv.<br>V prípade ak si vyberiete z našich služieb,či sa chcete ešte poradiť stačí ísť jednoducho na formulár a tam nám napísať.<br> Srdečne ďakujeme za váš záujem.<br>Ak sa zaujímate o naše výživové potravinové produkty, kontaktujte nás prostredníctvom formulára.<br> Vaša spokojnosť je našou prioritou.</p><br><br><br>
+				<div class="w3-row-padding-24" style="margin:0px -24px">
+					<div class="w3-half ">
+						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+							<!-- Grid for pricing tables -->
+							<li class="w3-dark-grey w3-xlarge w3-padding-32 w3-center">Basic service</li>
+							<li class="w3-padding-16">Web dizajn a správa stránok</li>
+							<li class="w3-padding-16">Fotografie, videá a e-mailová podpora</li>
+							<li class="w3-padding-16">Online podpora</li>
+							<li class="w3-padding-16">Opravy počítačov</li>
+							<li class="w3-padding-16">Softvérové odporúčania</li>
+							<li class="w3-padding-16">Vyladenie zostáv vášho počítača</li>
+							<li class="w3-padding-16">Preinštalovanie OS na Váš počítač</li>
+							<li class="w3-padding-16">
+								<h2>25€ </h2>
+								<span class="w3-opacity">mesačne</span>
+							</li>
+							<li class="w3-light-grey w3-padding-24">
+								<button class="w3-button w3-white w3-padding-large w3-hover-blue"><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Stlačte a odošlite.">Vypíšte formulár požiadavky!</a></button>
+							</li>
+						</ul>
+
+					</div>
+					<div class="w3-row-padding-24" style="margin:0px -24px">
+						<div class="container w3-half ">
+							<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+								<li class="w3-dark-grey w3-xlarge w3-padding-32 ">Pro offer</li>
+								<li class="w3-padding-16">Web design and site management</li>
+								<li class="w3-padding-16">Create a website for businesses or people</li>
+								<li class="w3-padding-16">Photos, videos and mail support</li>
+								<li class="w3-padding-16">All Basic Services </li>
+								<li class="w3-padding-16">CV-Genially Online</li>
+								<li class="w3-padding-16">15GB onlinestorage</li>
+								<li class="w3-padding-16">Domain Registration</li>
+								<li class="w3-padding-16">
+									<h2>45€ </h2>
+									<span class="w3-opacity">per month</span>
+								</li>
+								<li class="w3-light-grey w3-padding-24">
+									<button class="w3-button w3-white w3-padding-large w3-hover-blue"><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Chodte na formulár a odošlite.">Contac us on form!</a></button>
+									<!-- End Grid/Pricing tables -->
+							</li></ul>
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<!-- Test Section -->
+			<!--div class="w3-content w3-justify w3-text-grey w3-padding-60"-->
+
+			<section id="Test">
+
+				<div class="container pt-3 w3-center w3-text-grey" id="Test">
+					<h2 class=" w3-text-light-blue w3-hover-white"> </h2>
+					<hr style="width:0px" class="w3-opacity">
+					<img src="./Image/LWSlogo.jpg" class="w3-margin   w3-text-grey" style="width:10px;padding: .25em;" alt="jdoe">
+					<span style="font-size:18px;color:#000;text-shadow:1px 1px 4px #5d33fb;">LWS-IT Corporation.<br>
+						Táto spoločnosť sa stará o naše stránky už roky. Zvyšuje ich bezpečnosť, atraktivitu, funkcionalitu, rýchlosť a jednoduchú obsluhu."<br></span>
+					<button class="w3-button w3-white w3-padding-large w3-hover-blue"><a href="https://ladow1.github.io/www/#Domov" target="_blank">1.Ukážka jednoduchej stránky LWS</a>
+						<br></button><button class="w3-button w3-white w3-padding-large w3-hover-blue">
+							<a href="https://jolana1.github.io/ladoweb/" target="_blank">2.Ukážka jednoduchej stránky LWS</a></button>
+
+
+
+
+
+					<br>
+
+					<div class="w3-row w3-center  w3-light-blue"><br>
+						<div class="w3-quarter w3-section ">
+							<span class="w3-large">25+</span><br>
+							Partnerov
+						</div>
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">55+</span><br>
+							Projektov
+						</div>
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">89+</span><br>
+							Spokojných Klientov
+						</div>
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">150+</span><br>
+							Stretnutí
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!--em><br>
+				<em style="font-size:16px;font-style: normal;">
+				<em id="demo">Welcome to the website of our company ©LWS, we offer you web services in the field of web design, design up to the creation of a fully functional website, as well as assembly of PC components, computer repairs, software recommendations for debugging PC assemblies.If you are interested in this website or are interested in our Zinzin products and services, please contact us by form or go to on €-shop. Thank you very much for your interest, your satisfaction is our priority.<br>
+					<button type="button" onclick='document.getElementById("demo").innerHTML = "Vitajte na stránke našej spoločnosti ©LWS, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky, zostavenie a opravy pc-komponentov,výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás najlepšie prostredníctvom formulára(chodte na Menu/formular.V prípade ak si vyberiete nejaký z produktov Zinzina stačí ísť rovno na eshop alebo nás kontaktovať prostredníctvom formulára. Srdečne ďakujeme za váš záujem."'><img src="./Image/sk.png" alt="skflag" height="25%" width="20px">Svk text</button></em-->
+
+
+
+
+
+
+
+
+
+			<!--a href="https://instagram.com/tanzanitegemsculturaltourism?utm_source=ig_profile_share&igshid=15edjqkym7l9h" target="_blank" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  ">Tanzanite-Gems-CT</a>
+					<img src="./Image/tanzania/IMG_4116.JPG" style="width:80px; float:left; padding: .2em;" alt="" class="w3-circle">na super výlet do krajiny Tanzánia, kde na Vás čaká veľa krásnych zážitkov v Národnom parku,dobrodružstiev v Safari,výstup na najvyšiu horu v Afrike Kilimandžáro a pod.S našími skvelými sprievodcami sa nemusíte ničoho báť.Vaše požiadavky a otázky píšte na email.Prajem Vám priatelia príjemný pobyt v Tanzánii a pekný deň:)<br-->
+
+
+
+
+			<!--div class="container-fluid w3-justify w3-padding-60" id="Onás">
+			<h3 class="w3-text-light-blue w3-hover-white w3-center">Priatelia! Ste dobrodružné typy, boli ste už niekedy v Tanzánii, Safari alebo by ste chceli vidieť horu Kilimandžáro?</h3><hr style="width:px" class="w3-opacity">
+				<a href="https://instagram.com/tanzanitegemsculturaltourism?utm_source=ig_profile_share&igshid=15edjqkym7l9h" target="_blank" title="More pics of Instagram Tanzanite-Gems-CT Your all welcome to make a dreams!"><img src="./Image/tanzania/IMG_4116.JPG" style="width:140px; float:left; padding: .3em;" alt="" class="w3-circle"></a>
+				<img style="border:none;" cellpadding="0" cellspacing="0" src="./Image/sk.png" height="20"><br>
+				Pozývame Vás v spolupráci so spoločnosťou Tanzanite-Gems-CT na výlet do krajiny Tanzánia, kde na Vás čaká veľa krásnych zážitkov v Národnom parku Kilimanjaro, dobrodružstiev v Safari,výstup na najvyšiu horu v Afrike Kilimandžáro.Kultúrny turizmus Tanzanite Gems vás všetkých pozýva, aby ste spoznali a navštívili bane v Mirerani, počas prehliadky dostanete historické informácie v širokom rozsahu od odborného sprievodcu<a class="fa fa-facebook-official w3-text-blue w3-hover-white" href="https://www.facebook.com/bakari.matambi"data-toggle="tooltip" title="Contact me on facebook" target="_blank"> Mr. Bakari Japhari Matambi.</a>
+					<br>Vaše požiadavky ohľadne tohto výletu,vážny záujem či otázky mu napíšte na kontaktný email alebo zavolajte na telefonne čísla hore pod sekciou Tanzanite-Gems-CT.Prajeme Vám priatelia príjemný pobyt v Tanzánii:)
+
+					<div class="w3-justify w3-text-grey" id="Onás">
+					<h2 class="w3-text-light-blue w3-hover-white w3-center">Mount Kilimanjaro, Safari exploring caves are awaiting you in Tanzania...your adventure is just a click away...</h2>
+	<hr style="width:px" class="w3-opacity">
+				<a href="https://instagram.com/tanzanitegemsculturaltourism?utm_source=ig_profile_share&igshid=15edjqkym7l9h" target="_blank" title="More pics of Instagram Tanzanite-Gems-CT Your all welcome to make a dreams!"><img src="./Image/tanzania/IMG_4116.JPG" style="width:140px; float:left; padding: .3em;" alt="" class="w3-circle"></a>
+				<img style="border:none;" cellpadding="0" cellspacing="0" src="./Image/en.gif" height="20"><br>
+					We invite you to the most exotic trip of your life to Tanzania.  In Tanzania you will experience landscapes that will take your breathe away.  What awaits is a National Park, Safari adventures or a climb up the highest mountain in Africa Mount Kilimanjaro.  If you are looking for a sparkle in your life check out Tanzanite Gems, Cultural Tourism invites you to visit the mining caves of Tanzanite at Mirerani. This tour includes an expert guide <a class="fa fa-facebook-official w3-text-blue w3-hover-white" href="https://www.facebook.com/bakari.matambi"data-toggle="tooltip" title="Contact me on facebook" target="_blank"> Mr. Bakari Japhari Matambi</a>to share the history of Tanzanite.  This experience is a once in a lifetime opportunity...book now before all spots are full.<br>Your requests for this trip, serious interest or questions write up under the Tanzanite-Gems-CT section.Call the above phone number or simply send email him. Thanks4visit:)
+
+
+
+				<hr style="width:px" class="w3-opacity">
+
+<Obrazky>
+
+
+		<!--h4 class="w3-text-light-blue w3-center w3-wide">Gallery of Pics </h4>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4056.JPG"><img class="rounded" src="./Image/tanzania/IMG_4056.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4016.JPG"><img class="rounded" src="./Image/tanzania/IMG_4016.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4017.JPG"><img class="rounded"src="./Image/tanzania/IMG_4017.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4070.JPG"><img class="rounded"src="./Image/tanzania/IMG_4070.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4019.JPG"><img class="rounded"src="./Image/tanzania/IMG_4019.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4055.JPG"><img class="rounded"src="./Image/tanzania/IMG_4055.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4068.JPG"><img class="rounded"src="./Image/tanzania/IMG_4068.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4074.JPG"><img class="rounded"src="./Image/tanzania/IMG_4074.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4024.JPG"><img class="rounded"src="./Image/tanzania/IMG_4024.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4026.JPG"><img class="rounded"src="./Image/tanzania/IMG_4026.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4027.JPG"><img class="rounded"src="./Image/tanzania/IMG_4027.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4051.JPG"><img class="rounded"src="./Image/tanzania/IMG_4051.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4060.JPG"><img class="rounded"src="./Image/tanzania/IMG_4060.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4061.JPG"><img class="rounded"src="./Image/tanzania/IMG_4061.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4062.JPG"><img class="rounded"src="./Image/tanzania/IMG_4062.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4066.JPG"><img class="rounded"src="./Image/tanzania/IMG_4066.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4069.JPG"><img class="rounded"src="./Image/tanzania/IMG_4069.JPG"height="100"></a>
+<a data-fancybox="gallery" href="./Image/tanzania/IMG_4058.JPG"><img class="rounded"src="./Image/tanzania/IMG_4058.JPG"height="100"></a-->
+
+
+
+			<!--a class="okno" href="./Image/tanzania/IMG_4018.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4018.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4019.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4019.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4022.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4022.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4021.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4021.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4023.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4023.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4024.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4024.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4051.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4051.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4026.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4026.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4027.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4027.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4060.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4060.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4061.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4061.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4063.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4063.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4069.JPG" target="_blank" title=""  rel="./Image/tanzania/"> <img src="./Image/tanzania/IMG_4069.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4056.JPG" title=""  rel="IMG_"> <img src="./Image/tanzania/IMG_4056.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4055.JPG" title=""  rel="IMG_"> <img src="./Image/tanzania/IMG_4055.JPG" height="90"></a>
+<a class="okno" href="./Image/tanzania/IMG_4015.JPG" title="Prices"  rel="IMG_"> <img src="./Image/tanzania/IMG_4015.JPG" height="90"></a-->
+
+
+
+
+			<!-- About Section >
+				<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Skills"-->
+
+
+
+			<!--p class="w3-wide">Bootstrap 3,4 & MS Office & Windows & Dizajn webu</p>
+						<div class="w3-white">
+							<div class="w3-light-blue" style="height:28px;width:99%"></div>
+						</div>
+						<p class="w3-wide">Html 5 & CSS</p>
+						<div class="w3-white">
+							<div class="w3-light-blue" style="height:28px;width:95%"></div>
+						</div>
+						<p class="w3-wide">C++ & Jquery</p>
+						<div class="w3-white">
+							<div class="w3-light-blue" style="height:28px;width:90%"></div>
+						</div>
+
+						<p class="w3-wide">Javascript & React</p>
+						<div class="w3-white">
+							<div class="w3-light-blue" style="height:28px;width:85%"></div>
+						</div>
+						<p class="w3-wide">CSS3 & Less</p>
+						<div class="w3-white">
+							<div class="w3-light-blue" style="height:28px;width:75%"></div>
+						</div-->
+			<!--div class=" w3-padding- w3-margin w3-section w3-justify w3-text-grey" id="Skills">
+				<h2 class="w3-text-light-blue"> Zručnosti/ Skills</h2>
+				<hr style="width:px" class="w3-opacity">
+
+				<p class="w3-wide">Adobe Photoshop,MS Windows,Dizajn webu</p>
+				<div class="w3-white">
+					<div class="w3-light-blue" style="height:28px;width:100%"></div>
+				</div>
+				<p class="w3-wide">Office,Html5</p>
+				<div class="w3-white">
+					<div class="w3-light-blue" style="height:28px;width:95%"></div>
+				</div>
+				<p class="w3-wide">Bootstrap 3,4</p>
+				<div class="w3-white">
+					<div class="w3-light-blue" style="height:28px;width:90%"></div>
+				</div>
+
+				<p class="w3-wide">Css,Css3</p>
+				<div class="w3-white">
+					<div class="w3-light-blue" style="height:28px;width:85%"></div>
+				</div>
+				<p class="w3-wide">Javascript,Jquery,React</p>
+				<div class="w3-white">
+					<div class="w3-light-blue" style="height:28px;width:75%"></div>
+							<!-- Portfolio Section -->
+			<br><br><br><br><em>
+				<section id="Pics">
+					<div class="container pt-3 w3-center w3-text-grey" id="Pics">
+
+
+						<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
+						<p style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Ponuka Výživových produktov-Lepšie zdravie sa začína lepšou rovnováhou</p>
+						JE VAŠE TELO V ROVNOVÁHE? Získajte prispôsobenú analýzu pomeru omega-6:3 mastných kyselín vo vašom tele.<br>
+						<!--p style="font-size:18px;color:#000;text-shadow:1px 1px 4px #5d33fb;" data-toggle="tooltip" title="Better health begins with a better balance - specifically in our cells, intestines and immune system. The three steps of Zinzino's health protocol, which begin with a unique test, help build balance, regenerate and strengthen your body, increasing your chances of a healthier and happier life. If you want to order from Zinzino products, just go to € -shops or if you want to order from Zinzina products just click here!"></p--><br>Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme. Tri kroky zdravotného protokolu spoločnosti Zinzino, ktoré sa začínajú jedinečným testom, napomáhajú budovať rovnováhu, zregenerovať a posilniť organizmus, čím zvyšujú vaše šance na zdravší, dlhší a šťastnejší život.V dnešnom modernom svete sa stravujeme inak než začiatkom 20. storočia, keď ľudia napríklad ešte nepoznali rýchle občerstvenie. Ale ak si aj varíte vlastné jedlo, prísady už, žiaľ, nie sú také kvalitné ako kedysi. Mäso pochádza zväčša zo zvierat žijúcich v stajniach, ktoré sa nepasú voľne na lúkach, ale sa živia krmivom, a ryby ako losos sa chovajú v uzavretých nádržiach a dostávajú potravu pre ryby, nie riasy z hlbokých morí. Má to enormný vplyv na výživové hodnoty potravín, a teda aj na naše bunky, tkanivá a organizmy.
+						<br>
+						BalanceTest od spoločnosti Zinzino je jednoduchý samotest na analýzu mastných kyselín v krvi. Jeho výsledok bude odzrkadlením tukov v strave, ktorú konzumujete. BalanceTest je samotest pomocou suchej kvapky krvi (DBS), o ktorej bolo vedecky preukázané, že v prípade analýzy mastných kyselín je rovnako presná ako vzorka žilovej krvi. Stačí niekoľko kvapiek krvi z bruška prsta, ktoré nanesiete na filtračný papier. Test trvá menej ako minútu. Spoločnosť VITAS Analytical Services* vykoná anonymnú analýzu obsahu 11 mastných kyselín**, ktoré spoločne tvoria približne 98 % mastných kyselín v krvi. Medzi mastné kyseliny patria nasýtené, mononenasýtené (omega-9) a polynenasýtené (omega-6 a omega-3) mastné kyseliny. Výsledok nájdete približne o 20 dní na webovej lokalite zinzinotest.com, kde budú aj informácie o rovnováhe omega-6 a omega-3 mastných kyselín, obsahu omega-3 mastných kyselín, ochrannom profile mastných kyselín a ďalšie údaje.<br>
+						<a data-fancybox="" href="blob:https://videos.sproutvideo.com/225a7405-575f-4344-86c0-a39a579b8900"><br>
+						<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Ukážka použitia samotestu,skopíruj a vlož do prehliadača.<br>
+						https://videos.sproutvideo.com/embed/709ddfb21919ebcbf8/e643e95ec474656c?lightbox=true#</p></a>
+						Štúdie profilu mastných kyselín v krvi preukázali, že tento profil úzko súvisí so zdravotným stavom.
+						<br><br>
+						*Vitas je zmluvné laboratórium s certifikátom GMP vykonávajúce chemické analýzy, ktoré má 20 rokov praxe s poskytovaním vysokokvalitnej chromatografickej analýzy založenej na špičkových vedomostiach a technológiách.
+						**Ide o týchto 11 mastných kyselín: kyselina palmitová (PA), kyselina stearová (SA), kyselina olejová (OA), kyselina linolová (LA), kyselina alfa-linolénová (ALA), kyselina gama-linolénová (GLA), kyselina dihomo-gama linolénová (DHGLA), kyselina arachidónová (AA), kyselina eikozapentaénová (EPA), kyselina dokozapentaénová (DPA), kyselina dokozahexaénová (DHA).
+
+						<br>
+						Samotestovanie pomocou suchej kvapky krvi.
+						Určuje hladinu 11 mastných kyselín v krvi.
+						Informuje vás o rovnováhe medzi omega-6 a omega-3 kyselinami.
+
+						<br>Pozrite si ešte aj web,kde sa dozviete,že deti s vyššou hladinou Omega3 majú menšie genetické poškodenie.<br>http://www.szu.cz/tema/bezpecnost-potravin/deti-s-vyssimi-hladinami-omega-3-mastnych-kyselin-epa-a-dha
+
+
+						<br><br>
+
+						<div>
+
+							<a data-fancybox="gallery" href="./Image/Balance%20oil.jpg"><img class="rounded" src="./Image/Balance%20oil.jpg" height="200%" width="100%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €.Lepšie zdravie sa začína lepšou rovnováhou – konkrétne v našich bunkách, črevách a imunitnom systéme."></a><br><br>
+							<br>V prípade ak si chcete objednať z produktov Zinzina stačí
+							<button onclick="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers = 'default.asp'">
+								<a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Vypíšte a odošlite nám objednávku.">kliknúť tu!</a></button><br>
+
+							<a data-fancybox="gallery" href="./Image/Zinobiotic.jpg"><img class="rounded" src="./Image/Zinobiotic.jpg" height="200%" width="100%" title="Zinobiotic 23€/mesiac-6 mes.predplatné"></a><br><br>
+							<br>V prípade ak si chcete objednať z produktov Zinzina stačí
+							<button onclick="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers = 'default.asp'">
+								<a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Vypíšte a odošlite nám objednávku.">kliknúť tu!</a></button><br>
+
+							<a data-fancybox="gallery" href="./Image/Xtend%20Kit.jpg"><img class="rounded" src="./Image/Xtend%20Kit.jpg" height="200%" width="100%" title="Zinzino-Xtend kit 22€/mesiac-6 mes.predplatné"></a><br><br>
+							<br>V prípade ak si chcete objednať z produktov Zinzina stačí
+							<button onclick="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers = 'default.asp'">
+								<a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Vypíšte a odošlite nám objednávku.">kliknúť tu!</a></button><br>
+
+							<a data-fancybox="gallery" href="./Image/Healt%20protocol%20Kit.jpg">
+								<img class="rounded" src="./Image/Healt%20protocol%20Kit.jpg" height="200%" width="100%" title="Najlepší výber týchto 3 produktov "></a><br><br>V prípade ak si chcete objednať z produktov Zinzina stačí
+							<button onclick="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers = 'default.asp'">
+								<a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Vypíšte a odošlite nám objednávku.">kliknúť tu!</a></button><br><br><br><br>
+						</div>
+
+
+
+					</div>
+				</section>
+				<!--div>
+				<div class="w3-text-grey w3-center" id="formular">
+					<!--h2 class="w3-text-light-blue w3-hover-white w3-wide">
+					<h1 style="font-size:22px;color:#fff;text-shadow:1px 1px 4px #000000;">FORMULÁR-Tu si objednávajte s okamžitou dopravou max. 4dní</h1>
+					<hr style="width:px">
+
+					<div id="ff-compose"></div>
+					<script async defer src="https://formfacade.com/include/111026483964178072025/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g/bootstrap.js?div=ff-compose"></script>
+
+
+					<!--a data-fancybox="gallery" href="./Image/bg1.jpg"><img class="rounded" src="./Image/bg1.jpg" height="150" width="15%" title="Galéria obrázkov"></a>
+						<a data-fancybox="gallery" href="./Image/bg2.jpg"><img class="rounded" src="./Image/bg2.jpg" height="150" width="15%" title="Galéria obrázkov"></a-->
+				<!--a data-fancybox="gallery" href="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png"><img class="rounded" src="./Image/K%C3%BAra%20na%208%20mesiacov%20s%20mesa%C4%8Dnou%20spl%C3%A1tkou%2033,50%20%E2%82%AC.png" height="250" width="40%" title="Kúra na 8 mesiacov s mesačnou splátkou 33,50 €."-->
+
+
+				<!--a href="https://www.zinzino.com/2007167194/SK/sk-SK" data-fancybox="images" data-caption="My caption">
+							<img src="thumbnail.jpg" alt="" />
+
+						V prípade ak si vyberiete nejaký z produktov Zinzina stači kliknúť tu</a>
+						<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
+<a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14.6%"></a>
+<!--a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="200"width="13%"></a>
+<!--a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="10%"></a-->
+
+
+
+
+
+
+
+
+
+
+				<!--button class="w3-button w3-hover-blue w3-row w3-center w3-section w3-padding-4">
+								<i class="fa fa-envelope"></i> Napíšte nám nižšie na kontakt
+							</button-->
+
+
+				<!--br>
+				<img src="./Image/profile-pic.jpg" alt="J.Veselá" class="w3-center w3-circle w3-text-grey w3-margin-right" style="width:100px">
+				<p><span class=" w3-margin-right">Jane Doe.<br></span> Podnikateľka.</p-->
+				<!--i>”Našu firmu a jej výrobky sme potrebovali lepšie prezentovať na webe.Pán V.K. nám spravil perfetnú stránku.Teraz iba v dobrom,skoro nestíhame zásobovať trh našími výrobkami.Ďakujeme ešte raz“</i-->
+				<!-- End About Section -->
+				<!-- Portfolio Music Section -->
+
+				<div>
+
+
+					<div class="container w3-center pt-3 w3-text-grey" id="hudba"><br>
+						<!--h1 class="w3-text-light-blue w3-hover-white w3-wide"-->
+						<h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Hudba a Digitalky 28/20 </h1>
+						<hr style="width:px" class="w3-opacity ">
+						<!--div class="w3-row-padding" style="margin:0 -16px"-->
+
+
+						<!--img src="./Image/nature-3151869_1920.jpg" alt="" style="width:100%" height="527"-->
+						<iframe src="https://youtube.com/embed/kyrpqMERXHs?autoplay=0" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen="" align="" scrolling="no" name="#ReturnToTheClassics #Funk #SoulDj ''S'' - 60 Minutes Of Funk">
+						</iframe>
+						<iframe width="100%" height="250" src="https://www.youtube.com/embed/HH38PyPDi3o?autoplay=0" frameborder="0" style="border:0" allowfullscreen="" align="" scrolling="no" name="DIGITALKY 28/2020: Mate 40 Pro, Galaxy S20 FE, OnePlus 8T a iné (video podcast)">
+						</iframe>
+
+						<!-- iframe src="https://youtube.com/embed/kqzOU66FChM?autoplay=0"/embed/Z_qBmPW-d5M?autoplay=0 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Dj ''S'' -Late Night Soulful Live">
+									</iframe-->
+
+
+
+
+
+						<!--iframe width="100%" height="190" src="https://youtube.com/embed/ICTXGEACsPU?autoplay=0" frameborder="0" align="" scrolling="no" name="Funky Soulful Grooves Mix">
+								</iframe-->
+
+
+						<!--img src="./Image/IMG_3080.JPG" alt="intro" class="" style="width:  100%" height="120"-->
+
+
+
+
+
+						<!--iframe src="https://www.youtube.com/embed/9-bcnTGy9S8?autoplay=0"  data-toggle="tooltip" title="Webinár" width="100%" height="190" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Prečo treba mať kompas a nie hodinky?">
+										</iframe>
+										<img src="./Image/x17-detail-050.jpg" alt="" style="width:100%">
+										<img src="./Image/x17-015.jpg" alt="" style="width:100%"-->
+						<a data-fancybox="" href="https://youtube.com/embed/ElDPIJjAWfY?autoplay=0">
+							<p style="font-size:20px;color:#000;text-shadow:1px 1px 4px #fff;">Bangin Soulful House Mix</p>
+						</a><br>
+
+
+
+
+						<!--A HREF="http://crackdb.com" target="_blank"><img src="http://crackdb.com/img/bt3.gif" border="0" width="10%" height="31"></A>
+												<!--img src="./Image/x17-int-002.jpg" alt="" style="width:100%"-->
+
+					</div>
+
+
+					<!-- End Portfolio Section -->
+
+
+					<!-- Google maps Section -->
+					<!--div class="w3-padding w3-margin w3-section w3-justify w3-text-grey" id="Mapa">
+							<h2 class="w3-text-light-blue">Mapa </h2>
+							<hr style="width:px" class="w3-opacity">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe-->
+
+
+
+					<!--b class="w3-hover-text-light-blue">Napíšte mi otázku na uvedený email</b-->
+
+					<!--form action="/action_page.php">
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+				<p>
+					<button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey" type="submit"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-paper-plane">Odošli Odkaz</i></a>
+
+					</button>
+				</p>
+</form></div></div>
+<!-- Contact FormSection >
+/*Using CSS to style an HTML Form*/
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}</style-->
+
+
+
+					<!--script async defer src="https://formfacade.com/include/111026483964178072025/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g/bootstrap.js?div=ff-compose"></script-->
+
+
+
+					<!--div class="w3-row-padding" style="margin:0 -16px"-->
+					<!--form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?">
+								<form method="get" action="/action.php">
+								<form class="lj-search-form" target="google_window" name="googleSearch" action="/search.html"-->
+
+
+					<!--FORM ACTION="action.php" METHOD="POST">
+													Aký produkt Vás zaujal ,napíšte nám <br>
+													<textarea NAME="nazor" ROWS="5" COLS="40" value="Sem napíšte svoj názor,Pls contact me by e-mail or phone..">
+
+	</textarea><br><INPUT TYPE="TEXT" NAME="email" value="váš email">
+													<INPUT TYPE="submit" value="Potvrdiť">
+												<INPUT TYPE="reset" value="Zmaž formulár"></INPUT>
+
+
+													</INPUT></INPUT></INPUT>
+												</FORM-->
+
+
+
+
+					<!--form method="post" action="/action.php">
+											<br><br>
+											<label for="name">Name</label>
+
+											<input type="text" id="name" name="name" placeholder="Celé meno.." required name="name">
+											<br>
+											<label for="email">E-Mail</label>
+
+											<input type="text" id="email" name="email" placeholder="Tvoj email.." required name="email">
+											<br>
+											<label for="comment">Comment:</label><br>
+											<textarea name="comment" placeholder="Please contact me by e-mail or phone.." rows="5" cols="40"></textarea>
+									<br>
+									<select id="country" name="country">
+										<option value="slovakia">Slovakia</option>
+										<option value="eu">EU</option>
+										<option value="usa">USA</option>
+									</select>
+									<input type="submit" required="text">
+									<input type="reset"></form-->
+					<!--input class="w3-input w3-padding-10" type="text" placeholder="Váš text sem vpište!" required name="Message"></p>
+								<label>Date</label>
+								<input type="date" name="date"-->
+					<!--label for="country">Country</label>
+
+
+
+
+
+
+
+
+
+
+
+
+								<!--form class="form-inline" action="/action_page.php">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+
+
+
+
+
+								<!--label for="exampleInputEmail1">Email address</label>
+							<input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="name@example.com">
+
+
+							<!--form class="lj-search-form" target="google_window" name="googleSearch" action="/search.html">
+								<input type="hidden" name="ie" value="UTF-8">
+								<input type="hidden" name="cx" value="004801521277539938488:n5gbjggzxpi">
+								<input type="hidden" name="sitesearch" value="https:// chrome-search://local-ntp/theme.css" rel="stylesheet" type="text/css" nonce="+iLztmLb/JHFJwW6jVBwCQ==">
+								<input type="text" name="q" autocomplete="off" class="lj-search-input" placeholder="Search for...">
+								<button class="w3-button w3-hover-yellow w3-padding-small w3-section w3-text-light-blue" type="submit" class="lj-search-submit">Submit</button>
+								<small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+								<button type="submit" class="lj-search-submit"></button>
+	</form-->
+
+					<!--div class="container">
+								<div class="clearfix row">
+									<div class="widget col-xs-12 col-sm-4 col-md-4 col-lg-4">
+										<h2 title="Contact me" class="widget-title">Vyplňte formulár</h2>
+								<form action="/action_page.php">
+									<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
+									<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+									<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+									<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+									<p>
+										<button class="w3-button w3-hover-yellow w3-padding-large w3-section w3-text-light-blue" type="submit">Submit</button>
+								</form>
+
+								<!--div class="form-group">
+					    <input type="email" class="form-control" id="email" placeholder="E-mail">
+					  </div>
+					  <div class="form-group">
+					    <textarea class="form-control" rows="2" id="message" placeholder="Message"></textarea>
+					  </div>
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+
+
+				<!--/div>
+								<div class="salesforce_w2l_lead "><section class="form-holder clearfix"><div class="wpcf7"><form id="sf_form_salesforce_w2l_lead_2" class="wpcf7-form top-aligned" method="post" action="#sf_form_salesforce_w2l_lead_2"><p class="sf_required_fields_msg" id="requiredfieldsmsg"><sup><span class="required">*</span></sup> These fields are required.</p><div class="sf_field sf_field_first_name sf_type_text"><p>	<label class="w2llabel required  text" for="sf_first_name">First name: <sup><span class="required">*</span></sup></label><span class="wpcf7-form-control-wrap">	<input type="text" placeholder="" value="" id="sf_first_name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required" name="first_name"></span></p><div class="clearfix"></div></div><div class="sf_field sf_field_last_name sf_type_text"><p>	<label class="w2llabel required  text" for="sf_last_name">Last name: <sup><span class="required">*</span></sup></label><span class="wpcf7-form-control-wrap">	<input type="text" placeholder="" value="" id="sf_last_name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required" name="last_name"></span></p><div class="clearfix"></div></div><div class="sf_field sf_field_email sf_type_text"><p>	<label class="w2llabel required  text" for="sf_email">Email: <sup><span class="required">*</span></sup></label><span class="wpcf7-form-control-wrap">	<input type="text" placeholder="" value="" id="sf_email" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required" name="email"></span></p><div class="clearfix"></div></div><div class="sf_field sf_field_phone sf_type_text"><p>	<label class="w2llabel   text" for="sf_phone">Phone:</label><span class="wpcf7-form-control-wrap">	<input type="text" placeholder="" value="" id="sf_phone" class="wpcf7-form-control wpcf7-text" name="phone"></span></p><div class="clearfix"></div></div><div class="sf_field sf_field_description sf_type_textarea"><p>	<label class="w2llabel required  textarea" for="sf_description">Message: <sup><span class="required">*</span></sup></label><span class="wpcf7-form-control-wrap">		<textarea id="sf_description" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required required" name="description" placeholder=""></textarea></span></p><div class="clearfix"></div></div>	<input type="text" name="message" class="w2linput" value="" style="display: none;">	<input type="hidden" name="form_id" class="w2linput" value="2">	<p class="punt"><input type="submit" name="w2lsubmit" class="wpcf7-form-control wpcf7-submit btn" value="Submit"></p></form></div></section></div-->
+
+
+
+
+
+
+
+					<!-- Footer section -->
+
+
+					<div class="w3-content">
+						<footer><br>
+
+							<div class="w3-center pt-3 bg-primary font-size:12px;color:#000;text-shadow:1px 1px 4px #5d33fb;" id="footer">
+
+								<!-- p style="font-size:12px;color:#fff;text-shadow:1px 1px 4px #fffEEB;"></p-->
+
+								<img src="./Image/sk.png" style="width:50px;height:40px; padding: .1em;">Košice,&nbsp;SVK<br>
+								<!-- a class="fa fa-phone fa-fw w3-hover-text-white w3-large w3-margin-left" data-toggle="tooltip" title="Vypíšte formulár a odošlite"--><a href="https://formfacade.com/public/111026483964178072025/all/form/1FAIpQLSfntiE_HdjWwrC2i2K1tsJZ_6dJwKAXw0t_lFr3Ui1IcMXn7g" target="_blank" data-toggle="tooltip" title="Chodte na formulár.">Contact us on form!</a><br>
+								<i class="fa fa-heart" style="font-size:12px"></i>Your satisfaction is our priority.
+								<!-- a class="fa fa-envelope fa-fw w3-hover-text-white w3-large w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Tu mi môžeš poslať email"></a-->
+
+								<br>Powered by ©<img src="./Image/LWSlogo.jpg" style="width:100px;height:40px; padding: .1em;">2018.<br>©All rights reserved.<em>
+									<br>
+									&nbsp;&nbsp;
+									<a class="fa fa-facebook-official w3-hover-text-white w3-large" href="https://www.facebook.com/vladimir.ksenic" target="_blank">&nbsp;&nbsp;</a>
+									<a href="https://twitter.com/ladow11" target="_blank">
+										<i class="fa fa-twitter w3-hover-text-white w3-large"></i></a>
+									<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+										<i class="fa fa-linkedin w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+									<a href="https://github.com/settings/profile" target="_blank">
+										<i class="fa fa-github w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+									<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
+										<i class="fa fa-youtube w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+									<a href="https://soundcloud.com/lado-8" target="_blank">
+										<i class="fa fa-soundcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
+									<!-- Return to Top >
+
+								<a class="fa fa-arrow-up btn btn-up  w3-text-blue w3-hover-yellow w3-large" href="#" data-toggle="tooltip" title="Presunúť sa hore"></a-->
+								</em>
+								<!-- End footer -->
+								<!--back to top-->
+								<a href="#" class="scrollToTop show"><i class="fa fa-arrow-up" data-toggle="tooltip" title="Presunúť sa hore"></i></a>
+								<script src="/dosis/assets/dist/js/plugins.js"></script>
+								<script src="/dosis/assets/dist/js/dosis.custom.js"></script>
+
+
+
+
+
+
+
+
+
+
+								<!--back to top end-->
+
+							</div>
+						</footer>
+					</div>
+				</div>
+			</em>
+		</div>
+
+	</header>
+
+
+
+
+
+
+
+
+<!--a class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-yellow" href="#main"   style="display: inline-block">
+
+										<i class="fa fa-arrow-up  w3-margin-center  w3-text-blue w3-hover-yellow w3-large ">Up</i>
+
+									</a-->
+
+
+
+
+
+
+
+
+
+
+<!-- END PAGE CONTENT I am a Full-stack Developer based in Kosice, Slovakia with more than 2years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.Thanks4visit:)
+<a href="https://m.facebook.com/Tanzanite-Gems-Cultural-Tourism-594020884314353-->
+</body></html>
