@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.*/
 
-"SameSite=Lax"
+"SameSite=Lax";
 
 
-{
-  let asyncAPIs = [
+
+ let asyncAPIs =[
     "browserAction.setIcon",
     "browserAction.getPopup",
     "contentSettings.cookies.get",
