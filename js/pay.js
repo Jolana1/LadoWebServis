@@ -4,9 +4,40 @@
  *
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#PaymentDataRequest|apiVersion in PaymentDataRequest}
  */
+
+const paymentsClient = new
+google.payments.api.PaymentsClient({environment: 'PRODUCTION'});
+
+
+
+
+
 const baseRequest = {
-  apiVersion: 2,
-  apiVersionMinor: 0
+  apiVersion: 2,
+  apiVersionMinor: 0
+};
+
+
+
+
+
+
+
+/**
+ * Identify your gateway and your site's gateway merchant identifier
+ *
+ * The Google Pay API response will return an encrypted payment method capable
+ * of being charged by a supported gateway after payer authorization
+ *
+ * @todo check with your gateway on the parameters to pass
+ * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#gateway|PaymentMethodTokenizationSpecification}
+ */
+const tokenizationSpecification = {
+  type: 'PAYMENT_GATEWAY',
+  parameters: {
+    'gateway': 'allpayments',
+    'gatewayMerchantId': 'BCR2DN6TV6MZVMS7'
+  }
 };
 
 /**
@@ -26,22 +57,6 @@ const allowedCardNetworks = ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD",
  */
 const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
 
-/**
- * Identify your gateway and your site's gateway merchant identifier
- *
- * The Google Pay API response will return an encrypted payment method capable
- * of being charged by a supported gateway after payer authorization
- *
- * @todo check with your gateway on the parameters to pass
- * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#gateway|PaymentMethodTokenizationSpecification}
- */
-const tokenizationSpecification = {
-  type: 'PAYMENT_GATEWAY',
-  parameters: {
-    'gateway': 'example',
-    'gatewayMerchantId': 'exampleGatewayMerchantId'
-  }
-};
 
 /**
  * Describe your site's support for the CARD payment method and its required
