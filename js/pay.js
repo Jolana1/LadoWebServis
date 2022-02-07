@@ -239,8 +239,13 @@ function calculateNewTransactionInfo(shippingOptionId) {
  * ability to pay.
  */
 function onGooglePayLoaded() {
-  const paymentsClient = getGooglePaymentsClient();
-  paymentsClient.isReadyToPay(getGoogleIsReadyToPayRequest())
+  const paymentsClient = new google.payments.api.PaymentsClient({
+	  environment:"PRODUCTION"
+  });
+}
+
+
+/*  paymentsClient.isReadyToPay(getGoogleIsReadyToPayRequest())
       .then(function(response) {
         if (response.result) {
           addGooglePayButton();
