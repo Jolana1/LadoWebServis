@@ -1,12 +1,11 @@
+
+
 /**
  * Define the version of the Google Pay API referenced when creating your
  * configuration
  *
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#PaymentDataRequest|apiVersion in PaymentDataRequest}
  */
-
-
-
 const baseRequest = {
   apiVersion: 2,
   apiVersionMinor: 0
