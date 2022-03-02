@@ -34,12 +34,12 @@ button.paymentRequest = {
   ],
   merchantInfo: {
     merchantId: 'BCR2DN6TV6MZVMS7',
-    merchantName: 'Zinobiotic',
+    merchantName: 'BalanceOil',
   },
   transactionInfo: {
     totalPriceStatus: 'FINAL',
     totalPriceLabel: 'Total',
-    totalPrice: '25.50',
+    totalPrice: '35.50',
     currencyCode: 'EUR',
     countryCode: 'SK',
   },

@@ -4,7 +4,7 @@
 
 <head>
 
-	<title>LWS-shops</title>
+	<title>LWS-eshops</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -941,10 +941,10 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 					<br><br>
 					<div class="card">
 						<p><button>1.BalanceOil+ 35,50 €/ks</button></p>
-						<div id="container"></div>
-						<!-- script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script>
+						<!-- div id="container"></div-->
+						<script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script>
 
-						<google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button -->
+						<google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button>
 
 
 
@@ -957,7 +957,7 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 						<p><button>2.Zinobiotic 25,50 €/ks</button></p>
 						<script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script>
 
-						<google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button>
+						<google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button><br>
 
 						Črevá sa už dlho označujú za „druhý mozog“. Ale až v posledných rokoch si začíname uvedomovať, aké dôležité sú črevá pre naše zdravie a duševnú pohodu. Črevá obsahujú 500 miliónov neurónov, ktoré sú s mozgom spojené prostredníctvom nervového systému. Musíme uznať dôležitosť tohto nevyhnutného systému, pretože je neoddeliteľnou súčasťou dosiahnutia rovnováhy organizmu (a života).
 
@@ -969,17 +969,17 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 						<a data-fancybox="gallery" href="./Image/Zinobiotic.webp"><img class="rounded" src="./Image/Zinobiotic.webp" alt="" style="width:100%" title=""></a>
 						<!--p class="price">25,50 €/ks</p-->
 
-						<p class='fa fa-heart' style='font-size:15px'>Zinobiotic 23€/ks na mesiac za zvýhodnenú cenu v prípade 6 mes.predplatného?My Vás zaregistrujeme,v prípade otázok chodte na formulár vdaka.</p><br>
+						<p class='fa fa-heart' style='font-size:15px'>Zinobiotic 23€/ks na mesiac za zvýhodnenú cenu?My Vás zaregistrujeme,v prípade otázok chodte na formulár vdaka.</p><br>
 					</div>
 					<br><br><br>
 					<i class='fa fa-heart' style=''></i>Your satisfaction is our priority.<br><img alt="" src="./Image/LWSlogo.webp" style="width:105px;height:42px; padding: .1em;">
-					<!--a class="fa fa-envelope fa-fw w3-hover-text-grey w3-large w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Tu mi môžeš poslať email"></a--><br><br><br><br><br>
+					<!--a class="fa fa-envelope fa-fw w3-hover-text-grey w3-large w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Tu mi môžeš poslať email"></a--><br>
 
 
 					<div class=" w3-text-grey" id="contact-form">
 						<!--h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">FORMULÁR</h1-->
 						<a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://ladowebservis.online/" target="_blank" data-toggle="tooltip" title="https://ladowebservis.online/" role="button" tabindex="0" type="submit" disabled="">
-							<p style="font-size:20px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Tu budete presmerovaní na obchodný web s formulárom</p>
+							<p style="font-size:12px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Tu budete presmerovaní na obchodný web s formulárom</p>
 						</a>
 					</div>
 				</div>
@@ -1469,12 +1469,12 @@ div {
 		</div>
 	</div>
 	<!-- include polyfills for older browsers -->
-	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-	<script src="js/shop.js"></script>
+	<!--script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+	<script src="js/shop.js"></script-->
 	<script src="js/index.js"></script>
 
 	<!-- include script for Google Pay with onload handler -->
-	<!-- script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script -->
+	<script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
 	<script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script>
 
 
