@@ -1,6 +1,3 @@
-'use strict';
-
-
 
 /**let googlePayClient;
 
@@ -10,7 +7,6 @@ function onGooglePayLoaded() {
 }
 */
 
-/*https://developers.google.com/pay/api/web/reference/client#PaymentsClient*/
 
 const button = document.querySelector('google-pay-button');
 button.paymentRequest = {
