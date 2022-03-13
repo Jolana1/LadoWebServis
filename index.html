@@ -1,28 +1,27 @@
 <!DOCTYPE html>
+<!--
+ Copyright 2018 LWS
+-->
 
-<html lang="eng">
+<html lang="en">
 
 <head>
-
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>LWS-eshops</title>
+	<!-- meta name="description" content -->
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content>
-
+	<link rel="stylesheet" type="text/css" href="./google-pay-button-main/google-pay-button-main/examples/html/app.css" />
 	<link rel="stylesheet" type="text/css" href="./Css/w31.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 
-
-
-
-
+	<!-- script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script-->
 	<!--script async src="//jsfiddle.net/wLxmqza9/1/embed/js,html,css,result/dark/"></script-->
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8X12PHDG2C"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-V2CJFPR23X"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -31,8 +30,7 @@
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'G-V2CJFPR23X '
-			"G-V2CJFPR23X");
+		gtag('config', 'G-V2CJFPR23X ');
 
 	</script>
 
@@ -630,7 +628,7 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 
 
 	<div id="Onás">
-		<div class="w3-center w3-justify w3-text-grey">
+		<div class="container-fluid w3-center w3-justify w3-text-grey">
 			<br><br><br><br><br>
 			<p style="font-size:18px;color:#000;text-shadow:1px 1px 4px #5d33fb;">Vitajte na našej reklamnej stránke spoločnosti ©LWS.<br>V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,<br>ponúkame vám zostavenie a opravy
 				pc-komponentov,výpočtovej techniky,odporučenie softvérov na vyladenie vašich pc zostáv.<br> Vaša spokojnosť je našou prioritou.V prípade ak
@@ -704,7 +702,7 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 
 				<br><br>
 				<div id="Test">
-					<div class="container w3-center pt-4 w3-text-grey">
+					<div class="container-fluid w3-center pt-4 w3-text-grey">
 						<div class="card">
 
 							<!--h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Ukážka webu&amp;Odporúčanie šablón webov aj softverov </h1-->
@@ -942,10 +940,11 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 					<br><br>
 					<div class="card">
 						<p><button>1.BalanceOil+ 35,50 €/ks</button></p>
-						<!-- div id="container"></div-->
-						<script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script>
+						<script async   src="https://pay.google.com/gp/p/js/pay.js"   onload="onGooglePayLoaded()"></script>
+						<div id="container"></div>
+						<!-- script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script-->
 
-						<google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button>
+						<!-- google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button-->
 
 
 
@@ -956,8 +955,8 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 						<!--p class="price">35,50 €/ks</p-->
 						<!--p class='fa fa-heart' style='font-size:15px'>Kúra aspoň na 8 mesiacov s mesačnou splátkou 31€.Lepšie zdravie sa začína tu...</p-->
 						<p><button>2.Zinobiotic 25,50 €/ks</button></p>
-						<script async   src="https://pay.google.com/gp/p/js/pay.js"   onload="onGooglePayLoaded()"></script>
-						<div id="container"></div>
+
+
 
 						Črevá sa už dlho označujú za „druhý mozog“. Ale až v posledných rokoch si začíname uvedomovať, aké dôležité sú črevá pre naše zdravie a duševnú pohodu. Črevá obsahujú 500 miliónov neurónov, ktoré sú s mozgom spojené prostredníctvom nervového systému. Musíme uznať dôležitosť tohto nevyhnutného systému, pretože je neoddeliteľnou súčasťou dosiahnutia rovnováhy organizmu (a života).
 
@@ -1021,7 +1020,7 @@ write. Do not throw, fix! This saves the environment and your wallet. Thank you 
 
 
 
-					<!--div class="card">
+					<div class="card">
 				<p><button>Add to Cart 3.Xtend</button></p>
 				<a data-fancybox="gallery" href="./Image/Xtend%20Kit.webp"><img class="rounded" src="./Image/Xtend%20Kit.webp" height="100%" width="100%" title="Zinzino-Xtend kit 22€/mesiac-6 mes.predplatné"></a><br><br>
 			</div>
@@ -1453,15 +1452,6 @@ div {
 							<a href="https://soundcloud.com/lado-8" target="_blank">
 								<i class="fa fa-soundcloud w3-hover-text-white w3-large"></i>&nbsp;&nbsp;</a>
 
-
-
-
-
-
-
-
-
-
 							<!--back to top end-->
 							<a href="#" class="scrollToTop show"><i class="fa fa-arrow-up" data-toggle="tooltip" title="Presunúť sa hore"></i></a>
 
@@ -1480,15 +1470,13 @@ div {
 	<!-- include polyfills for older browsers -->
 	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 	<script src="js/shop.js"></script>
-	<script src="js/index.js"></script>
+	<script src="./js/index.js"></script>
+
 
 	<!-- include script for Google Pay with onload handler -->
 	<script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
 	<!--script src="https://unpkg.com/@google-pay/button-element@2.x/dist/index.umd.js"></script-->
-
-
-
-	<!--google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button-->
+	<!-- google-pay-button environment="TEST" button-type="buy" button-color="black"></google-pay-button-->
 </body>
 
 
