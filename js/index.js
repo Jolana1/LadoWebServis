@@ -36,8 +36,8 @@ const baseRequest =
  *
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#CardParameters|CardParameters}
  * @todo confirm card networks supported by your site and gateway
- */
-const allowedCardNetworks = ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD", "MIR", "VISA"];
+
+const allowedCardNetworks = ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD", "MIR", "VISA"];*/
 
 /**
  * Card authentication methods supported by your site and your gateway
@@ -45,8 +45,8 @@ const allowedCardNetworks = ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD",
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#CardParameters|CardParameters}
  * @todo confirm your processor supports Android device tokens for your
  * supported card networks
- */
-const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
+
+const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];*/
 
 /**
  * Identify your gateway and your site's gateway merchant identifier
@@ -268,7 +268,7 @@ function addGooglePayButton() {
  *
  * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo|TransactionInfo}
  * @returns {object} transaction info, suitable for use as transactionInfo property of PaymentDataRequest
- */
+
 function getGoogleTransactionInfo() {
 	return {
 		countryCode: 'US',
@@ -277,7 +277,7 @@ function getGoogleTransactionInfo() {
 		// set to cart total
 		totalPrice: '1.00'
 	};
-}
+}*/
 
 /**
  * Prefetch payment data to improve performance
