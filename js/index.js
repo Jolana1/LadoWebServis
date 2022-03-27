@@ -26,8 +26,8 @@ const cardPaymentMethod = {
 
 const googlePayConfiguration = {
 const baseRequest =
-	apiVersion: 2,
-	apiVersionMinor: 0
+	apiVersion, '2':any
+	apiVersionMinor, '0': any
 	allowedPaymentMethods:[cardPaymentMethod],
 }
 
