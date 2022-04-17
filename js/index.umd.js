@@ -1,7 +1,3 @@
-
-
-
-
 const button = document.querySelector('google-pay-button');
 button.paymentRequest = {
   apiVersion: 2,
@@ -23,15 +19,15 @@ button.paymentRequest = {
     },
   ],
   merchantInfo: {
-    merchantId: 'BCR2DN6TV6MZVMS7',
-    merchantName: 'BalanceOil',
+    merchantId: '17613812255336763067',
+    merchantName: 'Demo Merchant',
   },
   transactionInfo: {
     totalPriceStatus: 'FINAL',
     totalPriceLabel: 'Total',
-    totalPrice: '35.50',
-    currencyCode: 'EUR',
-    countryCode: 'SK',
+    totalPrice: '100.00',
+    currencyCode: 'USD',
+    countryCode: 'US',
   },
   shippingAddressRequired: true,
   shippingOptionRequired: true,
@@ -46,7 +42,7 @@ button.paymentRequest = {
       {
         id: 'express',
         label: 'Express shipping',
-        description: '€5.00 - Arrives in 1 to 3 days',
+        description: '$5.00 - Arrives in 1 to 3 days',
       },
     ],
   },
