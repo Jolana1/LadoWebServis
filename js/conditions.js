@@ -34,7 +34,8 @@ b =9;
 */
 
 
-/*var x,y;  x = 0; y = "0"; tu treba použiť aby si spravne porovnal hodnoty tvar if (x === y) js najprv porovnava ci ide o č. hodnoty alebo retazove až potom vyhodnotí tu je zrada, 2.dalsia zrada je pri desat.č.  x = 0.3. y = 0.1 + 0.1 3.zrada if (x = y) x = 3; y = 6; vyhodi true co neni pravda,treba mať tri rovnatka vždy. !znači ze sa nesmie rovnat 3
+/*var x,y;  x = 0; y = "0"; tu treba použiť aby si spravne porovnal hodnoty tvar if (x === y) js najprv porovnava ci ide o č. hodnoty alebo retazce a až potom vyhodnotí tu je zrada,
+2.dalsia zrada je pri desat.č.  x = 0.3. y = 0.1 + 0.1 3.zrada if (x = y) x = 3; y = 6; vyhodi true co neni pravda,treba mať tri rovnatka vždy. !znači ze sa nesmie rovnat 3
 if (x != 3) {
    console.log('true');
 }else{
