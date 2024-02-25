@@ -1,6 +1,10 @@
-// Path: js/cart.js
-// cart.js 23.2.24
-// Create a map to store the prices and quantities of each product
+// Initialize Stripe with your publishable key
+var stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
+//const stripe = require('stripe')('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');
+// Create an instance of Elements
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Your Stripe.js code here
+    // Create a map to store the prices and quantities of each product
 
 const productPrices = new Map();
 const productQuantities = new Map();
@@ -71,165 +75,161 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         document.querySelector('#total-amount').textContent = calculateTotalAmount();
     });
 });
-
-
-
-
-// Initialize Stripe with your publishable key
-var stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
-//const stripe = require('stripe')('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');
-// Create an instance of Elements
-var elements = stripe.elements();
-
-async function listAllProducts() {
-    const products = await stripe.products.list();
-
-    return products;
-  }
-
-  listAllProducts().then(products => console.log(products));
-    // Set up Stripe.js and Elements to use in checkout form
-    var style = {
-        base: {
-            color: "#32325d",
-        }
-    };
-    var elements = stripe.elements({
-        fonts: [
-            {
-                cssSrc: 'https://fonts.googleapis.com/css?family=Montserrat',
-            },
-        ],
-        // Stripe's examples are localized to specific languages, but if
-        // you wish to have Elements automatically detect your user's locale,
-        //use `locale: 'auto'` instead.
-        locale: window.__exampleLocale
-    });
-    // Create an instance of the card Element
-    var card = elements.create('card', { style: style });
-    // Add an instance of the card Element into the `card-element` <div>
-    card.mount('#card-element');
-    // Handle real-time validation errors from the card Element
-    card.addEventListener('change', function (event) {
-        var displayError = document.getElementById('card-errors');
-        if (event.error) {
-            displayError.textContent = event.error.message;
-        } else {
-            displayError.textContent = '';
-        }
-    }
-    );
-    // Handle form submission
-    var form = document.getElementById('payment-form');
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        // Disable the submit button to prevent repeated clicks
-        document.getElementById('submit').disabled = true;
-        var options = {
-            name: document.getElementById('name').value,
-            address_line1: document.getElementById('address').value,
-            address_city: document.getElementById('city').value,
-            address_state: document.getElementById('state').value,
-            address_zip: document.getElementById('zip').value,
-        }
-        stripe.createToken(card, options).then(function (result) {
-            if (result.error) {
-                // Inform the user if there was an error
-                var errorElement = document.getElementById('card-errors');
-                errorElement.textContent = result.error.message;
-                // Enable the submit button
-                document.getElementById('submit').disabled = false;
+    async function listAllProducts() {
+        const products = await stripe.products.list();
+    
+        return products;
+      }
+    
+      listAllProducts().then(products => console.log(products));
+        // Set up Stripe.js and Elements to use in checkout form
+        var style = {
+            base: {
+                color: "#32325d",
+            }
+        };
+        var elements = stripe.elements({
+            fonts: [
+                {
+                    cssSrc: 'https://fonts.googleapis.com/css?family=Montserrat',
+                },
+            ],
+            // Stripe's examples are localized to specific languages, but if
+            // you wish to have Elements automatically detect your user's locale,
+            //use `locale: 'auto'` instead.
+            locale: window.__exampleLocale
+        });
+        // Create an instance of the card Element
+        var card = elements.create('card', { style: style });
+        // Add an instance of the card Element into the `card-element` <div>
+        card.mount('#card-element');
+        // Handle real-time validation errors from the card Element
+        card.addEventListener('change', function (event) {
+            var displayError = document.getElementById('card-errors');
+            if (event.error) {
+                displayError.textContent = event.error.message;
             } else {
-                // Send the token to your server
-                stripeTokenHandler(result.token);
+                displayError.textContent = '';
             }
         }
         );
-    });
-    // Send the token to your server
-    function stripeTokenHandler(token) {
-        // Insert the token ID into the form so it gets submitted to the server
+        // Handle form submission
         var form = document.getElementById('payment-form');
-        var hiddenInput = document.createElement('input');
-        hiddenInput.setAttribute('type', 'hidden');
-        hiddenInput.setAttribute('name', 'stripeToken');
-        hiddenInput.setAttribute('value', token.id);
-        form.appendChild(hiddenInput);
-        // Submit the form
-        form.submit();
-    }
-
-
-// Handle the product quantity change
-function calculateTotalAmount() {
-    let totalAmount = 0;
-    for (let [productName, quantity] of productQuantities) {
-        const productPrice = productPrices.get(productName);
-        if (typeof productPrice === 'number' && typeof quantity === 'number') {
-            totalAmount += productPrice * quantity;
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Disable the submit button to prevent repeated clicks
+            document.getElementById('submit').disabled = true;
+            var options = {
+                name: document.getElementById('name').value,
+                address_line1: document.getElementById('address').value,
+                address_city: document.getElementById('city').value,
+                address_state: document.getElementById('state').value,
+                address_zip: document.getElementById('zip').value,
+            }
+            stripe.createToken(card, options).then(function (result) {
+                if (result.error) {
+                    // Inform the user if there was an error
+                    var errorElement = document.getElementById('card-errors');
+                    errorElement.textContent = result.error.message;
+                    // Enable the submit button
+                    document.getElementById('submit').disabled = false;
+                } else {
+                    // Send the token to your server
+                    stripeTokenHandler(result.token);
+                }
+            }
+            );
+        });
+        // Send the token to your server
+        function stripeTokenHandler(token) {
+            // Insert the token ID into the form so it gets submitted to the server
+            var form = document.getElementById('payment-form');
+            var hiddenInput = document.createElement('input');
+            hiddenInput.setAttribute('type', 'hidden');
+            hiddenInput.setAttribute('name', 'stripeToken');
+            hiddenInput.setAttribute('value', token.id);
+            form.appendChild(hiddenInput);
+            // Submit the form
+            form.submit();
         }
-    }
-    return totalAmount;
-}
-
-
-if (!stripe) {
-    const stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
-}
-
-async function payWithCard(stripe, card, clientSecret) {
-  const { error, paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
-    payment_method: { card },
-  });
-
-  if (error) {
-    // Payment has failed
-    console.log('Payment failed:', error);
-    // Display error message to your customer
-  } else {
-    if (paymentIntent.status === 'succeeded') {
-      // Payment has succeeded
-      console.log('Payment succeeded:', paymentIntent.id);
-      // Display success message to your customer
-    }
-  }
-}
-
-// Get the clientSecret from your server and call payWithCard
-var clientSecret = 'your-client-secret-from-server';
-var card = elements.create('card');
-payWithCard(stripe, card, clientSecret);
-
-// Create a PaymentIntent with the cart details
-var createPaymentIntent = function (items) {
-    return fetch('/create-payment-intent', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            items: items,
-        }),
-    }).then(function (result) {
-        return result.json();
-    });
-};
-
-// Handle the payment process
-function processPayment() {
-    stripe.redirectToCheckout({
-        // Replace with the ID of your SKU
-        items: [{sku: 'pmc_1OgVzPFdjXAPBwqYvJ1Nr799', quantity: 1}],
-        successUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/success',
-        cancelUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/canceled',
-    }).then(function (result) {
-        if (result.error) {
-            // If redirectToCheckout fails due to a browser or network error, display the localized error message to your customer.
-            var displayError = document.getElementById('error-message');
-            displayError.textContent = result.error.message;
+    
+    
+    // Handle the product quantity change
+    function calculateTotalAmount() {
+        let totalAmount = 0;
+        for (let [productName, quantity] of productQuantities) {
+            const productPrice = productPrices.get(productName);
+            if (typeof productPrice === 'number' && typeof quantity === 'number') {
+                totalAmount += productPrice * quantity;
+            }
         }
-    });
-}
+        return totalAmount;
+    }
+    
+    
+    if (!stripe) {
+        const stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
+    }
+    
+    async function payWithCard(stripe, card, clientSecret) {
+      const { error, paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
+        payment_method: { card },
+      });
+    
+      if (error) {
+        // Payment has failed
+        console.log('Payment failed:', error);
+        // Display error message to your customer
+      } else {
+        if (paymentIntent.status === 'succeeded') {
+          // Payment has succeeded
+          console.log('Payment succeeded:', paymentIntent.id);
+          // Display success message to your customer
+        }
+      }
+    }
+    
+    // Get the clientSecret from your server and call payWithCard
+    var clientSecret = 'your-client-secret-from-server';
+    var card = elements.create('card');
+    payWithCard(stripe, card, clientSecret);
+    
+    // Create a PaymentIntent with the cart details
+    var createPaymentIntent = function (items) {
+        return fetch('/create-payment-intent', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                items: items,
+            }),
+        }).then(function (result) {
+            return result.json();
+        });
+    };
+    
+    // Handle the payment process
+    function processPayment() {
+        stripe.redirectToCheckout({
+            // Replace with the ID of your SKU
+            items: [{sku: 'pmc_1OgVzPFdjXAPBwqYvJ1Nr799', quantity: 1}],
+            successUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/success',
+            cancelUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/canceled',
+        }).then(function (result) {
+            if (result.error) {
+                // If redirectToCheckout fails due to a browser or network error, display the localized error message to your customer.
+                var displayError = document.getElementById('error-message');
+                displayError.textContent = result.error.message;
+            }
+        });
+    }
+    var elements = stripe.elements();
+    var card = elements.create('card');
+    card.mount('#card-element');
+});
+
+
 
 
 

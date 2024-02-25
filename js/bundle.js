@@ -30886,9 +30886,8 @@ function extend() {
 }
 
 },{}],240:[function(require,module,exports){
-// Path: js/cart.js
-// cart.js 23.2.24
-// Create a map to store the prices and quantities of each product
+'use strict';
+
 
 const productPrices = new Map();
 const productQuantities = new Map();
@@ -30959,15 +30958,10 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         document.querySelector('#total-amount').textContent = calculateTotalAmount();
     });
 });
-
-
-
-
-// Initialize Stripe with your publishable key
-var stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
-//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
-// Create an instance of Elements
-var elements = stripe.elements();
+  var elements = stripe.elements();
+  var card = elements.create('card');
+  card.mount('#card-element');
+},{"stripe":390}],241:[function(require,module,exports){
 async function listAllProducts() {
     const products = await stripe.products.list();
 
@@ -31006,46 +31000,6 @@ async function listAllProducts() {
         }
     }
     );
-    // Handle form submission
-    var form = document.getElementById('payment-form');
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        // Disable the submit button to prevent repeated clicks
-        document.getElementById('submit').disabled = true;
-        var options = {
-            name: document.getElementById('name').value,
-            address_line1: document.getElementById('address').value,
-            address_city: document.getElementById('city').value,
-            address_state: document.getElementById('state').value,
-            address_zip: document.getElementById('zip').value,
-        }
-        stripe.createToken(card, options).then(function (result) {
-            if (result.error) {
-                // Inform the user if there was an error
-                var errorElement = document.getElementById('card-errors');
-                errorElement.textContent = result.error.message;
-                // Enable the submit button
-                document.getElementById('submit').disabled = false;
-            } else {
-                // Send the token to your server
-                stripeTokenHandler(result.token);
-            }
-        }
-        );
-    });
-    // Send the token to your server
-    function stripeTokenHandler(token) {
-        // Insert the token ID into the form so it gets submitted to the server
-        var form = document.getElementById('payment-form');
-        var hiddenInput = document.createElement('input');
-        hiddenInput.setAttribute('type', 'hidden');
-        hiddenInput.setAttribute('name', 'stripeToken');
-        hiddenInput.setAttribute('value', token.id);
-        form.appendChild(hiddenInput);
-        // Submit the form
-        form.submit();
-    }
-
 
 // Handle the product quantity change
 function calculateTotalAmount() {
