@@ -1,14 +1,7 @@
 // Path: js/cart.js
 // cart.js 23.2.24
 // Create a map to store the prices and quantities of each product
-{
-    "esversion": 6
-}
-{
-    "parserOptions": {
-        "ecmaVersion": 2015
-    }
-}
+
 
 const productPrices = new Map();
 const productQuantities = new Map();
