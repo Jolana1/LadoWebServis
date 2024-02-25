@@ -2,12 +2,15 @@
 // cart.js 23.2.24
 // Create a map to store the prices and quantities of each product
 
-
 const productPrices = new Map();
 const productQuantities = new Map();
+productPrices.set('Basic',35);
+productPrices.set('Premium',499);
 productPrices.set('BalanceOil',54);
 productPrices.set('Zinobiotic',64);
 productPrices.set('ZinzinoXtend',79);
+
+
 
 // Handle the product quantity change
 function calculateTotalAmount() {
@@ -32,9 +35,9 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
             listItem = document.createElement('li');
             listItem.classList.add(productName);
             listItem.innerHTML = `
-                <img src="./Image/${productName}.webp" alt="${productName}" width="30" height="28">
+                <img src="./Image/${productName}.webp" alt="${productName}" width="35" height="28">
                 <span>${productName}</span>
-                <button class="decrease"title="Odobrať">-</button>
+                <button class="decrease"title="Odobrať ks">-</button>
                 <span class="quantity" title="Počet daného tovaru v ks">${quantity}</span>
                 <button class="increase" title="Pridať ks">+</button>
                 <button class="remove"title="Odstráň položku">x</button>
@@ -74,8 +77,10 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
 
 // Initialize Stripe with your publishable key
 var stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
-//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
 //const stripe = require('stripe')('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');
+// Create an instance of Elements
+var elements = stripe.elements();
+
 async function listAllProducts() {
     const products = await stripe.products.list();
 
@@ -97,7 +102,7 @@ async function listAllProducts() {
         ],
         // Stripe's examples are localized to specific languages, but if
         // you wish to have Elements automatically detect your user's locale,
-        // use `locale: 'auto'` instead.
+        //use `locale: 'auto'` instead.
         locale: window.__exampleLocale
     });
     // Create an instance of the card Element
@@ -168,11 +173,9 @@ function calculateTotalAmount() {
 }
 
 
-
-
-
-
-var stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
+if (!stripe) {
+    const stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
+}
 
 async function payWithCard(stripe, card, clientSecret) {
   const { error, paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
@@ -227,6 +230,9 @@ function processPayment() {
         }
     });
 }
+
+
+
 
 
 
