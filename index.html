@@ -6,6 +6,10 @@
     <script src="https://js.stripe.com/v3/"></script>
     <script src="https://js.stripe.com/v3/fingerprinted/js/8433-72e9ba6fe5d4f9d3d8ee8d05b6d8ad97.js"></script>
     <script src="https://js.stripe.com/v3/index"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -30,7 +34,7 @@
     <meta name="description" content="V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,mesačný hosting vášho webu na mesiac zdarma potom za mesačný poplatok, ponúkame zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv..">
     <meta name="language" content="sk" />
     <meta name="content-language" content="sk" />
-    <meta property="og:image" content="./Image/LWSnewlogo.jpg">
+    <meta property="og:image" content="./Image/LWSlogo 2.webp">
  
     <!--script async src="//jsfiddle.net/wLxmqza9/1/embed/js,html,css,result/dark/"></script-->
 
@@ -209,7 +213,7 @@
             padding: 5px;
             margin: 5px;
             border: none;
-            width: 8%;
+            width: 5%;
             border-radius: 3px;
             cursor: pointer;
             font-size: 12px;
@@ -220,10 +224,10 @@
             background-color: #5d33fb;
         }
 
-        span.price {
+        .add-to-cart {
             /*float: calc(100% - 10px);*/
-            /*background-color: green;*/
-            color: black;
+            color: white;
+            background-color: black;
             text-align: center;
             padding: 5px;
             margin: 5px;
@@ -241,7 +245,7 @@
 
         }
 
-        .add-to-cart {
+        /*.add-to-cart {
             background-color: red;
             color: white;
             border: none;
@@ -333,150 +337,117 @@
 
 
     <body style="height: 100%;" data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
-        
-        
-    <nav> 
-
-            <!-- Your existing navbar items go here -->
-            <nav class="navbar navbar-default navbar-fixed-top w3-text-grey">
-                <a class="navbar-brand" href="#"><img src="./Image/LWSlogo.jpg" style="width:180px;height:60px;" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority,you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest."></a>
-</div>
-
-
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                    </button>
-                    <div class="cart-items">
-                        <div id="cart-items-list">
-                            <!-- Cart items will be added here -->
-                        </div>
-                        <div class="cart-icon">
-                            <img src="./Image/cart-icon1.jpg" title="Košík výprázdnite resetom tejto stránky" alt="Cart-Basket">
-                            <span id="cart-items" title="celkový počet kliknutí na tlač. pridať do košíka">0</span>
-                        </div>
-        
-                        <div class="total-amount"><br>
-                            Celková suma s DPH: €<span id="total-amount" class="price">0</span>
-                        </div>
-        
-                        <script async
-                        src="https://js.stripe.com/v3/buy-button.js">
-                      </script>
-                      
-                      <stripe-buy-button
-                        buy-button-id="buy_btn_1OjKxZFdjXAPBwqYuwTUnBef"
-                        publishable-key="pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T"
-                      >
-                      </stripe-buy-button>
-        
-        
-        
-                    </div>      
-
-
-
-
-                   
-                
-
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-
-
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Ponúkame Vám pc služby a potravinové produkty"><span class="glyphicon glyphicon-heart"></span> Úvod<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-
-                                <!--a class="w3-padding-xsmall w3-hover-yellow w3-text-white" href="#Onás">
-									<i class="fa fa-heart  "> O nás/ About us</i></a></li>
-							<li class="dropdown"-->
-                                <li class="active"><a class="w3-hover-white" href="#Onás"><span class="glyphicon glyphicon-briefcase"></span> Čo Vám ponúkame/ About us</a>
-                                </li>
-                                <!--li class="active"><a class="fa fa-eye  w3-hover-white" href="#Test"> Ohlasy/ Ukážky
-									webov/ Tanzania</a></li-->
-
-                                <li class="active"><a class="w3-hover-white" href="#Info"><span class="glyphicon glyphicon-heart-empty"></span> Zinzino-Info/
-                                        Žite v rovnováhe</a></li>
-
-                                <li class="active"><a class="w3-hover-white" href="#products"><span class="glyphicon glyphicon-star"></span> Produkt/
-                                        Products</a></li>
-
-
-                                <li class="active"><a class="w3-hover-white" href="#hudba" title=""><span class="glyphicon glyphicon-music"></span> Youtube Music</a></li>
-                                <!--li class="dropdown">
-							</li-->
-                                <!--li class="active">
-								<a class="w3-padding-xsmall w3-text-white  w3-hover-yellow" href="#formular">
-									<i class="fa fa-download "> Formulár/ Form</i></a></li>
-							<li class="dropdown">
-							<li class="active"><a class="w3-padding-xsmall w3-text-white w3-hover-yellow " href="#footer">
-									<i class="fa fa-phone"> Kontaktuj nás/ Contact us</i></a>
-							</li-->
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#Partners" title="Naši partnery"><span class="glyphicon glyphicon-briefcase"></span> Naši partnery<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <!--li>
-							</li-->
-                                <li class="active"><a class="w3-hover-white" href="https://www.ashampoo.com/de-de" target="_blank" title="Ashampoo antivirus and best safety software Deals • Poradíme správny postup &amp;  doporučíme softvér  vo  vašej oblasti •Mame nahradu za drahý a komplikovaný  MS Office ©LWS - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software
-                                        Deals</a></li>
-                                <li>
-                                </li>
-                                <li class="active"><a class="w3-hover-white" href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
-                                        <img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
-                                        Pikatec</a></li>
-                                <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-3-2024-od-utorka-13-02-2024-55881/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
-                                        Oriflame aktuálny katalóg 02/2024 </a></li>
-                                <li class="active"><a class="w3-hover-white" href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0https://www.mozilla.org/sk/firefox/new/" target="_blank">
-                                        <img src="./Image/Layer 0.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Získajte kvalitný webový prehliadač zdarma Firefox
-                                        Mozilla</a></li>
-
-                                <li class="active"><a class="w3-hover-white " href="https://www.krizovkarskyslovnik.sk/" target="_blank" title="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
-                                        <img src="https://www.krizovkarskyslovnik.sk/gfx/ikona.png" style="width:58px;height:15px" alt="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
-                                        Slovník krížovkára</a></li>
-                                <!--li class="active"> <a class="w3-hover-white" href="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers" target="_blank" title="Zinzino-Začnite svoju cestu za zdravím už dnes • ZinzinoProducts •"><img src="./Image/screencapture-zinzino-logo.png" style="width:58px;height:15px" alt="ZinzinoProductsDeals"> Zinzino</a></li-->
-                                <li>
-
-
-                                    <!--li class="active"><a class=" w3-text-white w3-hover-yellow " href="https://mobil.bazos.sk/inzerat/113680396/apple-se-64-gb.php" target="_blank" title="• Inzerát na predaj telefon"><img src="./Image/LWSlogo.jpg" style="width:58px;height:15px" alt="Me"> Apple SE 64 GB </a></li-->
-                                    <!--li-->
-
-                                    <!-- li>
-								<li class="active"><a href="https://jolana1.github.io/ladoweb/#Domov" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow" target="_blank" title="Ukážka môjho webu V.K • Vytvorenie funkčnej webovej stránky"><img src="./Image/jolana1.github.io-%C2%A9ladoweb.png" style="width:58px;height:15px" alt="Me"> Ukážka webu V.K.</a></li>
-							<li class="active"><a href="" target="_blank" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  ">
-									<img src="../WebServis/Image/tanzania/IMG_4116.JPG" style="width:58px;height:15px" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow img-rounded" alt=""> Tanzanite-Gems-CT</a></li -->
-
-
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Registrácia<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li class="active"><a class="w3-hover-white" href="https://ladowebservis.sk/kontakt" target="_blank" title="Neváhajte sa jednoducho registrovať a získate nasledovné výhody: Rýchlejší nákup vďaka vlastnému zoznamu obľúbených položiek, Rýchlejšie dokončenie objednávky vďaka automatickému doplneniu adresy a kontaktných údajov, Prehľad o všetkých vašich minulých objednávkach, Možnosť byť informovaný o novinkách a akciách, Prístup do pripravovaného vernostného a zľavového programu."><span class="glyphicon glyphicon-user"></span> Reg.kontaktný web</a></li>
-
-
-                                <li class="active"><a class="w3-hover-white" href="#Onás"><span class="glyphicon glyphicon-euro"></span> Cenník Webových a PC
-                                        služieb/PC services</a></li>
-                                <li class="active"><a class="w3-hover-white" href="https://docs.google.com/forms/d/1imNDx3emIENN5_jOi0x6eI-IxlRc-9O9FoVavgoEb90/edit" target="_blank" title="Otázky a odpovede.V prípade ak  sa chcete ešte poradiť stačí ísť na formulár a tam nám napísať. Srdečne ďakujeme za váš záujem."><span class="glyphicon glyphicon-download"></span> Zinzino InfoVideo Q&A</a></li>
-                                <li class="active"><a class="w3-hover-white" href="#footer" title="Volajte +421556711924 alebo 0907151293 only Slovakia"><span class="glyphicon glyphicon-earphone"></span> Kontakt</a></li>
-
-
-
-                            </ul>
-
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top w3-text-grey">
+            <a class="navbar-brand" href="#"><img src="./Image/LWSlogo.jpg" style="width:180px;height:45px;" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority, you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest.">
+            </a>
+            <div class="container-fluid-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="cart-items">
+                    <div id="cart-items-list">
+                        <!-- Cart items will be added here -->
+                    </div>
+                    <div class="cart-icon">
+                        <img src="./Image/cart-icon1.jpg" title="Košík výprázdnite resetom tejto stránky" alt="Cart-Basket">
+                        <span id="cart-items" title="Počet kliknutí na tlač. pridať do košíka">0</span>
+                    </div>
+    
+                    <div class="total-amount"><br>
+                        Spolu s DPH: €<span id="total-amount" class="price">0</span>
+                    </div>
+    
+                    <script async
+                    src="https://js.stripe.com/v3/buy-button.js">
+                  </script>
+                  
+                  <stripe-buy-button
+                    buy-button-id="buy_btn_1OhHzQFdjXAPBwqYr5uGkBad"
+                    publishable-key="pk_test_51OgVgeFdjXAPBwqYJ4wjgTwVAVhGa2uJbHwYLC3ne3LPkLCOATB0akg3kLY3fChDWaJaFLman5GhowOpA8tdp0pa00P1Msh1vz"
+                  >
+                  </stripe-buy-button>
                 </div>
-            </nav>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+               <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Ponúkame Vám pc služby a potravinové produkty"><span class="glyphicon glyphicon-heart"></span> Úvod</a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a class="w3-hover-white" href="#Onás"><span class="glyphicon glyphicon-briefcase"></span> Čo Vám ponúkame</a>
+                            </li>
+                           
 
-          
+                            <li class="active"><a class="w3-hover-white" href="#Info"><span class="glyphicon glyphicon-heart-empty"></span> Žite v rovnováhe</a></li>
+
+                            <li class="active"><a class="w3-hover-white" href="#products"><span class="glyphicon glyphicon-star"></span> Produkty v ponuke</a></li>
+
+
+                            <li class="active"><a class="w3-hover-white" href="#hudba" title="Youtube Music"><span class="glyphicon glyphicon-music"></span> Youtube Music</a></li>
+                       
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#Partners" title="Naši partnery"><span class="glyphicon glyphicon-briefcase"></span> Naši partnery</span></a>
+                        <ul class="dropdown-menu">
+                            <!--li>
+                        </li-->
+                            <li class="active"><a class="w3-hover-white" href="https://www.ashampoo.com/de-de" target="_blank" title="Ashampoo antivirus and best safety software Deals • Poradíme správny postup &amp;  doporučíme softvér  vo  vašej oblasti •Mame nahradu za drahý a komplikovaný  MS Office ©LWS - Partner spoločnosti Ashampoo"><img src="./Image/ashampoo.com-AshampooSoftwareDeals.png" style="width:58px;height:15px" alt="AshampooSoftwareDeals"> Ashampoo Software</a></li>
+                            <li>
+                            </li>
+                            <li class="active"><a class="w3-hover-white" href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
+                                    <img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
+                                    Pikatec</a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-3-2024-od-utorka-13-02-2024-55881/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
+                                    Oriflame katalóg 02/2024 </a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0https://www.mozilla.org/sk/firefox/new/" target="_blank" title="kvalitný webový prehliadač">
+                                    <img src="./Image/Layer 0.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Získajte zdarma Firefox Mozilla</a></li>
+
+                            <li class="active"><a class="w3-hover-white " href="https://www.krizovkarskyslovnik.sk/" target="_blank" title="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
+                                    <img src="https://www.krizovkarskyslovnik.sk/gfx/ikona.png" style="width:58px;height:15px" alt="Krížovkársky slovník • Slovník krížovkára • Krížovka • Krížovky • Krížovkár">
+                                    Slovník krížovkára</a></li>
+                            <!--li class="active"> <a class="w3-hover-white" href="https://www.zinzino.com/2007167194/SK/sk-SK/products/Health/Premier-Offers" target="_blank" title="Zinzino-Začnite svoju cestu za zdravím už dnes • ZinzinoProducts •"><img src="./Image/screencapture-zinzino-logo.png" style="width:58px;height:15px" alt="ZinzinoProductsDeals"> Zinzino</a></li-->
+                            <li>
+
+
+                                <!--li class="active"><a class=" w3-text-white w3-hover-yellow " href="https://mobil.bazos.sk/inzerat/113680396/apple-se-64-gb.php" target="_blank" title="• Inzerát na predaj telefon"><img src="./Image/LWSlogo.jpg" style="width:58px;height:15px" alt="Me"> Apple SE 64 GB </a></li-->
+                                <!--li-->
+
+                                <!-- li>
+                            <li class="active"><a href="https://jolana1.github.io/ladoweb/#Domov" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow" target="_blank" title="Ukážka môjho webu V.K • Vytvorenie funkčnej webovej stránky"><img src="./Image/jolana1.github.io-%C2%A9ladoweb.png" style="width:58px;height:15px" alt="Me"> Ukážka webu V.K.</a></li>
+                        <li class="active"><a href="" target="_blank" title="Tanzanite-Gems-Cultural-Tourism • Walking cultural tourism • Your all welcome to make a dreams • We do hiking mountain Kilimanjaro  ">
+                                <img src="../WebServis/Image/tanzania/IMG_4116.JPG" style="width:58px;height:15px" class="w3-padding-xsmall  w3-text-light-blue w3-hover-yellow img-rounded" alt=""> Tanzanite-Gems-CT</a></li -->
+
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Neváhajte sa jednoducho registrovať a získate nasledovné výhody: Rýchlejší nákup vďaka vlastnému zoznamu obľúbených položiek, Rýchlejšie dokončenie objednávky vďaka automatickému doplneniu adresy a kontaktných údajov, Prehľad o všetkých vašich minulých objednávkach, Možnosť byť informovaný o novinkách a akciách, Prístup do pripravovaného vernostného a zľavového programu."><span class="glyphicon glyphicon-user"></span> Registrácia</a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a class="w3-hover-white" href="https://ladowebservis.sk/kontakt" target="_blank"><span class="glyphicon glyphicon-user"></span> Reg.kontaktný web</a></li>
+
+
+                            <li class="active"><a class="w3-hover-white" href="#Onás"><span class="glyphicon glyphicon-euro"></span> Cenník Webových a PC
+                                    služieb/PC services</a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://docs.google.com/forms/d/1imNDx3emIENN5_jOi0x6eI-IxlRc-9O9FoVavgoEb90/edit" target="_blank" title="Otázky a odpovede.V prípade ak  sa chcete ešte poradiť stačí ísť na formulár a tam nám napísať. Srdečne ďakujeme za váš záujem."><span class="glyphicon glyphicon-download"></span> Zinzino InfoVideo Q&A</a></li>
+                            <li class="active"><a class="w3-hover-white" href="#footer" title="Volajte +421917952432 alebo 0907151293 only Slovakia"><span class="glyphicon glyphicon-earphone"></span> Kontakt</a></li>
+
+
+
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
         </nav>
+
+
+        
+
+      
 
 
 
@@ -486,8 +457,8 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
 
-                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
                 <li data-target="#myCarousel" data-slide-to="2" class=""></li>
                 <li data-target="#myCarousel" data-slide-to="3" class=""></li>
                 <li data-target="#myCarousel" data-slide-to="4" class=""></li>
@@ -499,7 +470,7 @@
 
             <div class="carousel-inner">
 
-                <div class="item">
+                <div class="item active">
 
 
                     <img src="./Image/bg1.webp" alt="intro" style="width:2560px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis•">
@@ -517,25 +488,10 @@
 
 
 
-                <div class="item active">
+                <div class="item">
                     <img src="./Image/bg3.webp" alt="png" style="width:2560px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše služby, kontaktujte nás formulárom alebo prostredníctvom e-mailu. Ďakujeme za váš záujem, Vaša spokojnosť je našou prioritou">
                     <div class="carousel-caption">
                         <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:18px;">Ponúkame Vám webové,pc služby&amp;kvalitné výživové produkty od švédskej spoločnosti Zinzino<br>Nenechajte si ujsť túto ponuku!</p>
-
-                    </div>
-                </div>
-
-                <!--div class="item">
-            <img src="./Image/nature-3151869_1920.webp" alt="" style="width:2560px;height:539px" title="intro">
-            <div class="carousel-caption">
-                <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:18px;">Pripravujeme čoskoro aj nový eshop!</p>
-
-            </div>
-        </div-->
-                <div class="item">
-                    <img src="./Image/puzzle-3223941_1920.webp" alt="" style="width:2560px;height:539px" title="webtechnologie">
-                    <div class="carousel-caption">
-                        <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:18px;">Volajte +421556711924 alebo 0907151293 only Slovakia alebo nám napíšte na e-mail<br>Neváhajte!</p>
 
                     </div>
                 </div>
@@ -543,9 +499,16 @@
                     <img src="./Image/Zinzino.jpg" alt="" style="width:2560px;height:539px" title="Vitajte na stránke spoločnosti ©LadoWebServis.V prípade ak si vyberiete nejaký z produktov Zinzina stači kliknúť na odkaz nižšie a následne si z webu vybrať a zaplatiť váš požadovaný tovar za akciovu cenu,nakolko sme partnerom spol. Zinzino. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou.">
                     <div class="carousel-caption">
                         <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:18px;">Začnite svoju cestu za zdravím už dnes.</p>
+                    </div>
+                    </div>
+                <div class="item">
+                    <img src="./Image/skusenosti.jpg" alt="" style="width:2560px;height:539px" title="webtechnologie">
+                    <div class="carousel-caption">
+                        <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:18px;">Volajte +421917952432 alebo 0907151293 only Slovakia alebo nám napíšte na e-mail<br>Neváhajte!</p>
 
                     </div>
                 </div>
+                
                 <div class="item">
                     <img src="./Image/photo-1461722936851-13a79b294a5d.jpeg" alt="max" style="width:2560px;height:539px" title="Nanesenie teplovodivej pasty na procesor či graficku kartu a iné pc služby">
                     <div class="carousel-caption">
@@ -589,26 +552,25 @@
 
 
         <div id="Onás">
-            <div class="card container w3-center pt-4 w3-text-grey">
-                <br><br><br><br>
-                <p style="font-size:18px;color:grey;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Vitajte Priatelia!<br>
+            <div class="w3-center card pt-4">
+                <br>
+                <p style="font-size:18px;color:black;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Vitajte Priatelia!<br>
                     V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,
-                    ponúkame vám zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv.
-                    Pripravujeme aj novú členskú sekciu neskôr aj eshop pre registrovaných užívateloch.Máme skvelú skúsenost s výživovými produktami myslíme si, že sa budú páčiť aj vám. Dajte nám vedieť, čo si o nich myslíte Vy!<br>V prípade ak
-                    si vyberiete z našich kvalitných produktov či služieb,alebo sa chcete ešte poradiť stačí nám
-                    napísať na email alebo na kontaktom webe.<br>Nevyhadzujte,opravujte! Šetrite tým životné prostredie a aj Vašu peňaženku.
+                    ponúkame vám zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv.<br>
+                    Máme skvelú skúsenost s výživovými produktami a myslíme si, že sa budú páčiť aj vám. Dajte nám vedieť, čo si o nich myslíte Vy!
+                    Stačí nám napísať na email alebo na kontaktom webe.<br>Nevyhadzujte,opravujte! Šetrite tým životné prostredie a aj Vašu peňaženku.
                     <br> Ďakujeme za váš záujem.Vaša spokojnosť je našou prioritou.
                 </p>
 
             </div>
-            <br><br><br><br>
+            <br>
 
 
             <!-- Grid for services pricing tables -->
 
-            <div class="card container w3-center pt-4 w3-text-grey">
+            <div class="w3-center pt-4 w3-text-grey">
                 <div class="w3-content">
-                    <div class="product" id="#card-element" data-product-name="Basic"><button class="add-to-cart"title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+                    <div class="product" id="" data-product-name="Basic"><button class="add-to-cart" title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
                         <ul class="w3-ul w3-green w3-center w3-opacity w3-hover-opacity-off">
 
 
@@ -618,7 +580,7 @@
                             <li class="w3-padding-15">Konfigurácie smart home zariadení,ich zpárovanie..</li>
                             <li class="w3-padding-15">Odstránenie a nanesenie novej kvalitnej teplovodivej pasty</li>
                             <li class="w3-padding-15">Prečistenie všetkých komponentov,nastavenie sietí, wifi routrov a pod.</li>
-                            <li class="w3-padding-15">Záloha Vášho Hdd na SSDisk</li>
+                            <li class="w3-padding-15">Záloha vášho starého Hdd na SSDisk</li>
                             <li class="w3-padding-15">Inštalácie a funkčné zálohy OS Windows,Mac,Linux</li>
                             <li class="w3-padding-15">
                                 <h2>35€ </h2>
@@ -633,10 +595,10 @@
             </div>
 
 
-            <div class="card container w3-center pt-4 w3-text-grey">
+            <div class="w3-center pt-4 w3-text-grey">
                 <!-- Your content goes here -->
                 <div class="w3-content">
-                    <div class="product" id="" data-product-name="Premium"><button class="add-to-cart"title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+                    <div class="product" id="" data-product-name="Premium">
                         <ul class="w3-ul w3-green w3-center w3-opacity w3-hover-opacity-off">
                             <li class="w3-dark-grey w3-large w3-padding-22 w3-center">Prémiová ponuka webových služieb</li>
                             <li class="w3-padding-15">Web dizajn a vypracovanie konceptu</li>
@@ -650,9 +612,10 @@
                                 <h2>499€</h2>
                                 
                                 <span class="w3-opacity">Za celý balík Premium + bonus zdarma softvér Spybot S&D</span>
+                                
                             </li>
                             <li class="w3-light-grey w3-padding-10">
-                                <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Contact us on info@ladowebservis.sk">info@ladowebservis.sk</a>
+                                <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Pre túto službu nás kontaktujte mailom na info@ladowebservis.sk">info@ladowebservis.sk</a>
                             </li>
                         </ul>
                     </div>
@@ -668,17 +631,17 @@
 
 
             <div id="Test">
-                <div class="card container w3-center pt-4 w3-text-grey">
+                <div class="card w3-center pt-4">
 
 
 
 
-                    <h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Ukážka webu </h1>
-                    <span style="font-size:18px;color:#000;text-shadow:1px 1px 4px #5d33fb;">
+                    <h1 style="font-size:18px;color:black;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Registrácia </h1>
+                    <span style="text-shadow:1px 1px 4px whitesmoke">
                         <!-- a data-fancybox="gallery" href="./Image/Moja%20vizitka.jpg"><img class="rounded" src="./Image/Moja%20vizitka.jpg" alt="" style="width:100%" title=""></a-->
 
 
-                        <strong><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://ladowebservis.sk" target="_blank">https://ladowebservis.sk</a></strong>
+                        <strong><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://ladowebservis.sk/kontakt" target="_blank">https://ladowebservis.sk/kontakt</a></strong>
                         <!--em>”We needed to present our company and its products better on the web. Mr. V.Ksenic has made us a perfect site. Now only in good, we almost do not want to supply the market with our products.
 										<br>Thank you again.“
 									</em-->
@@ -704,7 +667,7 @@
 							We invite you to the most exotic trip of your life to Tanzania. In Tanzania you will experience landscapes that will take your breathe away. What awaits is a National Park, Safari adventures or a climb up the highest mountain in Africa Mount Kilimanjaro. If you are looking for a sparkle in your life check out Tanzanite Gems, Cultural Tourism invites you to visit the mining caves of Tanzanite at Mirerani. This tour includes an expert guides to share the history of Tanzanite. This experience is a once in a lifetime opportunity...book now before all spots are full.<br>Your requests for this trip, serious interest or questions write me on email or go on web.<a class="w3-text-light-blue w3-hover-text-grey " href="" data-toggle="tooltip" title="" target="_blank"> info@ladowebservis.online</a><br> https://tanzaniteadventure.co.tz/
 						</div-->
 
-                        <div class="w3-row w3-text-center"><br>
+                        <!--div class="w3-row w3-text-center"><br>
                             <div class="w3-quarter w3-section ">
                                 <span class="w3-large">25+</span><br>
                                 Partnerov
@@ -723,7 +686,7 @@
                             </div>
                         </div>
                     </span>
-                </div>
+                </div-->
 
 
                 <!--/div-->
@@ -781,9 +744,9 @@
                         <br>
 
 
-                        <p style="font-size:15px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;"><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://www.zinzino.com/site/SK/sk-SK/" target="_blank">
+                        <!--p style="font-size:15px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;"><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://www.zinzino.com/site/SK/sk-SK/" target="_blank">
                                 Tu sa priamo registrujete na oficiálnom slovenskom webe Zinzino!
-                            </a></p>
+                            </a></p-->
                         <br>
                     </details>
                 </div>
@@ -795,7 +758,7 @@
 
             <div class="card container w3-center pt-4 w3-text-grey" id="products">
 
-                <h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">SPRAVTE TRI KROKY K ROVNOVÁHE!</h1>
+                <h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">PONUKA PRODUKTOV<br>VAŠE TRI KROKY K ROVNOVÁHE!</h1>
                 <br>
 
                 <h2 class="card w3-text-light-blue w3-hover-white w3-center">Začnite svoju cestu za zdravím už dnes a vyberte si z našej ponuky.</h2>
@@ -855,8 +818,6 @@
             </section>
             <br><br>
 
-
-            <br><br>
             <section class="products">
                 <div class="card container w3-center pt-4 w3-text-grey">
                     <div class="product" id="my-element" data-product-name="ZinzinoXtend">
@@ -874,7 +835,7 @@
                     </div>
                 </div>
             </section>
-            <br><br> <br><br>
+            <br><br> 
 
 
 
@@ -930,9 +891,7 @@
             <!--h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Vyplňte Vaše Fakturačné údaje</h1-->
 
             <!--h2 class="w3-text-light-blue w3-hover-white w3-center">Neváhajte nám napísať alebo sa jednoducho registrovať</h2-->
-            <hr style="width:px" class="w3-opacity">
-            <br>
-            <p class="card container w3-center pt-4 w3-text-grey"><q style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Spokojný klient je pre nás najväčšia odmena.Neváhajte nám napísať alebo sa jednoducho registrovať</q></p>
+            
             <!--h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Invoicing Details</h1-->
             <!--p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Name"></p>
             <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
@@ -980,7 +939,7 @@
 
 
 
-            <div class="card page-body w3-text-grey w3-content w3-center">
+            <div class="card container w3-center pt-4 w3-text-grey">
                 <h2 class="w3-padding-14 w3-text-grey"><i class="fa fa-globe"></i> Recenzie</h2>
                 <p class="w3-opacity w3-center"><q>Napísali o nás</q></p>
 
@@ -998,9 +957,11 @@
                     "Mám skvelú skúsenosť so službami Ladowebservis a myslím si, že sa budú páčiť aj Vám".
 
                     <br><br><br>
+              
 
-
-                    <!--p class="price">2,99 €/mesačný hosting za správu vášho webu</p-->
+                    <hr style="width:px" class="w3-opacity">
+            <br>
+            <p class="card w3-center pt-4 w3-text-grey"><q style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb">Spokojný klient je pre nás najväčšia odmena.Neváhajte nám napísať alebo sa jednoducho registrovať</q></p>
 
 
 
@@ -1026,24 +987,24 @@
         <!-- Music Section -->
 
         <br><br>
-        <div class="card container w3-center pt-4 w3-text-grey" id="hudba"><br><br>
+        <div class="card w3-center pt-4 w3-text-grey" id="hudba"><br>
             <!-- div class="card" -->
             <!--h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Prečo treba mať kompas a nie hodinky?</h1-->
 
             <!--iframe src="https://www.youtube.com/embed/9-bcnTGy9S8?autoplay=0" data-toggle="tooltip" title="Webinár" height="200" width="300" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Prečo treba mať kompas a nie hodinky?">
 		</iframe-->
-            <h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Dj ''S'' - 80s R&amp;B</h1>
-            <iframe src="https://youtube.com/embed/_Itckji9UK4?si=M25N2Lc8E-EulerP?autoplay=0" data-toggle="tooltip" title="Video" height="200" width="350" frameborder="0" style="border:0" allowfullscreen="" scrolling="no" name=""></iframe><br>
+            <h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Youtube Music</h1>
+            <!--iframe src="https://youtube.com/embed/_Itckji9UK4?si=M25N2Lc8E-EulerP?autoplay=0" data-toggle="tooltip" title="Video" height="200" width="" frameborder="0" style="border:0"></iframe--><br>
 
 
-            <h3 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">More Music for u!</h3>
+            <h3 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Hudba pre relax,tanec a volný čas!</h3>
             <details>
 
 
 
                 <a data-fancybox href="https://youtube.com/embed/k5IC0lZqj_Y?si=GixIgU_WCKmes_AQ?autoplay=0">#Soulful Funky Disco House Mix October 23
                 </a>
-                <a data-fancybox href="https://youtube.com/embed/S9tJBcEjazs?autoplay=0">#Lounge Disco &amp; Nu Disco House#Mix Vol 26#
+                <a data-fancybox href="https://youtube.com/embed/_Itckji9UK4?si=M25N2Lc8E-EulerP?autoplay=0">#Dj ''S'' - 80s R&amp;B#
                 </a>
 
 

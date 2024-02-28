@@ -1,6 +1,6 @@
-// Initialize Stripe with your publishable key
-var stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
-//const stripe = require('stripe')('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');
+// Initialize Stripe with your publishable key and the locale to use C:\Users\kseni\Desktop\pk.txt
+
+
 // Create an instance of Elements
 document.addEventListener('DOMContentLoaded', (event) => {
     // Your Stripe.js code here
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 const productPrices = new Map();
 const productQuantities = new Map();
 productPrices.set('Basic',35);
-productPrices.set('Premium',499);
+//productPrices.set('Premium',499);
 productPrices.set('BalanceOil',54);
 productPrices.set('Zinobiotic',64);
 productPrices.set('ZinzinoXtend',79);
@@ -168,7 +168,7 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
     
     
     if (!stripe) {
-        const stripe = Stripe('pk_live_51OgVgeFdjXAPBwqY0TXa5UxlblPDSIGFY5U0fa9bU4VSLuvBwSuyXb1gBwMVjj5eW4XHadFOZ8s0toAAgiUWD8vw00tAAx835T');
+        const stripe = Stripe('pk_test_51OgVgeFdjXAPBwqYJ4wjgTwVAVhGa2uJbHwYLC3ne3LPkLCOATB0akg3kLY3fChDWaJaFLman5GhowOpA8tdp0pa00P1Msh1vz');
     }
     
     async function payWithCard(stripe, card, clientSecret) {
@@ -214,7 +214,7 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         stripe.redirectToCheckout({
             // Replace with the ID of your SKU
             items: [{sku: 'pmc_1OgVzPFdjXAPBwqYvJ1Nr799', quantity: 1}],
-            successUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/success',
+            successUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/successful',
             cancelUrl: 'https://buy.stripe.com/4gweXJgm2caC2dy3cc/canceled',
         }).then(function (result) {
             if (result.error) {
