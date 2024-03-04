@@ -30892,7 +30892,7 @@ function extend() {
 const productPrices = new Map();
 const productQuantities = new Map();
 productPrices.set('Basic',35);
-//productPrices.set('Premium',499);
+productPrices.set('Premium',499);
 productPrices.set('BalanceOil',54);
 productPrices.set('Zinobiotic',64);
 productPrices.set('ZinzinoXtend',79);
@@ -30958,9 +30958,12 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         document.querySelector('#total-amount').textContent = calculateTotalAmount();
     });
 });
-  var elements = stripe.elements();
-  var card = elements.create('card');
-  card.mount('#card-element');
+ //var elements = stripe.elements();
+// var card = elements.create('card');
+ //card.mount('#total-amount');
+
+
+
 },{"stripe":390}],241:[function(require,module,exports){
 async function listAllProducts() {
     const products = await stripe.products.list();

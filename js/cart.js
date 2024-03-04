@@ -140,6 +140,8 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
             }
             );
         });
+
+
         // Send the token to your server
         function stripeTokenHandler(token) {
             // Insert the token ID into the form so it gets submitted to the server

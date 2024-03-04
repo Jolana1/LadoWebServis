@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<!--Copyright 2024 LWS-->
 <html lang="sk">
-
 <head>
-    <script src="https://js.stripe.com/v3/"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LWS-web &amp; pcservices </title>
+    <iframe sandbox="allow-scripts allow-same-origin" src=""></iframe>
+    <meta name="copyright" content="©LWS-Ladowebservis" />
+    <meta name="description" content="V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,mesačný hosting vášho webu na mesiac zdarma potom za mesačný poplatok, ponúkame zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv..">
+    <meta name="language" content="sk" />
+    <meta name="content-language" content="sk" />
+    <meta property="og:image" content="./Image/pagePiling-plugin-1.webp">
+ 
+    <!--script async src="//jsfiddle.net/wLxmqza9/1/embed/js,html,css,result/dark/"></script-->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Ladowebservis" />
     <script src="https://js.stripe.com/v3/fingerprinted/js/8433-72e9ba6fe5d4f9d3d8ee8d05b6d8ad97.js"></script>
     <script src="https://js.stripe.com/v3/index"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -26,17 +36,6 @@
         gtag('config', 'G-8X12PHDG2C');
     </script>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LWS-web &amp; pcservices </title>
-    <iframe sandbox="allow-scripts allow-same-origin" src=""></iframe>
-    <meta name="copyright" content="©LWS-Ladowebservis" />
-    <meta name="description" content="V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,mesačný hosting vášho webu na mesiac zdarma potom za mesačný poplatok, ponúkame zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv..">
-    <meta name="language" content="sk" />
-    <meta name="content-language" content="sk" />
-    <meta property="og:image" content="./Image/LWSlogo 2.webp">
- 
-    <!--script async src="//jsfiddle.net/wLxmqza9/1/embed/js,html,css,result/dark/"></script-->
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./Css/w31.css">
@@ -60,7 +59,7 @@
     <style>
         /* Add a black background color and some padding to the footer */
         footer {
-            background-color: lightgrey;
+            background-color: black;
             padding: 2px;
             text-align: center;
             color: white;
@@ -93,22 +92,29 @@
         }
 
         img {
-            border: .5px solid white;
+            border: .1px solid white;
         }
 
-        /* Remove the navbar's default margin-bottom and rounded borders */
+        /* Remove the navbar's default margin-bottom and rounded borders*/ 
         .navbar {
-            margin-bottom: 1px;
-            border-radius: 1px;
+            margin-bottom: 0;
+            border-radius: 0;
             background-color: lightgrey;
-            padding: auto;
+            padding: 2px;
+            text-align:left;
+            color: white;
         }
 
         /* On small screens, set height to 'auto' for sidenav and grid*/
         @media screen and (max-width: 600px) {
             .sidenav {
                 height: auto;
-                padding: 12px;
+                padding: 15px;
+            }
+            .grid {
+                height: auto;
+                padding: 0;
+                
             }
 
             .row.content {
@@ -119,17 +125,12 @@
 
         .card {
             box-sizing: border-box;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2);
             max-width: 993px;
             margin: auto;
             text-align: center;
             font-family: arial;
         }
-
-        /*.price {
-            color: black;
-            font-size: 25px;
-        }*/
 
         .card button {
             border: none;
@@ -272,18 +273,18 @@
 
         }
 
-        /* Update the CSS to position the cart icon and payment method on the right side of the navbar */
+        /* Update the CSS to position the cart icon and payment method on the right side of the navbar 
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-        }
+        }*/
 
 
         nav .cart-icon img {
             width: 30px;
-            height: 28px;
+            height: auto;
         }
 
         nav .cart-icon .cart-items {
@@ -317,12 +318,7 @@
         }
 
 
-
-
-
-
-
-        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
         @media (max-width:800px) {
             .row {
                 flex-direction: column;
@@ -336,9 +332,9 @@
 
 
 
-    <body style="height: 100%;" data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+    <body style="height: auto;" data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
         <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top w3-text-grey">
-            <a class="navbar-brand" href="#"><img src="./Image/LWSlogo.jpg" style="width:180px;height:45px;" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority, you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest.">
+            <a class="navbar-brand" href="#"><img src="./Image/LWSnewlogo.jpg" style="width:125px;height:42px; padding: .1em;" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority, you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest.">
             </a>
             <div class="container-fluid-right">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -360,7 +356,7 @@
                     <div class="total-amount"><br>
                         Spolu s DPH: €<span id="total-amount" class="price">0</span>
                     </div>
-    
+                    
                     <script async
                     src="https://js.stripe.com/v3/buy-button.js">
                   </script>
@@ -401,8 +397,8 @@
                             <li class="active"><a class="w3-hover-white" href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
                                     <img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
                                     Pikatec</a></li>
-                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-3-2024-od-utorka-13-02-2024-55881/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
-                                    Oriflame katalóg 02/2024 </a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-4-2024-od" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
+                                    Oriflame katalóg 4/2024 </a></li>
                             <li class="active"><a class="w3-hover-white" href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0https://www.mozilla.org/sk/firefox/new/" target="_blank" title="kvalitný webový prehliadač">
                                     <img src="./Image/Layer 0.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Získajte zdarma Firefox Mozilla</a></li>
 
@@ -587,7 +583,7 @@
                                 <span class="w3-opacity">Za jednotlivé služby v uvedenom balíku</span>
                             </li>
                             <li class="w3-light-grey w3-padding-10">
-                                <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Tu nás kontaktujte na info@ladowebservis.sk">info@ladowebservis.sk</a>
+                                <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Tu nás kontaktujte emailom a uvedte názov služieb">info@ladowebservis.sk</a>
                             </li>
                         </ul>
                     </div>
@@ -632,12 +628,9 @@
 
             <div id="Test">
                 <div class="card w3-center pt-4">
-
-
-
-
-                    <h1 style="font-size:18px;color:black;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Registrácia </h1>
-                    <span style="text-shadow:1px 1px 4px whitesmoke">
+                 
+                    <h2 class="w3-padding-14 w3-text-grey"><span class="glyphicon glyphicon-user"></span> Registrácia </h2>
+                    <!--span style="text-shadow:1px 1px 4px whitesmoke"-->
                         <!-- a data-fancybox="gallery" href="./Image/Moja%20vizitka.jpg"><img class="rounded" src="./Image/Moja%20vizitka.jpg" alt="" style="width:100%" title=""></a-->
 
 
@@ -993,7 +986,7 @@
 
             <!--iframe src="https://www.youtube.com/embed/9-bcnTGy9S8?autoplay=0" data-toggle="tooltip" title="Webinár" height="200" width="300" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" name="Prečo treba mať kompas a nie hodinky?">
 		</iframe-->
-            <h1 style="font-size:22px;color:#ffffff;text-shadow:1px 1px 4px #5d33fb;">Youtube Music</h1>
+        <h2 class="w3-padding-14 w3-text-grey"><span class="glyphicon glyphicon-music"></span> Youtube Music</h2>
             <!--iframe src="https://youtube.com/embed/_Itckji9UK4?si=M25N2Lc8E-EulerP?autoplay=0" data-toggle="tooltip" title="Video" height="200" width="" frameborder="0" style="border:0"></iframe--><br>
 
 
@@ -1084,7 +1077,7 @@
         <!--End footer section-->
         <!--a href="#" class="scrollToTop show"><i class="fa fa-arrow-up" data-toggle="tooltip" title="Presunúť sa hore"></i></a-->
 
-
+        <script src="https://js.stripe.com/v3/"></script>
         <script src="./js/bundle.js"></script>
 
     </body>
