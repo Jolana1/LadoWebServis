@@ -7,15 +7,14 @@
     <iframe sandbox="allow-scripts allow-same-origin" src=""></iframe>
     <meta name="copyright" content="©LWS-Ladowebservis" />
     <meta name="description" content="V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,mesačný hosting vášho webu na mesiac zdarma potom za mesačný poplatok, ponúkame zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv..">
-    <meta name="language" content="sk" />
     <meta name="content-language" content="sk" />
-    <meta property="og:image" content="./Image/pagePiling-plugin-1.webp">
+    <meta property="og:image" content="./Image/pagePiling-plugin-1.jpg">
+    <link rel="icon" href="https://lh3.googleusercontent.com/a-/AOh14GhU3YnT6BWyzFkB_lpJTYadC4KnMPS1VUMr3wmPmw=s96-c" type="image/x-icon">
  
     <!--script async src="//jsfiddle.net/wLxmqza9/1/embed/js,html,css,result/dark/"></script-->
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Ladowebservis" />
     <script src="https://js.stripe.com/v3/fingerprinted/js/8433-72e9ba6fe5d4f9d3d8ee8d05b6d8ad97.js"></script>
-    <script src="https://js.stripe.com/v3/index"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -57,20 +56,20 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <style>
-        /* Add a black background color and some padding to the footer */
+        /* Add a purple background color and some padding to the footer */
         footer {
-            background-color: black;
+            background-color: #5d33fb;
             padding: 2px;
             text-align: center;
             color: white;
         }
-         
+    
 
         .carousel-inner img {
             width: 100%;
-            /* Set width to 100% */
-            margin: auto;
-            min-height: 200px;
+            height: max-content;
+            
+           
         }
 
         q {
@@ -91,19 +90,62 @@
             font-family: "Montserrat", sans-serif
         }
 
-        img {
-            border: .1px solid white;
-        }
-
-        /* Remove the navbar's default margin-bottom and rounded borders*/ 
         .navbar {
             margin-bottom: 0;
+            background-color: #5d33fb;
+            z-index: 9999;
+            border: 0;
+            font-size: 12px !important;
+            line-height: 1.42857143 !important;
+            letter-spacing: 4px;
             border-radius: 0;
-            background-color: lightgrey;
-            padding: 2px;
-            text-align:left;
-            color: white;
         }
+
+        /* Add a gray color to all navbar links */
+        .navbar li a,
+        .navbar .navbar-brand {
+            color: #fff !important;
+            position: relative;
+        }
+
+        /* On hover, the links will turn white */
+        .navbar-nav li a:hover,
+        .navbar-nav li.active a {
+            color: #5d33fb !important;
+            background-color: #fff !important;
+        }
+        
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: #fff !important;
+        }
+
+        /* Remove border color from the collapsible button */
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #fff !important;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #fff !important;
+        }
+
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+            border-color: #e7e7e7;
+        }
+
+        .container-fluid-right {
+            float: right;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .container-fluid-right .navbar-toggle {
+            margin-right: 0;
+        }
+
+
 
         /* On small screens, set height to 'auto' for sidenav and grid*/
         @media screen and (max-width: 600px) {
@@ -145,7 +187,7 @@
         }
 
         .card button:hover {
-            opacity: 0.7;
+            opacity: 0.5;
         }
 
         .row {
@@ -208,7 +250,7 @@
             font-size: 24px;
         }
 
-        .remove {
+        .remove .increase .decrease {
 
             color: white;
             padding: 5px;
@@ -221,7 +263,14 @@
             text-align: center;
         }
 
-        .remove:hover {
+        .remove:hover  {
+            background-color: #5d33fb;
+        }
+        
+        .increase:hover  {
+            background-color: #5d33fb;
+        }
+        .decrease:hover  {
             background-color: #5d33fb;
         }
 
@@ -271,32 +320,38 @@
             padding: 5px;
 
 
-        }
-
-        /* Update the CSS to position the cart icon and payment method on the right side of the navbar 
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
         }*/
-
-
+        .navbar-brand.image-container img {
+            width: 152px;
+            height: 42px;
+            position: relative;
+            left: 12px;
+            top: 0px;
+        }
+         
         nav .cart-icon img {
             width: 30px;
-            height: auto;
+            height: 28px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            
         }
 
-        nav .cart-icon .cart-items {
-            position: fixed;
-            top: 0;
-            right: 0;
-            background-color: #5d33fb;
+        nav .cart-icon span .cart-items  {
+            position: relative;
+            top: -20px;
+            left: -10px;
+            
             color: white;
             padding: 5px 10px;
             border-radius: 50%;
             font-size: 14px;
         }
+        
+        
+
+  
         #card-element {
             border: 1px solid #ccc;
             padding: 10px;
@@ -304,18 +359,37 @@
             margin: 10px 0;
         }
 
-        #pay-button {
-            background-color: #5d33fb;
+        #card-errors {
+            color: red;
+            margin: 10px 0;
+        }
+        .buy-button-click {
+            background-color: wheat;
             color: white;
+            padding: 12px 20px;
             border: none;
-            padding: 5px;
+            border-radius: 3px;
             cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            position: relative;
         }
-      
-        #buy-button-click:hover {
+        .buy-button-click:hover {
             background-color: #5d33fb;
-            width: 50%;
         }
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            .col-25,
+            .col-50,
+            .col-75,
+            input[type=text] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+
+
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
@@ -332,10 +406,10 @@
 
 
 
-    <body style="height: auto;" data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
-        <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top w3-text-grey">
-            <a class="navbar-brand" href="#"><img src="./Image/LWSnewlogo.jpg" style="width:125px;height:42px; padding: .1em;" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority, you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest.">
-            </a>
+    <body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+        <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top w3-text-white">
+            <a class="navbar-brand image-container" href="#"><img src="./Image/LWSnewlogo.jpg" class="img-rounded" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority, you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest."></img></a>
+   
             <div class="container-fluid-right">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -356,16 +430,15 @@
                     <div class="total-amount"><br>
                         Spolu s DPH: €<span id="total-amount" class="price">0</span>
                     </div>
-                    
                     <script async
-                    src="https://js.stripe.com/v3/buy-button.js">
-                  </script>
-                  
-                  <stripe-buy-button
-                    buy-button-id="buy_btn_1OhHzQFdjXAPBwqYr5uGkBad"
-                    publishable-key="pk_test_51OgVgeFdjXAPBwqYJ4wjgTwVAVhGa2uJbHwYLC3ne3LPkLCOATB0akg3kLY3fChDWaJaFLman5GhowOpA8tdp0pa00P1Msh1vz"
-                  >
-                  </stripe-buy-button>
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1OhHzQFdjXAPBwqYr5uGkBad"
+  publishable-key="pk_test_51OgVgeFdjXAPBwqYJ4wjgTwVAVhGa2uJbHwYLC3ne3LPkLCOATB0akg3kLY3fChDWaJaFLman5GhowOpA8tdp0pa00P1Msh1vz"
+>
+</stripe-buy-button>
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -469,7 +542,7 @@
                 <div class="item active">
 
 
-                    <img src="./Image/bg1.webp" alt="intro" style="width:2560px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis•">
+                    <img src="./Image/bg1.webp" alt="intro" style="width:2560px;height:539px;" title="•Vitajte na stránke spoločnosti ©LadoWebServis•">
                     <div class="carousel-caption">
 
                         <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:16px;padding: 0.15em;">
@@ -485,7 +558,7 @@
 
 
                 <div class="item">
-                    <img src="./Image/bg3.webp" alt="png" style="width:2560px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše služby, kontaktujte nás formulárom alebo prostredníctvom e-mailu. Ďakujeme za váš záujem, Vaša spokojnosť je našou prioritou">
+                    <img src="./Image/bg3.webp" alt="" style="width:2560px;height:539px" title="•Vitajte na stránke spoločnosti ©LadoWebServis, ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše služby, kontaktujte nás formulárom alebo prostredníctvom e-mailu. Ďakujeme za váš záujem, Vaša spokojnosť je našou prioritou">
                     <div class="carousel-caption">
                         <p style="color:#ffffff;text-shadow:1px 1px 4px #000000;font-size:18px;">Ponúkame Vám webové,pc služby&amp;kvalitné výživové produkty od švédskej spoločnosti Zinzino<br>Nenechajte si ujsť túto ponuku!</p>
 
@@ -522,7 +595,7 @@
             •Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou.">
                     <div class="carousel-caption">
                         <p style="font-size:18px;color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom:.25em;text-decoration: underline; ">
-                            <img src="./Image/LWSnewlogo.jpg" alt="logoLWS" style="width:210px;height:92px ; padding: .75em; " title="©LadoWebServis,ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom formulára alebo telefónu iba zo Slovenska. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou."><br>
+                            <img src="./Image/LWSnewlogo.jpg" alt="logoLWS" style="width:125px;height:42px ; padding: .2em; " title="©LadoWebServis,ponúkame Vám webové služby v oblasti dizajnu webov,návrhov až po vytvorenie plne funkčnej webovej stránky ako aj zostavenie pc-komponentov,opravy výpočtovej techniky,doporučenie softvérov na vyladenie pc zostáv.Ak vás tento web zaujíma alebo sa zaujímate o naše produkty a služby, kontaktujte nás prostredníctvom formulára alebo telefónu iba zo Slovenska. Srdečne ďakujeme za váš záujem,Vaša spokojnosť je našou prioritou."><br>
                             Ďakujeme za váš záujem.
                         </p>
                         <!--p style="color:#fff;text-shadow:1px 1px 4px #000000;padding-bottom: .55em;"><em><i class='fa fa-phone' style='font-size:13px'> +421556711924 or +421907151293 </i></em></p-->
@@ -550,7 +623,7 @@
         <div id="Onás">
             <div class="w3-center card pt-4">
                 <br>
-                <p style="font-size:18px;color:black;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Vitajte Priatelia!<br>
+                <p style="font-size:15px;color:black;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Vitajte Priatelia!<br>
                     V rámci webových služieb ponúkame dizajn webov,návrh až po vytvorenie plne funkčnej webovej stránky,
                     ponúkame vám zostavenie a opravy pc-komponentov,výpočtovej techniky,odporučenie softvérov a celkové vyladenie vašich pc zostáv.<br>
                     Máme skvelú skúsenost s výživovými produktami Zinzina a myslíme si, že sa budú páčiť aj vám. Dajte nám vedieť, čo si o nich myslíte Vy!
@@ -770,7 +843,7 @@
 
 
 
-                        <a data-fancybox="gallery" href="./Image/BalanceOil.webp"><img class="rounded" src="./Image/BalanceOil.webp" alt="" style="width:100%" title="Lepšie zdravie sa začína lepšou rovnováhou. "></a>
+                        <a data-fancybox="gallery" href="./Image/BalanceOil.webp"><img class="rounded" src="./Image/BalanceOil.webp" alt="" style="width:100%" title="Lepšie zdravie sa začína lepšou rovnováhou.SPRAVTE TRI KROKY K ROVNOVÁHE,REGENERÁCII A POSILNENIU ZDRAVIA "></a>
 
                         <br>
                         <details>
@@ -792,19 +865,19 @@
 
             <section class="products">
                 <div class="card container w3-center pt-4 w3-text-grey">
-                    <div class="product" id="my-element" data-product-name="Zinobiotic">
-                        <h2>Zinobiotic</h2>
-                        <p>Zinobiotic 64 €/ks</p>
+                    <div class="product" id="" data-product-name="Zinobiotic+PortionPack">
+                        <h2>Zinobiotic+PortionPack</h2>
+                        <p>Zinobiotic 50 €/ks</p>
                         <button class="add-to-cart"title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
                         <!--button onclick="addItemToCart('Zinobiotic', 64.00, './Image/Zinobiotic.webp')">Pridať do košíka</button-->
 
 
 
 
-                        <a data-fancybox="gallery" href="./Image/Zinobiotic.webp"><img class="rounded" src="./Image/Zinobiotic.webp" alt="" style="width:100%" title="Zinobiotic"></a>
+                        <a data-fancybox="gallery" href="./Image/Zinobiotic+PortionPack.webp"><img class="rounded" src="./Image/Zinobiotic+PortionPack.webp" alt="" style="width:100%" title="Zinobiotic"></a>
                         <details>
                             <p style="font-size:10px;color:#000;text-shadow:1px 1px 4px #fff;">
-                                Črevá sa už dlho označujú za „druhý mozog“. Ale až v posledných rokoch si začíname uvedomovať, aké dôležité sú črevá pre naše zdravie a duševnú pohodu. Črevá obsahujú 500 miliónov neurónov, ktoré sú s mozgom spojené prostredníctvom nervového systému. Musíme uznať dôležitosť tohto nevyhnutného systému, pretože je neoddeliteľnou súčasťou dosiahnutia rovnováhy organizmu (a života).</p>
+                                Črevá sa už dlho označujú za „druhý mozog“. <br>Ale až v posledných rokoch si začíname uvedomovať, aké dôležité sú črevá pre naše zdravie a duševnú pohodu. Črevá obsahujú 500 miliónov neurónov, ktoré sú s mozgom spojené prostredníctvom nervového systému. Musíme uznať dôležitosť tohto nevyhnutného systému, pretože je neoddeliteľnou súčasťou dosiahnutia rovnováhy organizmu (a života).</p>
                         </details>
                     </div>
                 </div>
@@ -813,7 +886,7 @@
 
             <section class="products">
                 <div class="card container w3-center pt-4 w3-text-grey">
-                    <div class="product" id="my-element" data-product-name="ZinzinoXtend">
+                    <div class="product" id="" data-product-name="ZinzinoXtend">
                         <h2>Zinzino Xtend</h2>
                         <p>Zinzino Xtend 79 €/ks</p>
                         <button class="add-to-cart"title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
@@ -821,7 +894,7 @@
 
 
 
-                        <a data-fancybox="gallery" href="./Image/ZinzinoXtend.webp"><img class="rounded" src="./Image/ZinzinoXtend.webp" alt="" style="width:100%" title="SPRAVTE TRI KROKY K ROVNOVÁHE,REGENERÁCII A POSILNENIU ZDRAVIA"></a>
+                        <a data-fancybox="gallery" href="./Image/ZinzinoXtend.webp"><img class="rounded" src="./Image/ZinzinoXtend.webp" alt="" style="width:100%" title=""></a>
                         <details>
                             <p style="font-size:10px;color:#000;text-shadow:1px 1px 4px #fff;">Xtend je pokrokový vegánsky, výlučne prírodný výživový doplnok na podporu imunity, ktorý dokonale dopĺňa produkty BalanceOil a ZinoBiotic. Vyvinuli sme ho na podporu prirodzeného imunitného systému a obsahuje micro- a fytonutrienty vrátane 22 základných vitamínov a minerálov, ako aj purifikované 1-3, 1-6 beta glukány z pekárskeho droždia.</p>
                         </details>

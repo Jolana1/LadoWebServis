@@ -12,6 +12,7 @@ productPrices.set('Basic',35);
 //productPrices.set('Premium',499);
 productPrices.set('BalanceOil',54);
 productPrices.set('Zinobiotic',64);
+productPrices.set('Zinobiotic+PortionPack',50);
 productPrices.set('ZinzinoXtend',79);
 
 
