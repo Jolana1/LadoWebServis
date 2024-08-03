@@ -297,32 +297,19 @@
 
         }
 
-        /*.add-to-cart {
-            background-color: red;
-            color: white;
-            border: none;
-            padding: 0px;
-            cursor: pointer;
+       /* add modal css */
+        .modal-dialog {
+            max-width: 800px;
+            margin: 30px auto;
+
+            
+        
         }
 
-        /* .cart-items {
-            position: relative;
-            top: 0;
-            right:0;
-            color: black;
-            padding: 5px 10px;
-            background-color: turquoise;
 
-            padding: 1px;
-            margin: 1px;
-        }*/
-
-        /* .cart-items nav .cart-icon  {
-            list-style-type: none;
-            padding: 5px;
+       
 
 
-        }*/
         .navbar-brand.image-container img {
             width: 152px;
             height: 42px;
@@ -430,8 +417,39 @@
           <div class="collapse navbar-collapse" id="myNavbar">
                 <div class="cart-items">
                     <div id="cart-items-list">
+                        <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="cartModalLabel">Cart Items</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <script>document.querySelector('nav .cart-icon img').addEventListener('click', function() {
+                                    $('#cartModal').modal('show');
+                                  });
+                                </script>
+                                <div class="modal-body" id="cart-items-list">
                         <!-- Cart items will be added here-->
-                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Checkout</button>
+                                </div>
+
+
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                
+                                
+
+                            
+                    
+            
+
                     <!--div class="cart-icon">
                         <img src="./Image/cart-icon1.jpg" title="Košík výprázdnite resetom tejto stránky" alt="Cart-Basket">
                         <span id="cart-items" title="Počet kliknutí na tlač. pridať do košíka">0</span>
@@ -474,8 +492,8 @@
                             <li class="active"><a class="w3-hover-white" href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
                                     <img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
                                     Pikatec</a></li>
-                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-9-2024-od-utorka-18-06-2024-65592/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
-                                    Oriflame katalóg 9/2024 </a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-11-2024-od-utorka-30-07-2024-68740/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
+                                    Oriflame katalóg 11/2024 </a></li>
                             <li class="active"><a class="w3-hover-white" href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0https://www.mozilla.org/sk/firefox/new/" target="_blank" title="kvalitný webový prehliadač">
                                     <img src="./Image/Layer 0.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Získajte Firefox Mozilla</a></li>
 
@@ -500,7 +518,7 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Neváhajte sa jednoducho registrovať a získate nasledovné výhody: Rýchlejší nákup vďaka vlastnému zoznamu obľúbených položiek, Rýchlejšie dokončenie objednávky vďaka automatickému doplneniu adresy a kontaktných údajov, Prehľad o všetkých vašich minulých objednávkach, Možnosť byť informovaný o novinkách a akciách, Prístup do pripravovaného vernostného a zľavového programu."><span class="glyphicon glyphicon-user"></span> Registrácia</a>
                         <ul class="dropdown-menu">
-                            <li class="active"><a class="w3-hover-white" href="https://ladowebservis.sk/Home/Member?area=Ladowebservis" target="_blank"><span class="glyphicon glyphicon-user"></span> Registrovať</a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://ladowebservis.sk/Home/Registracia" target="_blank"><span class="glyphicon glyphicon-user"></span> Registrovať</a></li>
 
 
                             <li class="active"><a class="w3-hover-white" href="#Onás"><span class="glyphicon glyphicon-euro"></span> Cenník Webových a PC služieb</a></li>
@@ -694,7 +712,7 @@
                         <!-- a data-fancybox="gallery" href="./Image/Moja%20vizitka.jpg"><img class="rounded" src="./Image/Moja%20vizitka.jpg" alt="" style="width:100%" title=""></a-->
 
 
-                        <strong><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://ladowebservis.sk/Home/Member?area=Ladowebservis" target="_blank">https://ladowebservis.sk</a></strong>
+                        <strong><a class="w3-button w3-white w3-padding-small w3-hover-blue" href="https://ladowebservis.sk/Home/Registracia" target="_blank">https://ladowebservis.sk</a></strong>
                         <!--em>”We needed to present our company and its products better on the web. Mr. V.Ksenic has made us a perfect site. Now only in good, we almost do not want to supply the market with our products.
 										<br>Thank you again.“
 									</em-->

@@ -11,13 +11,24 @@ const productQuantities = new Map();
 productPrices.set('Basic',35);
 //productPrices.set('Premium',499);
 productPrices.set('BalanceOil',54);
-productPrices.set('Zinobiotic',64);
+productPrices.set('Zinobiotic',50);
 productPrices.set('Zinobiotic+PortionPack',50);
 productPrices.set('ZinzinoXtend',79);
 
 
 
+function addToCart(item) {
+    // Your existing code to add the item to the cart
+  
+    // Add the item to the modal
+    var cartItems = document.getElementById('cartItems');
+    var newItem = document.createElement('p');
+    newItem.textContent = item.name + ': $' + item.price;
+    cartItems.appendChild(newItem);
+  }
+
 // Handle the product quantity change
+
 function calculateTotalAmount() {
     let totalAmount = 0;
     for (let [productName, quantity] of productQuantities) {
@@ -28,6 +39,7 @@ function calculateTotalAmount() {
     }
     return totalAmount;
 }
+
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', (event) => {
         const productName = event.target.parentElement.getAttribute('data-product-name');
