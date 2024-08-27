@@ -15,71 +15,57 @@ productPrices.set('Zinobiotic',50);
 productPrices.set('Zinobiotic+PortionPack',50);
 productPrices.set('ZinzinoXtend',79);
 
+// Get the modal
+var modal = document.getElementById("cartModal");
 
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-function addToCart(item) {
-    // Your existing code to add the item to the cart
-  
-    // Add the item to the modal
-    var cartItems = document.getElementById('cartItems');
-    var newItem = document.createElement('p');
-    newItem.textContent = item.name + ': $' + item.price;
-    cartItems.appendChild(newItem);
-  }
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
 
-// Handle the product quantity change
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
-function calculateTotalAmount() {
-    let totalAmount = 0;
+// Function to show the modal and populate it with cart contents
+function showCartModal() {
+    var cartModalItems = document.getElementById('cartModalItems');
+    cartModalItems.innerHTML = ''; // Clear previous items
+
     for (let [productName, quantity] of productQuantities) {
         const productPrice = productPrices.get(productName);
         if (typeof productPrice === 'number' && typeof quantity === 'number') {
-            totalAmount += productPrice * quantity;
+            var listItem = document.createElement('li');
+            listItem.textContent = `${productName}: $${productPrice} x ${quantity}`;
+            cartModalItems.appendChild(listItem);
         }
     }
-    return totalAmount;
+
+    modal.style.display = "block";
 }
 
+// Add event listener to quantity spans to show the modal
+document.querySelectorAll('.quantity').forEach(quantitySpan => {
+    quantitySpan.addEventListener('click', showCartModal);
+});
+
+// Your existing code to handle adding items to the cart...
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', (event) => {
-        const productName = event.target.parentElement.getAttribute('data-product-name');
-        const cartItemsList = document.querySelector('#cart-items-list');
-        let quantity = productQuantities.get(productName) || 0;
         productQuantities.set(productName, ++quantity);
 
         let listItem = document.querySelector(`#cart-items-list .${productName}`);
         if (!listItem) {
-            listItem = document.createElement('li');
-            listItem.classList.add(productName);
-            listItem.innerHTML = `
-                <img src="./Image/${productName}.webp" alt="${productName}" width="35" height="28">
-                <span>${productName}</span>
-                <button class="decrease"title="Odobrať ks">-</button>
-                <span class="quantity" title="Počet daného tovaru v ks">${quantity}</span>
-                <button class="increase" title="Pridať ks">+</button>
-                <button class="remove"title="Odstráň položku">x</button>
-                `;
-            cartItemsList.appendChild(listItem);
 
-            listItem.querySelector('.increase').addEventListener('click', () => {
-                productQuantities.set(productName, ++quantity);
-                listItem.querySelector('.quantity').textContent = quantity;
-                document.querySelector('#total-amount').textContent = calculateTotalAmount();
-            });
+            listItem.querySelector('.decrease').addEventListener('click', () => {/* ... */});
 
-            listItem.querySelector('.decrease').addEventListener('click', () => {
-                if (quantity > 0) {
-                    productQuantities.set(productName, --quantity);
-                    listItem.querySelector('.quantity').textContent = quantity;
-                }
-                document.querySelector('#total-amount').textContent = calculateTotalAmount();
-            });
-
-            listItem.querySelector('.remove').addEventListener('click', () => {
-                productQuantities.delete(productName);
-                listItem.remove();
-                document.querySelector('#total-amount').textContent = calculateTotalAmount();
-            });
+            listItem.querySelector('.remove').addEventListener('click', () => {/* ... */});
         } else {
             listItem.querySelector('.quantity').textContent = quantity;
         }
@@ -117,6 +103,44 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         // Add an instance of the card Element into the `card-element` <div>
         card.mount('#card-element');
         // Handle real-time validation errors from the card Element
+        card.addEventListener('change', function (event) {
+            var displayError = document.getElementById('card-errors');
+            if (event.error) {
+                displayError.textContent = event.error.message;
+            } else {
+                displayError.textContent = '';
+            }
+        }
+        );
+        // Handle form submission
+        var form = document.getElementById('payment-form');
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Disable the submit button to prevent repeated clicks
+            document.getElementById('submit').disabled = true;
+            var options = {
+                name: document.getElementById('name').value,
+                address_line1: document.getElementById('address').value,
+                address_city: document.getElementById('city').value,
+                address_state: document.getElementById('state').value,
+                address_zip: document.getElementById('zip').value,
+            }
+            stripe.createToken(card, options).then(function (result) {
+                if (result.error) {
+                    // Inform the user if there was an error
+                    var errorElement = document.getElementById('card-errors');
+                    errorElement.textContent = result.error.message;
+                    // Enable the submit button
+                    document.getElementById('submit').disabled = false;
+                } else {
+                    // Send the token to your server
+                    stripeTokenHandler(result.token);
+                }
+            }
+            );
+        });
+    });
+// Validation errors from the card Element
         card.addEventListener('change', function (event) {
             var displayError = document.getElementById('card-errors');
             if (event.error) {
@@ -242,7 +266,32 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
     var elements = stripe.elements();
     var card = elements.create('card');
     card.mount('#card-element');
-});
+function addToCart(item) {
+
+    
+  
+    // Add the item to the modal
+    var cartItems = document.getElementById('cartItems');
+    var newItem = document.createElement('p');
+    newItem.textContent = item.name + ': $' + item.price;
+    cartItems.appendChild(newItem);
+  }
+
+// Handle the product quantity change
+
+function calculateTotalAmount() {
+    let totalAmount = 0;
+    for (let [productName, quantity] of productQuantities) {
+        const productPrice = productPrices.get(productName);
+        if (typeof productPrice === 'number' && typeof quantity === 'number') {
+            totalAmount += productPrice * quantity;
+        }
+    }
+    return totalAmount;
+}
+
+
+
 
 
 

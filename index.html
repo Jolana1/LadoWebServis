@@ -297,10 +297,44 @@
 
         }
 
-       /* add modal css */
-        .modal-dialog {
-            max-width: 800px;
-            margin: 30px auto;
+/* add modal css */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #5d33fb;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 98%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  
 
             
         
@@ -399,8 +433,11 @@
         <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top w3-text-white">
             <div class="container-fluid">
                 <div class="cart-icon">
-                        <img src="./Image/cart-icon.jpg" title="Košík výprázdnite reloadom tejto stránky" alt="Cart-Basket">
-                        <span id="cart-items" title="Počet kliknutí na pridať do košíka">0</span>
+                        <img src="./Image/shopping-cart.png" title="Počet položiek v košíku" alt="Cart-Basket">
+                        <span id="cart-items" title="">0</span>
+                    </div>
+                    <div class="total-amount"><br>
+                        Spolu s DPH: €<span id="total-amount" title="Celková suma" class="price">0</span>
                     </div>
 
 
@@ -415,34 +452,56 @@
                 </button>
             </div>
           <div class="collapse navbar-collapse" id="myNavbar">
-                <div class="cart-items">
-                    <div id="cart-items-list">
+                
                         <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
-                              <div class="modal-content">
+
+                                <div class="modal-content">
+                                <div class="cart-items-list">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="cartModalLabel">Cart Items</h5>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button>
+                                    
+                                  <h5 class="modal-title" id="cartModalLabel">Váš košík obsahuje tento tovar:</h5>
+                                  
+                                  <div id="cart-items"></div>
+                               <!-- Cart items will be added here-->
+                                  
                                 </div>
                                 <script>document.querySelector('nav .cart-icon img').addEventListener('click', function() {
                                     $('#cartModal').modal('show');
                                   });
                                 </script>
                                 <div class="modal-body" id="cart-items-list">
-                        <!-- Cart items will be added here-->
+                        
                                 </div>
                                 <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Checkout</button>
-                                </div>
-
+                                  
+                                  
 
                                 </div>
+                    <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1OhHzQFdjXAPBwqYr5uGkBad"
+  publishable-key="pk_test_51OgVgeFdjXAPBwqYJ4wjgTwVAVhGa2uJbHwYLC3ne3LPkLCOATB0akg3kLY3fChDWaJaFLman5GhowOpA8tdp0pa00P1Msh1vz"
+>
+</stripe-buy-button>
+                                </div>
+                                
+<button type="button" class="btn btn-primary">Skontrolovať</button>
+<!--button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button-->
+
                                 </div>
                                 </div>
-                                </div>
+                           
+
+
+
+                                
                                 
                                 
 
@@ -455,18 +514,6 @@
                         <span id="cart-items" title="Počet kliknutí na tlač. pridať do košíka">0</span>
                     </div-->
     
-                    <div class="total-amount"><br>
-                        Spolu s DPH: €<span id="total-amount" class="price">0</span>
-                    </div>
-                    <script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1OhHzQFdjXAPBwqYr5uGkBad"
-  publishable-key="pk_test_51OgVgeFdjXAPBwqYJ4wjgTwVAVhGa2uJbHwYLC3ne3LPkLCOATB0akg3kLY3fChDWaJaFLman5GhowOpA8tdp0pa00P1Msh1vz"
->
-</stripe-buy-button>
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -492,8 +539,8 @@
                             <li class="active"><a class="w3-hover-white" href="https://www.pikatec.cz/" target="_blank" title="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
                                     <img src="./Image/Pikatec.png" style="width:58px;height:15px" alt="Pikatec • Pikatek • Nanotechnology • Energy • Meníme svet-poriadku, umytia a čistenia">
                                     Pikatec</a></li>
-                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-11-2024-od-utorka-30-07-2024-68740/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
-                                    Oriflame katalóg 11/2024 </a></li>
+                            <li class="active"><a class="w3-hover-white" href="https://www.letakomat.sk/oriflame/katalog-12-2024-od-utorka-20-08-2024-70077/" target="_blank" title="•Oriflame aktuálny katalóg"><img src="./Image/sk-oriflame-katalog.png" style="width:58px;height:15px" alt="Oriflame aktuálny katalóg">
+                                    Oriflame katalóg 1/2024 </a></li>
                             <li class="active"><a class="w3-hover-white" href="https://www.mozilla.org/sk/firefox/70.0a2/whatsnew/all/?oldversion=69.0https://www.mozilla.org/sk/firefox/new/" target="_blank" title="kvalitný webový prehliadač">
                                     <img src="./Image/Layer 0.png" style="width:58px;height:15px" alt="Firefox Mozilla • Fights for family privacy •Technology"> Získajte Firefox Mozilla</a></li>
 
