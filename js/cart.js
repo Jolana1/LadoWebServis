@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 const productPrices = new Map();
 const productQuantities = new Map();
-productPrices.set('Basic',35);
-//productPrices.set('Premium',499);
-productPrices.set('BalanceOil',54);
-productPrices.set('Zinobiotic',50);
-productPrices.set('Zinobiotic+PortionPack',50);
-productPrices.set('ZinzinoXtend',79);
 
-// Get the modal
+productPrices.set('Basic',1);
+productPrices.set('BalanceOil',54);
+productPrices.set('Zinobiotic',32);
+productPrices.set('PortionPack',50);
+
+
+
 var modal = document.getElementById("cartModal");
 
 // Get the <span> element that closes the modal
@@ -33,27 +33,8 @@ window.onclick = function(event) {
     }
 }
 
-// Function to show the modal and populate it with cart contents
-function showCartModal() {
-    var cartModalItems = document.getElementById('cartModalItems');
-    cartModalItems.innerHTML = ''; // Clear previous items
 
-    for (let [productName, quantity] of productQuantities) {
-        const productPrice = productPrices.get(productName);
-        if (typeof productPrice === 'number' && typeof quantity === 'number') {
-            var listItem = document.createElement('li');
-            listItem.textContent = `${productName}: $${productPrice} x ${quantity}`;
-            cartModalItems.appendChild(listItem);
-        }
-    }
 
-    modal.style.display = "block";
-}
-
-// Add event listener to quantity spans to show the modal
-document.querySelectorAll('.quantity').forEach(quantitySpan => {
-    quantitySpan.addEventListener('click', showCartModal);
-});
 
 // Your existing code to handle adding items to the cart...
 document.querySelectorAll('.add-to-cart').forEach(button => {

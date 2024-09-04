@@ -297,12 +297,58 @@
 
         }
 
-/* add modal css */
+        .product img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #5d33fb;
+        }
+
+        .product-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .product button {
+            background-color: #5d33fb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .product button:hover {
+            background-color: #5d33fb;
+        }
+
+        .product button:active {
+            background-color: #5d33fb;
+        }
+
+        .product button:focus {
+            background-color: #5d33fb;
+        }
+
+        .product button:visited {
+            background-color: #5d33fb;
+        }
+
+
+
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -312,18 +358,18 @@
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
+/* Modal Content */
 .modal-content {
-  background-color: #5d33fb;
-  margin: 15% auto; /* 15% from the top and centered */
+  background-color: #279940;
+  margin: 5% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 98%; /* Could be more or less, depending on screen size */
+  width: 95%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -334,11 +380,21 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  
+  }
 
-            
-        
+        .cart-icon {
+            position: relative;
+            cursor: pointer;
         }
+
+        .cart-icon img {
+            width: 30px;
+            height: 28px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+
 
 
        
@@ -429,22 +485,18 @@
 
 
 
-    <body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+    <body data-new-gr-c-s-check-loaded="14.984.0">
         <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top w3-text-white">
             <div class="container-fluid">
-                <div class="cart-icon">
-                        <img src="./Image/shopping-cart.png" title="Počet položiek v košíku" alt="Cart-Basket">
-                        <span id="cart-items" title="">0</span>
-                    </div>
-                    <div class="total-amount"><br>
-                        Spolu s DPH: €<span id="total-amount" title="Celková suma" class="price">0</span>
-                    </div>
+              <div class="cart-icon">
+                        <img src="./Image/shopping-cart.png" title="Váš košík obsahuje" alt="Cart">
+                        
+                            <span id="cart-items" title="Počet ks">0</span> 
+                           
+                        
 
-
-
+        <div class="container-fluid-right">
             <a class="navbar-brand image-container" href="#"><img src="./Image/LWSnewlogo.jpg" class="img-rounded" alt="logo" title="Welcome to our advertising website ©LWS.pc-components, computing, software recommendations to tune your pc sets. Your satisfaction is our priority, you choose from our products or services or you still want advicewrite. Do not throw, fix! This saves the environment and your wallet. Thank you very much for your interest."></img></a>
-   
-            <div class="container-fluid-right">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -461,14 +513,23 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                       </button>
-                                <div class="modal-header">
+                                <div class="modal-footer">
                                     
-                                  <h5 class="modal-title" id="cartModalLabel">Váš košík obsahuje tento tovar:</h5>
+                                  <h5 class="modal-title" id="cartModalLabel">Váš košík obsahuje:</h5>
                                   
-                                  <div id="cart-items"></div>
-                               <!-- Cart items will be added here-->
+                                  <div id="cart-items">
+                                    <!-- Cart items will be added here-->
+                                    </div>
+
+                                  </div>
+                                
+
                                   
-                                </div>
+                               
+                               <div class="total-amount">
+                                Spolu s DPH: €<span id="total-amount" title="Celková suma" class="price">0</span>
+                                 </div>
+                                    </div>
                                 <script>document.querySelector('nav .cart-icon img').addEventListener('click', function() {
                                     $('#cartModal').modal('show');
                                   });
@@ -491,25 +552,13 @@
 >
 </stripe-buy-button>
                                 </div>
-                                
-<button type="button" class="btn btn-primary">Skontrolovať</button>
-<!--button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button-->
-
-                                </div>
+                            </div>
                                 </div>
                            
 
 
 
-                                
-                                
-                                
-
-                            
-                    
-            
-
-                    <!--div class="cart-icon">
+                <!--div class="cart-icon">
                         <img src="./Image/cart-icon1.jpg" title="Košík výprázdnite resetom tejto stránky" alt="Cart-Basket">
                         <span id="cart-items" title="Počet kliknutí na tlač. pridať do košíka">0</span>
                     </div-->
@@ -677,7 +726,7 @@
 
 
 
-        <div id="Onás">
+        
             <div class="w3-center card pt-4">
                 <br>
                 <p style="font-size:15px;color:black;text-align: center; text-shadow:1px 1px 4px rgb(247, 248, 244);">Vitajte Priatelia!<br>
@@ -692,69 +741,11 @@
             <br>
 
 
-            <!-- Grid for services pricing tables -->
-
-            <div class="w3-center pt-4 w3-text-grey">
-                <div class="w3-content">
-                    <div class="product" id="" data-product-name="Basic"><button class="add-to-cart" title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
-                        <ul class="w3-ul w3-green w3-center w3-opacity w3-hover-opacity-off">
-
-
-                            <li class="w3-dark-grey w3-large w3-padding-22 w3-center">Basic ponuka servisných PC služieb</li>
-                            <li class="w3-padding-15">Opravy,poradenstvo a zostavenie IT zariadení</li>
-                            <li class="w3-padding-15">Výmena poškodených displejov,batérii a kompletné rozobratie</li>
-                            <li class="w3-padding-15">Konfigurácie smart home zariadení,ich zpárovanie..</li>
-                            <li class="w3-padding-15">Odstránenie a nanesenie novej kvalitnej teplovodivej pasty</li>
-                            <li class="w3-padding-15">Prečistenie všetkých komponentov,nastavenie sietí, wifi routrov a pod.</li>
-                            <li class="w3-padding-15">Záloha vášho starého Hdd na SSDisk</li>
-                            <li class="w3-padding-15">Inštalácie a funkčné zálohy OS Windows,Mac,Linux</li>
-                            <li class="w3-padding-15">
-                                <h2>35€ </h2>
-                                <span class="w3-opacity">Za jednotlivé služby v uvedenom balíku</span>
-                            </li>
-                            <li class="w3-light-grey w3-padding-10">
-                                <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Tu nás kontaktujte emailom a uvedte názov služieb">info@ladowebservis.sk</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="w3-center pt-4 w3-text-grey">
-                <!-- Your content goes here -->
-                <div class="w3-content">
-                    <div class="product" id="" data-product-name="Premium">
-                        <ul class="w3-ul w3-green w3-center w3-opacity w3-hover-opacity-off">
-                            <li class="w3-dark-grey w3-large w3-padding-22 w3-center">Prémiová ponuka webových služieb</li>
-                            <li class="w3-padding-15">Web dizajn a vypracovanie konceptu</li>
-                            <li class="w3-padding-15">2,99 €/mesačný hosting za správu vášho webu</li>
-                            <li class="w3-padding-15">Fotogalérie, videá,e-shop menu a členskej sekcie,e-mailová podpora..</li>
-                            <li class="w3-padding-15">Vytvorenie funkčnej webovej stránky,z vašej strany nie je potrebné programovanie</li>
-                            <li class="w3-padding-15">Vytvorenie Vášho užívatelského profilu,kde si môžte editovať obsah Vášho webu a iné.</li>
-                            <li class="w3-padding-15">Registrácia domény ,prenos vášho webu a pod.</li>
-                            <li class="w3-padding-15">Viacjazyčný web,ochrana pred robotmi,publikovanie webu na internet atd.</li>
-                            <li class="w3-padding-15">
-                                <h2>499€</h2>
-                                
-                                <span class="w3-opacity">Za celý balík Premium + bonus zdarma softvér Spybot S&D</span>
-                                
-                            </li>
-                            <li class="w3-light-grey w3-padding-10">
-                                <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Pre túto službu nás kontaktujte mailom na info@ladowebservis.sk">info@ladowebservis.sk</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <br>
-            
-
-            <!-- End Grid/Pricing tables -->
-          <div id="info">
+           
+        <div id="info">
                 <div class="card w3-center pt-4">
                  
-                    <h2 class="w3-padding-14 w3-text-grey"><span class="glyphicon glyphicon-user"></span> Registrácia je na oficiálnom webe</h2>
+                    <h2 class="w3-padding-14 w3-text-grey"><span class="glyphicon glyphicon-user"></span> Registrácia je na oficiálnom webe a platí na 5% zľavu na 1ks produktu</h2>
                     <!--span style="text-shadow:1px 1px 4px whitesmoke"-->
                         <!-- a data-fancybox="gallery" href="./Image/Moja%20vizitka.jpg"><img class="rounded" src="./Image/Moja%20vizitka.jpg" alt="" style="width:100%" title=""></a-->
 
@@ -880,7 +871,7 @@
                         <h2>Zinobiotic+PortionPack</h2>
                         <p>Zinobiotic 50 €/ks</p>
                         <button class="add-to-cart"title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
-                        <!--button onclick="addItemToCart('Zinobiotic', 64.00, './Image/Zinobiotic.webp')">Pridať do košíka</button-->
+                        
 
 
 
@@ -897,84 +888,83 @@
 
             <section class="products">
                 <div class="card container w3-center pt-4 w3-text-grey">
-                    <div class="product" id="" data-product-name="ZinzinoXtend">
-                        <h2>Zinzino Xtend</h2>
-                        <p>Zinzino Xtend 79 €/ks</p>
+                    <div class="product" id="" data-product-name="Zinobiotic">
+                        <h2>Zinobiotic+ teraz v 50% zľave </h2>
+                        <p>Zinobiotic 32 €/ks</p>
                         <button class="add-to-cart"title="Pre pridanie do košíka kliknite">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
 
 
 
 
-                        <a data-fancybox="gallery" href="./Image/ZinzinoXtend 2.webp"><img class="rounded" src="./Image/ZinzinoXtend 2.webp" alt="" style="width:100%" title=""></a>
+                        <a data-fancybox="gallery" href="./Image/Zinobiotic.webp"><img class="rounded" src="./Image/Zinobiotic.webp" alt="" style="width:100%" title=""></a>
                         <details>
-                            <p style="font-size:10px;color:#000;text-shadow:1px 1px 4px #fff;">Xtend je pokrokový vegánsky, výlučne prírodný výživový doplnok na podporu imunity, ktorý dokonale dopĺňa produkty BalanceOil a ZinoBiotic. Vyvinuli sme ho na podporu prirodzeného imunitného systému a obsahuje micro- a fytonutrienty vrátane 22 základných vitamínov a minerálov, ako aj purifikované 1-3, 1-6 beta glukány z pekárskeho droždia.</p>
+                            <p style="font-size:10px;color:#000;text-shadow:1px 1px 4px #fff;">Prečítaj si detailnejšie vlastnosti tohto produktu v popise obrázku</p>
                         </details>
                     </div>
                 </div>
             </section>
             <br><br> 
 
+            <div id="Onás">
+           <!-- Grid for services pricing tables -->
+
+           <div class="w3-center pt-4 w3-text-grey">
+            <div class="w3-content">
+                <div class="product" id="" data-product-name="Basic">
+                    <button class="add-to-cart"title="Za jednotlivé služby bez objednávky 35€">Pridať do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+                    <ul class="w3-ul w3-pink w3-center w3-opacity w3-hover-opacity-off">
 
 
-
-
-
-
-
-            <!--section class="products">
-            <div class="card container w3-center pt-4 w3-text-grey">
-            <div class="product" data-product-name="Zinzino Skin Serum">
-            <h2>Zinzino Skin Serum</h2>
-                <p>Zinzino Skin Serum 58 €/ks</p>
-                <button class="add-to-cart">Pridať do košíka</button>
+                        <li class="w3-dark-grey w3-large w3-padding-22 w3-center">Basic ponuka servisných PC služieb</li>
+                        <li class="w3-padding-15">Opravy,poradenstvo a zostavenie IT zariadení</li>
+                        <li class="w3-padding-15">Výmena poškodených displejov,batérii a kompletné rozobratie</li>
+                        <li class="w3-padding-15">Konfigurácie smart home zariadení,ich zpárovanie..</li>
+                        <li class="w3-padding-15">Odstránenie a nanesenie novej kvalitnej teplovodivej pasty</li>
+                        <li class="w3-padding-15">Prečistenie všetkých komponentov,nastavenie sietí, wifi routrov a pod.</li>
+                        <li class="w3-padding-15">Záloha vášho starého Hdd na SSDisk</li>
+                        <li class="w3-padding-15">Inštalácie a funkčné zálohy OS Windows,Mac,Linux</li>
+                        <li class="w3-padding-15">
+                            <h2>0€ </h2>
+                            <span class="w3-opacity">Basic služby v uvedenom balíku neplatíte nič ak si objednáte hocijaký produkt</span>
+                        </li>
+                        <li class="w3-light-grey w3-padding-10">
+                             
+                            <!--a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Tu nás kontaktujte emailom a uvedte názov služieb">info@ladowebservis.sk</a-->
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </div>
 
 
-            <script>
-                const PRODUCT_PRICE3 = 58; // Replace this with the actual product price
-                document.querySelectorAll('.add-to-cart').forEach(button => {
-                button.addEventListener('click', () => {
-                    const cartItems = document.querySelector('.cart-items');
-                    const newItem = document.createElement('li');
-                    newItem.textContent = 'Zinzino Skin Serum'; // Replace this with the actual product name
-                    cartItems.appendChild(newItem);
-
-                    // Update the cart items count in the navbar
-                    const cartItemsCount = document.querySelector('#cart-items');
-                    cartItemsCount.textContent = cartItems.children.length;
-
-                    // Update the total amount
-                    const totalAmount = document.querySelector('#total-amount');
-                    totalAmount.textContent = cartItems.children.length * PRODUCT_PRICE3;
-                });
-            });
-
-
-            </script-->
-            <!--a data-fancybox="gallery" href="./Image/Skin Serum.webp"><img class="rounded" src="./Image/Skin Serum.webp" alt="" style="width:100%" title="Zinzino Skin Serum"></a-->
-
-
-
-
-
-
-
-            <!--Adress Form Section -->
-            <!--div class="card w3-center pt-4 w3-text-grey">
-    <form id="invoicing-form">
-    <br>
-    <div id="contact-form"-->
-
-            
-            </form>
-
-
-
-
-
-
-
-        </div-->
+        <div class="w3-center pt-4 w3-text-grey">
+            <!-- Your content goes here -->
+            <div class="w3-content">
+                <div class="product" id="" data-product-name="Premium">
+                    <ul class="w3-ul w3-pink w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-large w3-padding-22 w3-center">Prémiová ponuka webových služieb</li>
+                        <li class="w3-padding-15">Web dizajn a vypracovanie konceptu</li>
+                        <li class="w3-padding-15">2,99 €/mesačný hosting za správu vášho webu</li>
+                        <li class="w3-padding-15">Fotogalérie, videá,e-shop menu a členskej sekcie,e-mailová podpora..</li>
+                        <li class="w3-padding-15">Vytvorenie funkčnej webovej stránky,z vašej strany nie je potrebné programovanie</li>
+                        <li class="w3-padding-15">Vytvorenie Vášho užívatelského profilu,kde si môžte editovať obsah Vášho webu a iné.</li>
+                        <li class="w3-padding-15">Registrácia domény ,prenos vášho webu a pod.</li>
+                        <li class="w3-padding-15">Viacjazyčný web,ochrana pred robotmi,publikovanie webu na internet atd.</li>
+                        <li class="w3-padding-15">
+                            <h2>399€</h2>
+                            
+                            <span class="w3-opacity">Za celý balík Premium + bonus zdarma softvér Spybot S&D a Glary Utilities</span>
+                            
+                        </li>
+                        <li class="w3-light-grey w3-padding-10">
+                            <a class="w3-button w3-white w3-padding-large w3-hover-blue" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Pre túto službu nás kontaktujte mailom na info@ladowebservis.sk">info@ladowebservis.sk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        </div>
 
 
 
